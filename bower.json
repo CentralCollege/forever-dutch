@@ -1,0 +1,12 @@
+{
+  "name": "forever-dutch",
+  "homepage": "https://github.com/CentralCollege/forever-dutch",
+  "authors": [
+    "Jacob Oyen <oyenj@central.edu>"
+  ],
+  "description": "A WordPress theme for the Forever Dutch campaign.",
+  "private": true,
+  "devDependencies": {
+    "jquery": "~2.1.4"
+  }
+}

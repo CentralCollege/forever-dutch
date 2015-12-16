@@ -1,0 +1,12 @@
+# Tell Travis CI we're using PHP
+language: php
+
+# PHP version used in first build configuration.
+php:
+    - "5.5"
+before_script:
+    - npm install -g csslint
+    - npm install -g jshint
+script:
+    - csslint css/wordpress.styles.css
+    - jshint js/scripts.js
