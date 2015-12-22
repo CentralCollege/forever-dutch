@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'styles.css': ['css/wordpress.styles.css']
+          'styles.css': ['css/styles.all.css']
         }
       }
     },
@@ -15,7 +15,11 @@ module.exports = function(grunt) {
 			dist:{
 				src:['external-libraries/jquery/dist/jquery.min.js','external-libraries/jquery-validation/dist/jquery.validate.min.js','js/scripts.js'],
 				dest: 'js/scripts.all.js'
-			}
+			},
+      css:{
+        src:['external-libraries/normalize-css/normalize.css', 'css/wordpress.styles.css'],
+        dest: 'css/styles.all.css'
+      }
 		},
 		jshint: {
       files: ['js/scripts.js'],
@@ -39,7 +43,7 @@ module.exports = function(grunt) {
       },
       css:{
         files: 'css/wordpress.styles.css',
-        tasks: 'cssmin'
+        tasks: ['concat', 'cssmin']
       }
     }
   });

@@ -10,6 +10,7 @@ Thumbs.db
 
 # Project Specific #
 ####################
+css/styles.all.css
 external-libraries
 js/scripts.all.js
 js/scripts.min.js
