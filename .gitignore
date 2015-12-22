@@ -10,7 +10,7 @@ Thumbs.db
 
 # Project Specific #
 ####################
-js-external
+external-libraries
 js/scripts.all.js
 js/scripts.min.js
 node_modules

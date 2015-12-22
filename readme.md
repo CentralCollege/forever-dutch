@@ -5,7 +5,7 @@ Setup
 -------------------
 Before changing any code:
 
-- Run `bower install` to setup JavaScript library dependencies.
+- Run `bower install` to setup external library dependencies.
 - Run `grunt concat uglify` to compile JavaScript.
 
 Development

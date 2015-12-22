@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     },
     concat :{
 			dist:{
-				src:['js-external/jquery/dist/jquery.min.js','js-external/jquery-validation/dist/jquery.validate.min.js','js/scripts.js'],
+				src:['external-libraries/jquery/dist/jquery.min.js','external-libraries/jquery-validation/dist/jquery.validate.min.js','js/scripts.js'],
 				dest: 'js/scripts.all.js'
 			}
 		},
