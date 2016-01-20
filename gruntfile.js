@@ -44,6 +44,9 @@ module.exports = function(grunt) {
       css:{
         files: 'css/wordpress.styles.css',
         tasks: ['concat', 'cssmin']
+      },
+      options: {
+        livereload: true
       }
     }
   });
