@@ -7,6 +7,205 @@ Description: The theme for the Central College forver dutch campaign.
 Version: 0.0.0
 */
 
+.clearBoth{
+  clear: both;
+}
+/* Central College Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 html{
   background-color: #fff;
+}
+iframe{
+  border: none;
+}
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header{
+  box-shadow: 0 3px 15px 3px #ccc;
+  padding: .25em 3em;
+}
+.logo{
+  text-align: left;
+}
+.logo img{
+  width: 125px;
+}
+.primary a{
+    color: #333;
+    display: inline-block;
+    padding: .25em 1.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.primary a.fa{
+  padding: 1em .5em;
+
+}
+.nav-group a:hover{
+  background-color: #cb2026;
+  color: #fff;
+  box-shadow: 6px 6px 0px #333;
+}
+.primary a.logo:hover{
+  background-color: none;
+}
+.primary .fa{
+  color: #ccc;
+}
+.primary a.fa:hover{
+  background-color: #fff;
+  box-shadow: none;
+  color: #333;
+}
+.primary::after{
+  content:'';
+  clear:both;
+}
+.nav-group{
+  text-align: right;
+  width: 75%;
+  float: right;
+  margin-top: 1.25em;
+}
+/* Red Title
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.red-title{
+  color: #fff;
+  background-color: #cb2026;
+  box-shadow: inset 0 5px 25px -5px #000 ;
+  padding-top: 1em;
+  font-family: Helvetica, Arial, sans-serif
+}
+.red-title h1{
+  text-transform: uppercase;
+  font-size: 5em;
+  letter-spacing: .05rem;
+  padding: 0 1.5rem;
+}
+.red-title p{
+  line-height: 1.75em;
+  font-size: 1em;
+  padding: 0 1.5rem;
+}
+.red-title strong{
+  letter-spacing: .05em;
+  font-size: 1.25em;
+}
+.red-title h2{
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 0 1.5rem;
+}
+.red-title::after{
+  background-image: url(//www.central.edu/athletics/images/supportPagePhotos/facilities/SchipperStadium/13fromNorthendzone2.jpg);
+  background-size:cover;
+  display: block;
+  width: 100%;
+  content: '';
+  height: 200px;
+}
+.red-title .white-button{
+  background-color: #fff;
+  padding: .25em 1em;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 6px 6px 0px #333;
+}
+.red-title .white-button:hover{
+  background-color: #ccc;
+}
+/* video promo
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.video-promo{
+    color: #990000;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+.video-title{
+  padding: 0 4em;
+}
+/* Gray Space
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.gray-space{
+  color: #fff;
+  background-color: #999;
+  box-shadow: inset 0 5px 25px -5px #000 ;
+  padding: .5em;
+}
+.gray-space::after{
+  background-image: url(//www.central.edu/athletics/images/supportPagePhotos/facilities/SchipperStadium/13fromNorthendzone2.jpg);
+  background-size:cover;
+  display: block;
+  width: 100%;
+  content: '';
+  height: 200px;
+}
+.gray-space p, .gray-space h2, .gray-space h3{
+  padding: 0 1.5rem;
+}
+.gray-space h2{
+  color: #990000;
+  line-height: .25em;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.gray-space h3{
+  text-transform: uppercase;
+}
+.gray-space .red-button{
+  background-color: #990000;
+  padding: 1em;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 6px 6px 0px #333;
+}
+.gray-space .red-button:hover{
+  background-color: #cb2026;
+}
+.white-quote blockquote{
+  color: #990000;
+  font-size: 1.5em;
+  text-transform:  uppercase;
+  padding: 0 6em;
+}
+.white-quote blockquote cite{
+  display: block;
+  text-transform: none;
+  font-style: normal;
+  color: #000;
+}
+.photo-split{
+  text-align: center;
+}
+footer{
+  border: 1px solid #990000;
+  background-color: #cb2026;
+  color: #fff;
+  padding: .5rem 2rem;
+}
+.addr{
+  line-height: 1.5em;
+}
+.phone a:link{
+  text-decoration: none;
+  color: #fff;
+}
+.email a:link, .email a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+.email a:hover{
+  color: #ccc;
+}
+footer a:link, .phone a:visted{
+  color: #fff;
+  text-decoration: none;
+}
+.footer-logo{
+  text-align: right;
 }
