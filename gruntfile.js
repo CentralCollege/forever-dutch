@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 				dest: 'js/scripts.all.js'
 			},
       css:{
-        src:['external-libraries/normalize-css/normalize.css', 'css/wordpress.styles.css'],
+        src:['external-libraries/normalize-css/normalize.css', 'css/skeleton.css', 'css/wordpress.styles.css'],
         dest: 'css/styles.all.css'
       }
 		},
