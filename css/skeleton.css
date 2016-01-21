@@ -82,3 +82,7 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 }
+/* Make sure elements don't run outside containers (great for images in columns) */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
