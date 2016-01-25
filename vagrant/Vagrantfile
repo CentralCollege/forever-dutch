@@ -16,14 +16,15 @@ Vagrant.configure(2) do |config|
 	config.vm.provider "virtualbox" do |vb|
 		# Customize the amount of memory on the VM:
 		vb.memory = "2056"
-		
+		vb.name = "foreverDutch.central.edu"
+
 		# Tell box to use the DNS of the host
 		vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
 	end
 
 	# We want to run a handful of commands as a shell script to complete configuration of this VM.
 	config.vm.provision :shell, :path => "provision.sh"
-	
+
 	# We always want to restart apache before the machine is fully launched
 	config.vm.provision "shell", inline: "service apache2 restart", run: "always"
 end
