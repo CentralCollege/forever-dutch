@@ -18,6 +18,15 @@ CSS and JavaScript files are tested via Tavis CI. If your build doesn't pass, th
 
 [![Build Status](https://travis-ci.org/CentralCollege/forever-dutch.svg)](https://travis-ci.org/CentralCollege/forever-dutch)
 
+Fonts
+-------------------
+Fonts are pulled from Google Fonts. Use the following in CSS:
+
+```
+font-family: 'Roboto', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+```
+
 Release History
 -------------------
 v0.0.0 - Initial commit
