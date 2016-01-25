@@ -22,7 +22,7 @@ DocumentRoot /var/www/wordpress
 <Directory /var/www/wordpress>
 	AllowOverride All
     Allow from All
-</Directory>  
+</Directory>
 </VirtualHost>" > /var/www/wordpress/foreverDutch.dev.conf
 
 ## Tell Apache about our vhost
@@ -35,7 +35,7 @@ chmod g+w /var/log/apache2
 ## Enable Apache's mod-rewrite, if it's not already
 a2enmod rewrite
 
-## Disable the default sites 
+## Disable the default sites
 a2dissite 000-default
 
 ## Configure PHP for dev
@@ -57,7 +57,16 @@ echo "create database foreverDutch;" | mysql -u root
 echo "grant all on foreverDutch.* to foreverDutch@localhost identified by 'foreverDutch';" | mysql -u root
 
 ## Create a default .htaccess
-echo "" > /var/www/wordpress/.htaccess
+echo "# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress" > /var/www/wordpress/.htaccess
 
 ## Install wp-cli
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
@@ -69,12 +78,12 @@ chmod +x /var/www/wordpress/wp-cli
 /var/www/wordpress/wp-cli core download \
 	--path=/var/www/wordpress \
 	--force --allow-root
- 
+
 rm /var/www/wordpress/wp-config-sample.php
 
 ## Very basic wp-config.php using our recently created MySQL credentials
 ## Could use wp-cli for this too, but this'll do
-echo "<?php 
+echo "<?php
 \$table_prefix = 'foo_';
 define('DB_NAME',     'foreverDutch');
 define('DB_USER',     'foreverDutch');
@@ -82,11 +91,11 @@ define('DB_PASSWORD', 'foreverDutch');
 define('DB_HOST',     'localhost');
 define('DB_CHARSET',  'utf8');
 define('WPLANG', '' );
-if (!defined('ABSPATH')) 
+if (!defined('ABSPATH'))
 	define('ABSPATH', dirname(__FILE__) . '/');
 require_once(ABSPATH . 'wp-settings.php');
 ?>" > /var/www/wordpress/wp-config.php
-  
+
 ## Provision Wordpress using wp-cli
 /var/www/wordpress/wp-cli core install \
 	--url='http://192.168.56.111' \
@@ -113,7 +122,7 @@ require_once(ABSPATH . 'wp-settings.php');
 /var/www/wordpress/wp-cli rewrite structure '/%year%/%monthnum%/%postname%/' \
 	--path=/var/www/wordpress \
 	--allow-root
-	
+
 /var/www/wordpress/wp-cli theme activate foreverDutch \
 	--path=/var/www/wordpress \
 	--allow-root
@@ -125,7 +134,7 @@ then
 	/var/www/wordpress/wp-cli plugin install wordpress-importer --activate \
 		--path=/var/www/wordpress \
 		--allow-root
-		
+
 	/var/www/wordpress/wp-cli import '/var/www/wordpress/wp-content/themes/foreverDutch/wp-import-data.xml' \
 		--authors=skip \
 		--path=/var/www/wordpress \
@@ -133,7 +142,7 @@ then
 else
 	echo "Did not import data"
 fi
-	
+
 /var/www/wordpress/wp-cli post delete 1 --force \
 	--path=/var/www/wordpress \
 	--allow-root
@@ -144,7 +153,7 @@ fi
 	--post_content='<p>Login with admin/admin.<p>' \
 	--post_status=publish \
 	--allow-root
-	
+
 ## Set excessively liberal permissions on all of WordPress since we are testing.
 chmod -R 777 /var/www/wordpress
 chown www-data.www-data /var/www/wordpress -R
