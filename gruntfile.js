@@ -8,7 +8,7 @@ var mozjpeg = require('imagemin-mozjpeg');
       },
       target: {
         files: {
-          'styles.css': ['css/styles.all.css']
+          'style.css': ['css/styles.all.css']
         }
       }
     },
