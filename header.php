@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="copyright" content="Copyright (c) 2016 Central College" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="//img.centralcollege.info/icons/animal-monkey.png" />
     <meta property="fb:app_id" content="122820004455478" />
@@ -17,7 +19,13 @@
     <meta name="twitter:creator" content="@centralcollege">
     <meta name="twitter:title" content="<?php the_title();?>">
     <meta name="twitter:description" content="<?php echo $storyDesc;?>">
-    <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" type="text/css" media="screen" />
+    <?php if($_SERVER['HTTP_HOST'] == '192.168.56.111'){ ?>
+        <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
+    <?php } ?>
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" type="text/css" />
+    <!--- WP HEADERS !--->
     <?php wp_head();?>
   </head>
   <body>
@@ -35,4 +43,3 @@
         </div>
       </nav>
     </header>
-    <div class="post-info">
