@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Forever Dutch</title>
-    <meta name="copyright" content="Copyright (c) 2016 Central College" />
-    <link rel="shortcut icon" href="//img.centralcollege.info/icons/animal-monkey.png" />
-    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
-    <?php if($_SERVER['HTTP_HOST'] == '192.168.56.111'){ ?>
-        <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
-    <?php } ?>
-    <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <header>
-      <nav class="primary">
-        <a href="/" class="logo"><img src="http://d1lqhpmxg10s5j.cloudfront.net/images/2015/centralCollegeLogo.svg" alt="Central College Logo"></a>
-        <div class="nav-group">
-          <a href="/history">History</a>
-          <a href="/projects">Projects</a>
-          <a href="/news">News/Events</a>
-          <a href="/donate">Donate</a>
-          <a href="www.facebook.com/centralcollege" class="fa fa-facebook"></a>
-          <a href="www.instagram.com/centralcollege" class="fa fa-twitter"></a>
-          <a href="www.twitter.com/centralcollege" class="fa fa-instagram"></a>
-        </div>
-      </nav>
-    </header>
+<?php get_header();?>
     <section class="red footballTeamAfter">
       <div class="container">
         <h1>Forever Dutch.</h1>
@@ -35,7 +6,7 @@
         <p>It’s forever a part of who we are and how we live. We are Forever Dutch.</p>
         <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
         <h2>This is your team. This is your time.</h2>
-        <p><a href="/donate" class="whiteButton pullRight">Donate Now</a></p>
+        <p><a href="/give" class="whiteButton pullRight">Donate Now</a></p>
         <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
       </div>
     </section>
@@ -75,22 +46,10 @@
         <div class="clearBoth"></div>
       </div>
     </section>
-    <footer>
-      <div class="addr one-half column">
-        <strong>Central College</strong><br />
-        <span class="street-address">812 University St.</span> <span class="locality">Pella</span>, <span class="region">Iowa</span> <span class="postal-code">50219</span> <br />
-        <div class="phone"><a href="tel:877-447-0287">1-877-447-0287</a></div>
-        <div class="email"><a href="mailto:foreverdutch@central.edu">foreverdutch@central.edu</a></div>
-      </div>
-      <div class="footerLogo one-half column">
-        <a href="/" id="logo"><img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/12centralCollegeLogo.png" alt="Central College" width="115" height="75"></a>
-      </div>
-      <div class="clearBoth"></div>
-    </footer>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
       function addYouTubeVideo(id,title){
-        var youTubeImage = '<img src="//192.168.56.111/wp-content/themes/foreverDutch/images/videoThumb.jpg" alt="'+title+'" class="youTubeThumb">';
+        var youTubeImage = '<img src="/wp-content/themes/foreverDutch/images/videoThumb.jpg" alt="'+title+'" class="youTubeThumb">';
         $('.youTubeVideo').append(youTubeImage);
 
         $('.youTubeVideo').click(function(){
@@ -107,5 +66,4 @@
         addYouTubeVideo('6BImc9wKKT4','Forever Dutch Video');
       });
     </script>
-  </body>
-</html>
+    <?php get_footer();?>
