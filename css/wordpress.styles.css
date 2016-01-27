@@ -28,6 +28,9 @@ Alignment
   float: right;
   display: block;
 }
+.alignCenter{
+  text-align: center;
+}
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Adjustment
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -253,11 +256,28 @@ Page Features
   height: 300px;
 }
 .dateSpan{
+  font-family: 'Rajdhani', sans-serif;
   background-color: #cb2026;
   color: #fff;
   font-size: 1.5em;
   display: inline-block;
   padding: 0 1em;
+  text-align: center;
+  margin: 0 auto;
+}
+.stat{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 5em;
+  text-align: center;
+  color: #990000;
+  padding: 3rem 0;
+  margin-top: 1rem;
+}
+
+.dashedBorderRight{
+  border-right: 1px dashed #999999;
+}
+.statDetails{
   text-align: center;
 }
 .eschelon{
@@ -339,7 +359,60 @@ Page Features
 .list-group .fa-fw{
   margin-right: 1em;
 }
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Image Grid on the projects page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.photo .container .column, .photo .container .columns{
+  margin-left: 0;
+}
+.imageGroup{
+  position: relative;
+}
+.imageGroup img{
+  width: 100%;
+  display: block;
+}
+.captionLeft{
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding:.5em 2em;
+  background-color: #cb2026;
+  color: #fff;
+  
+}
+.captionRight{
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding:.5em 2em;
+  background-color: #cb2026;
+  color: #fff;
+}
 
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+News/Events formatting
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.meta{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1em;
+  color: #999;
+  text-transform: uppercase;
+  margin: .5em 0;
+}
+.meta a{
+  text-decoration: none;
+  color: #999
+}
+.newsEvents{
+  border-bottom: 1px dashed #999;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
