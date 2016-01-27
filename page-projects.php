@@ -24,13 +24,13 @@
       <div class="container">
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/baseball.jpg" alt="Central College Baseball Dugout">
+            <img src="<?php echo bloginfo('template_directory')?>/images/baseball.jpg" alt="Central College Baseball Dugout">
             <div class="captionLeft">Baseball Dugout</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/baseballSeating.jpg" alt="Central College Baseball Seating">
+            <img src="<?php echo bloginfo('template_directory')?>/images/baseballSeating.jpg" alt="Central College Baseball Seating">
             <div class="captionRight">Baseball Seating</div>
           </div>
         </div>
@@ -38,7 +38,7 @@
       <!--- Second Row !--->
         <div class="ten column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/soccer.jpg" alt="Central College Baseball Seating">
+            <img src="<?php echo bloginfo('template_directory')?>/images/soccer.jpg" alt="Central College Baseball Seating">
             <div class="captionLeft">Soccer Seating</div>
           </div>
         </div>
@@ -46,13 +46,13 @@
       <!---Third Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/softball.jpg" alt="Central College Softball Seating" style="width: 100%;">
+            <img src="<?php echo bloginfo('template_directory')?>/images/softball.jpg" alt="Central College Softball Seating" style="width: 100%;">
             <div class="captionLeft">Softball Seating</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/heritagePlaza.jpg" alt="Central College Baseball Seating">
+            <img src="<?php echo bloginfo('template_directory')?>/images/heritagePlaza.jpg" alt="Central College Baseball Seating">
             <div class="captionRight">Heritage Plaza</div>
           </div>
         </div>
@@ -60,7 +60,7 @@
         <div class="clearBoth">
           <div class="ten column">
             <div class="imageGroup">
-              <img src="/wp-content/themes/foreverDutch/images/stadium.jpg" alt="Central College Schipper Stadium">
+              <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg" alt="Central College Schipper Stadium">
               <div class="captionLeft">Schipper Stadium</div>
             </div>
           </div>
@@ -93,7 +93,7 @@
       <div class="container">
       <div class="ten column">
         <div class="imageGroup">
-          <img src="/wp-content/themes/foreverDutch/images/southEntry.jpg" alt="Gym Entry">
+          <img src="<?php echo bloginfo('template_directory')?>/images/southEntry.jpg" alt="Gym Entry">
           <div class="captionLeft">Gym Entry</div>
         </div>
       </div>
@@ -101,13 +101,13 @@
       <!--- Second Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/wrestlingRoom.jpg" alt="Wrestling Room">
+            <img src="<?php echo bloginfo('template_directory')?>/images/wrestlingRoom.jpg" alt="Wrestling Room">
             <div class="captionLeft">Wrestling Room</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/upperAtrium.jpg" alt="Upper-Level Atrium">
+            <img src="<?php echo bloginfo('template_directory')?>/images/upperAtrium.jpg" alt="Upper-Level Atrium">
             <div class="captionRight">Upper-Level Atrium</div>
           </div>
         </div>
@@ -116,13 +116,13 @@
 
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/lowerAtrium.jpg" alt="Wrestling Room">
+            <img src="<?php echo bloginfo('template_directory')?>/images/lowerAtrium.jpg" alt="Wrestling Room">
             <div class="captionLeft">Lower-Level Atrium</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="/wp-content/themes/foreverDutch/images/allAmericanHall.jpg" alt="All-America Corridor">
+            <img src="<?php echo bloginfo('template_directory')?>/images/allAmericanHall.jpg" alt="All-America Corridor">
             <div class="captionRight">All-America Corridor</div>
           </div>
         </div>
@@ -131,7 +131,7 @@
 
           <div class="ten column">
             <div class="imageGroup">
-              <img src="/wp-content/themes/foreverDutch/images/lockerRoom.jpg" alt="Varsity Locker Room">
+              <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom.jpg" alt="Varsity Locker Room">
               <div class="captionLeft">Varsity Locker Room</div>
             </div>
           </div>
@@ -145,7 +145,7 @@
           <h2>Total Phase 1 and 2 costs exceed $15 million.</h2>
         </div>
         <div class="eight columns">
-          <img src="/wp-content/themes/foreverDutch/images/fundraisingTotal.svg" alt="Fundraising Total" class="u-max-full-width">
+          <img src="<?php echo bloginfo('template_directory')?>/images/fundraisingTotal.svg" alt="Fundraising Total" class="u-max-full-width">
         </div>
         <div class="clearBoth"></div>
       </div>
@@ -153,7 +153,7 @@
     <section class="darkGray breathe">
       <div class="container">
         <div class="four columns">
-          <img src="/wp-content/themes/foreverDutch/images/jersey.svg" alt="Fundraising Total" class="u-max-full-width">
+          <img src="<?php echo bloginfo('template_directory')?>/images/jersey.svg" alt="Fundraising Total" class="u-max-full-width">
         </div>
         <div class="eight columns">
           <h2 class="redText">We need you on our team.</h2>

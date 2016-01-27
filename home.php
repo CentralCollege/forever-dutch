@@ -49,7 +49,7 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
       function addYouTubeVideo(id,title){
-        var youTubeImage = '<img src="/wp-content/themes/foreverDutch/images/videoThumb.jpg" alt="'+title+'" class="youTubeThumb">';
+        var youTubeImage = '<img src="<?php echo bloginfo('template_directory')?>/images/videoThumb.jpg" alt="'+title+'" class="youTubeThumb">';
         $('.youTubeVideo').append(youTubeImage);
 
         $('.youTubeVideo').click(function(){
