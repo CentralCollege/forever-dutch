@@ -1,12 +1,433 @@
-/*!
+/*
 Theme Name: Forever Dutch
 Theme URI: http://github.com/centralcollege/forever-dutch
 Author: Jacob Oyen
 Author URI: http://www.jacoboyen.com
 Description: The theme for the Central College forver dutch campaign.
 Version: 0.0.0
+
 */
 
+.clearBoth{
+  clear: both;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Central College Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 html{
   background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+iframe{
+  border: none;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Alignment
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pullRight{
+  float: right;
+  display: block;
+}
+.alignCenter{
+  text-align: center;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Adjustment
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.breathe{
+  padding: 2em 0;
+}
+.u-max-full-width{
+  width: 100%;
+  display: block;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Background Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.red{
+  background-color: #cb2026;
+  color: #fff;
+}
+.lightGray{
+  background-color: #999;
+  color: #fff;
+}
+.darkGray{
+  background-color: #333;
+  color: #fff;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.whiteButton{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.25em;
+  background-color: #fff;
+  padding: .25em 1em;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 6px 6px 0 #333;
+}
+.whiteButton:hover{
+  background-color: #ccc;
+}
+.redButton{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.25em;
+  background-color: #cb2026;
+  padding: .25em 1em;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 6px 6px 0 #333;
+}
+.redButton:hover{
+  background-color: #990000;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  margin: 0;
+  padding: .5em 0 .25em 0;
+}
+h2{
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+h3{
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+.redText{
+  color: #990000;
+}
+.whiteText{
+  color: #fff;
+}
+.grayText{
+  color: #999;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Header/Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 0 3em;
+  position: relative;
+}
+.logo img{
+  width: 125px;
+}
+.nav-group{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.2em;
+  float: right;
+  margin-top: 1.25em;
+}
+.nav-group a:link, .nav-group a:visited{
+  color: #333;
+  display: inline-block;
+  padding: 0 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-group a:hover{
+  background-color: #cb2026;
+  color: #fff;
+  box-shadow: 6px 6px 0 #333;
+}
+/* Special formatting for social navigation */
+.nav-group a.fa{
+  padding: 0 .5em;
+}
+.nav-group a.fa:hover{
+  background-color: inherit;
+  box-shadow: none;
+  color: #cb2026;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Section Befores
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.dropTop::before{
+  box-shadow: inset 0 5px 10px -5px #000;
+  content: '';
+  height: 15px;
+  display: block;
+}
+.top{
+  padding-top: 2em;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Section Afters
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footballTeamAfter::after{
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/footballPlayers.jpg);
+  background-size:cover;
+  display: block;
+  width: 100%;
+  content: '';
+  height: 350px;
+}
+.dedicationAfter::after{
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/grayDedication.jpg);
+  background-size:cover;
+  display: block;
+  width: 100%;
+  content: '';
+  height: 350px;
+}
+.groundBreakingAfter::after{
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/kuyperGroundBreaking.jpg);
+  background-size:cover;
+  display: block;
+  width: 100%;
+  content: '';
+  height: 350px;
+}
+.exteriorMockAfter::after{
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/exteriorMockUp.jpg);
+  background-size:cover;
+  display: block;
+  width: 100%;
+  content: '';
+  height: 200px;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Page Features
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Keystone content at the top of all of the pages. */
+.keystone{
+  padding-bottom: 3em;
+}
+/* Video on the Homepage */
+.videoPromo{
+  padding: 1em 0;
+}
+.videoPromo iframe{
+  width: 100%;
+}
+.videoTitle{
+  margin-top: 5em;
+}
+.youTubeThumb{
+  width: 100%;
+}
+/* Quotes used on all pages */
+.quoteSpace blockquote{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.6em;
+  color: #990000;
+  text-transform:  uppercase;
+  padding: 1.25em .75em;
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/quote.png);
+  background-repeat: no-repeat;
+}
+.quoteSpace blockquote cite{
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  display: block;
+  text-transform: none;
+  font-style: normal;
+  color: #000;
+  padding-top: 1em;
+}
+/* Quad Quote Space */
+.quadStat{
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/footballRunWhite.jpg);
+  background-size:cover;
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+.dateSpan{
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #cb2026;
+  color: #fff;
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 0 1em;
+  text-align: center;
+  margin: 0 auto;
+}
+.stat{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 5em;
+  text-align: center;
+  color: #990000;
+  padding: 3rem 0;
+  margin-top: 1rem;
+}
+
+.dashedBorderRight{
+  border-right: 1px dashed #999999;
+}
+.statDetails{
+  text-align: center;
+}
+.eschelon{
+  float:left;
+  height: 2.25em;
+  margin-right: 1em;
+}
+.comparison img{
+  width: 100%;
+}
+/* Table for the Donate page */
+.tableWithStyle{
+  width: 100%;
+  margin-top: 1em;
+  box-shadow: 10px 10px 0 #333;
+}
+.tableWithStyle th{
+  background-color: #cb2026;
+  border-collapse: separate;
+  border-spacing: 10px 50px;
+  padding: 1em;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+.tableWithStyle td{
+  background-color: #fff;
+  color: #000;
+  border-right: 1px solid #ccc;
+  padding: 1em;
+  width: 25%;
+  text-align: center;
+}
+.tableWithStyle tr{
+  border-bottom: 1px dashed #ccc;
+}
+.tableWithStyle tr:last-child, .tableWithStyle tr:first-child{
+  border-bottom: none;
+}
+.tableWithStyle td:first-child, .tableWithStyle td:nth-child(2){
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.tableWithStyle td:last-child{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1em;
+  color: #cb2026;
+  border-right: none;
+}
+.coachSkipQuote{
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/coachSkip.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+.coachSkipQuote blockquote{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 4em;
+  width: 50%;
+  color: #fff;
+  text-transform:  uppercase;
+  padding: .25em 0 0 .75em;
+  margin-top:  .5em;
+  background-image: url(//192.168.56.111/wp-content/themes/foreverDutch/images/quoteDark.png);
+  background-repeat: no-repeat;
+}
+.coachSkipQuote blockquote cite{
+  font-size: .5em;
+  display: block;
+  font-style: normal;
+  color: #cb2026;
+  padding-top: 1em;
+}
+.list-group{
+  list-style: none;
+  padding-left: 1em;
+}
+.list-group .fa-fw{
+  margin-right: 1em;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Image Grid on the projects page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.photo .container .column, .photo .container .columns{
+  margin-left: 0;
+}
+.imageGroup{
+  position: relative;
+}
+.imageGroup img{
+  width: 100%;
+  display: block;
+}
+.captionLeft{
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding:.5em 2em;
+  background-color: #cb2026;
+  color: #fff;
+  
+}
+.captionRight{
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding:.5em 2em;
+  background-color: #cb2026;
+  color: #fff;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+News/Events formatting
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.meta{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1em;
+  color: #999;
+  text-transform: uppercase;
+  margin: .5em 0;
+}
+.meta a{
+  text-decoration: none;
+  color: #999
+}
+.newsEvents{
+  border-bottom: 1px dashed #999;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer{
+  background-color: #cb2026;
+  color: #fff;
+  padding: .5rem 2rem;
+}
+.addr a:link, .addr a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+.addr a:hover{
+  color: #ccc;
+}
+.footerLogo{
+  text-align: right;
 }

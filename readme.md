@@ -5,7 +5,7 @@ Setup
 -------------------
 Before changing any code:
 
-- Run `bower install` to setup JavaScript library dependencies.
+- Run `bower install` to setup external library dependencies.
 - Run `grunt concat uglify` to compile JavaScript.
 
 Development
@@ -17,6 +17,15 @@ Travis CI
 CSS and JavaScript files are tested via Tavis CI. If your build doesn't pass, then it won't qualify for a merge.
 
 [![Build Status](https://travis-ci.org/CentralCollege/forever-dutch.svg)](https://travis-ci.org/CentralCollege/forever-dutch)
+
+Fonts
+-------------------
+Fonts are pulled from Google Fonts. Use the following in CSS:
+
+```
+font-family: 'Roboto', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+```
 
 Release History
 -------------------
