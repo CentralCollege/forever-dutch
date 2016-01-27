@@ -4,6 +4,7 @@
         <h1>Your Time.</h1>
         <h2>A financial investment. An enduring legacy.</h2>
         <p>Those who have come before us helped create the Central legacy. Now, at this defining moment, it falls to this generation to carry it forward. The need is great. The time is now. Your investment helps reaffirm our pledge to further the intellectual, physical and spiritual development of future Central students.</p>
+        <p><a href="/give" class="whiteButton">Donate Now</a></p>
       </div>
     </section>
 
@@ -13,7 +14,7 @@
           <h2 class="redText">Time for a<br />Transformation.</h2>
         </div>
         <div class="eight columns">
-          <img src="//192.168.56.111/wp-content/themes/foreverDutch/images/givingLevelsChart.svg" class="Giving Levels" class="u-max-full-width">
+          <img src="/wp-content/themes/foreverDutch/images/givingLevelsChart.svg" class="Giving Levels" class="u-max-full-width">
         </div>
         <div class="clearBoth"></div>
       </div>
@@ -70,7 +71,7 @@
     <section class="coachSkipQuote">
       <div class="top container">
         <blockquote>If I can light a fire under one kid, then it's all worth it." <cite>Coach Ron Schipper</cite></blockquote>
-        <p><a href="/donate" class="redButton pullRight">Donate Now</a></p>
+        <p><a href="/give" class="redButton pullRight">Donate Now</a></p>
       </div>
     </section>
     <?php get_footer();?>

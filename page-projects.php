@@ -19,9 +19,52 @@
         </ul>
       </div>
     </section>
-    <section class="photo red">
+    <section class="photo">
+      <!--- First Row !--->
       <div class="container">
-        <h2>Photos will go here...</h2>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/baseball.jpg" alt="Central College Baseball Dugout">
+            <div class="captionLeft">Baseball Dugout</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/baseballSeating.jpg" alt="Central College Baseball Seating">
+            <div class="captionRight">Baseball Seating</div>
+          </div>
+        </div>
+        <div class="clearBoth">
+      <!--- Second Row !--->
+        <div class="ten column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/soccer.jpg" alt="Central College Baseball Seating">
+            <div class="captionLeft">Soccer Seating</div>
+          </div>
+        </div>
+        <div class="clearBoth"></div>
+      <!---Third Row !--->
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/softball.jpg" alt="Central College Softball Seating" style="width: 100%;">
+            <div class="captionLeft">Softball Seating</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/heritagePlaza.jpg" alt="Central College Baseball Seating">
+            <div class="captionRight">Heritage Plaza</div>
+          </div>
+        </div>
+        <!--- Fourth Row !--->
+        <div class="clearBoth">
+          <div class="ten column">
+            <div class="imageGroup">
+              <img src="/wp-content/themes/foreverDutch/images/stadium.jpg" alt="Central College Schipper Stadium">
+              <div class="captionLeft">Schipper Stadium</div>
+            </div>
+          </div>
+          <div class="clearBoth"></div>
       </div>
     </section>
     <section class="phase">
@@ -45,9 +88,55 @@
         </div>
         <div class="clearBoth"></div>
     </section>
-    <section class="photo red">
+    <section class="photo">
+      <!--- First Row !--->
       <div class="container">
-        <h2>Photos will go here...</h2>
+      <div class="ten column">
+        <div class="imageGroup">
+          <img src="/wp-content/themes/foreverDutch/images/southEntry.jpg" alt="Gym Entry">
+          <div class="captionLeft">Gym Entry</div>
+        </div>
+      </div>
+      <div class="clearBoth"></div>
+      <!--- Second Row !--->
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/wrestlingRoom.jpg" alt="Wrestling Room">
+            <div class="captionLeft">Wrestling Room</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/upperAtrium.jpg" alt="Upper-Level Atrium">
+            <div class="captionRight">Upper-Level Atrium</div>
+          </div>
+        </div>
+        <div class="clearBoth">
+      <!--- Third Row !--->
+
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/lowerAtrium.jpg" alt="Wrestling Room">
+            <div class="captionLeft">Lower-Level Atrium</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="/wp-content/themes/foreverDutch/images/allAmericanHall.jpg" alt="All-America Corridor">
+            <div class="captionRight">All-America Corridor</div>
+          </div>
+        </div>
+        <div class="clearBoth">
+
+
+          <div class="ten column">
+            <div class="imageGroup">
+              <img src="/wp-content/themes/foreverDutch/images/lockerRoom.jpg" alt="Varsity Locker Room">
+              <div class="captionLeft">Varsity Locker Room</div>
+            </div>
+          </div>
+          <div class="clearBoth"></div>
+
       </div>
     </section>
     <section class="fundraisingTotal breathe">
@@ -56,7 +145,7 @@
           <h2>Total Phase 1 and 2 costs exceed $15 million.</h2>
         </div>
         <div class="eight columns">
-          <img src="//192.168.56.111/wp-content/themes/foreverDutch/images/fundraisingTotal.svg" alt="Fundraising Total" class="u-max-full-width">
+          <img src="/wp-content/themes/foreverDutch/images/fundraisingTotal.svg" alt="Fundraising Total" class="u-max-full-width">
         </div>
         <div class="clearBoth"></div>
       </div>
@@ -64,7 +153,7 @@
     <section class="darkGray breathe">
       <div class="container">
         <div class="four columns">
-          <img src="//192.168.56.111/wp-content/themes/foreverDutch/images/jersey.svg" alt="Fundraising Total" class="u-max-full-width">
+          <img src="/wp-content/themes/foreverDutch/images/jersey.svg" alt="Fundraising Total" class="u-max-full-width">
         </div>
         <div class="eight columns">
           <h2 class="redText">We need you on our team.</h2>
