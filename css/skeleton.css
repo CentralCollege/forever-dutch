@@ -49,6 +49,7 @@
   .two-thirds.column              { width: 65.3333333333%; }
 
   .one-half.column                { width: 48%; }
+  .hard-half.column              { width: 50%  }
 
   /* Offsets */
   .offset-by-one.column,
