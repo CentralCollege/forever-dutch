@@ -73,30 +73,4 @@
         <p><a href="/donate" class="redButton pullRight">Donate Now</a></p>
       </div>
     </section>
-    <section class="red">
-      <div class="breathe container">
-        <div class="three columns">
-          <img src="//192.168.56.111/wp-content/themes/foreverDutch/images/94percent.svg" alt="94 percent" class="u-max-full-width">
-        </div>
-        <div class="eight columns">
-          <h3>The A.N. Kuyper Athletics Complex serves more than athletes. <strong>More than 94 percent</strong> of Central’s students were athletics facilities users in the past year. </h3>
-        </div>
-        <div class="clearBoth"></div>
-      </div>
-    </section>
-    <img src="//192.168.56.111/wp-content/themes/foreverDutch/images/kuyperHallway.jpg" alt="Schipper Stadium" class="u-max-full-width">
-    <section class="darkGray">
-      <div class="breathe container">
-        <h2 class="redText">Out of Room.</h2>
-        <p><strong>P.H. Kuyper Gymnasium’s aging infrastructure must be replaced.</strong> And a building designed to serve 200 athletes in 1969, now must handle more than 700, turning hallways into athletic training treatment areas. Facilities are in use from 5 a.m.-11 p.m.</p>
-        <p>It’s often been said that the athletics department is a college’s front porch. Student-athletes comprise a significant part of Central’s enrollment and many of the college’s competitors are making major athletics facilities upgrades.</p>
-        <p><strong>This is the time not just for a renovation, but a transformation that will accentuate Central’s position as an intercollegiate leader, as well as a model for whole-person development.</strong></p>
-      </div>
-    </section>
-<img src="//192.168.56.111/wp-content/themes/foreverDutch/images/stadium.jpg" alt="Schipper Stadium" class="u-max-full-width">
-    <section class="quoteSpace">
-      <div class="container">
-        <blockquote>Football made me set standards for myself as an athlete, as well as a student—to do everything with a passion and a purpose, and to do it to my full capability. There is no doubt in my mind that playing  football at Central College changed my life, and it changed it for the better." <cite>Travis Hook '13</cite></blockquote>
-      </div>
-    </section>
     <?php get_footer();?>
