@@ -14,7 +14,7 @@
           <h2 class="redText">Time for a<br />Transformation.</h2>
         </div>
         <div class="eight columns">
-          <img src="/wp-content/themes/foreverDutch/images/givingLevelsChart.svg" class="Giving Levels" class="u-max-full-width">
+          <img src="<?php echo bloginfo('template_directory')?>/images/givingLevelsChart.svg" class="Giving Levels" class="u-max-full-width">
         </div>
         <div class="clearBoth"></div>
       </div>

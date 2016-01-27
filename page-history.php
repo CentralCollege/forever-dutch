@@ -38,17 +38,17 @@
     </section>
     <section class="lightGray dropTop groundBreakingAfter">
       <div class="top container">
-        <h2 class="redText"><img src="/wp-content/themes/foreverDutch/images/echelon.svg" class="eschelon">The heart of the A.N. Kuyper Athletics Complex and the proud Dutch athletics tradition: P.H. Kuyper Gymnasium.</h2>
+        <h2 class="redText"><img src="<?php echo bloginfo('template_directory')?>/images/echelon.svg" class="eschelon">The heart of the A.N. Kuyper Athletics Complex and the proud Dutch athletics tradition: P.H. Kuyper Gymnasium.</h2>
         <p>P.H. Kuyper Gymnasium is the headquarters for Central’s athletics program. However, more than 45 years after construction, it’s no longer able to match the quality of Central’s athletes and teams.</p>
       </div>
     </section>
     <section class="comparison exteriorMockAfter">
-      <img src="/wp-content/themes/foreverDutch/images/comparison.svg" alt="Stat Comparison">
+      <img src="<?php echo bloginfo('template_directory')?>/images/comparison.svg" alt="Stat Comparison">
     </section>
     <section class="red">
       <div class="breathe container">
         <div class="three columns">
-          <img src="/wp-content/themes/foreverDutch/images/94percent.svg" alt="94 percent" class="u-max-full-width">
+          <img src="<?php echo bloginfo('template_directory')?>/images/94percent.svg" alt="94 percent" class="u-max-full-width">
         </div>
         <div class="eight columns">
           <h3>The A.N. Kuyper Athletics Complex serves more than athletes. <strong>More than 94 percent</strong> of Central’s students were athletics facilities users in the past year. </h3>
@@ -56,7 +56,7 @@
         <div class="clearBoth"></div>
       </div>
     </section>
-    <img src="/wp-content/themes/foreverDutch/images/kuyperHallway.jpg" alt="Schipper Stadium" class="u-max-full-width">
+    <img src="<?php echo bloginfo('template_directory')?>/images/kuyperHallway.jpg" alt="Schipper Stadium" class="u-max-full-width">
     <section class="darkGray">
       <div class="breathe container">
         <h2 class="redText">Out of Room.</h2>
@@ -65,7 +65,7 @@
         <p><strong>This is the time not just for a renovation, but a transformation that will accentuate Central’s position as an intercollegiate leader, as well as a model for whole-person development.</strong></p>
       </div>
     </section>
-<img src="/wp-content/themes/foreverDutch/images/stadium.jpg" alt="Schipper Stadium" class="u-max-full-width">
+<img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg" alt="Schipper Stadium" class="u-max-full-width">
     <section class="quoteSpace">
       <div class="container">
         <blockquote>Football made me set standards for myself as an athlete, as well as a student—to do everything with a passion and a purpose, and to do it to my full capability. There is no doubt in my mind that playing  football at Central College changed my life, and it changed it for the better." <cite>Travis Hook '13</cite></blockquote>
