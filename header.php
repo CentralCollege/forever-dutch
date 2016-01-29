@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="copyright" content="Copyright (c) 2016 Central College" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="//img.centralcollege.info/icons/animal-monkey.png" />
+    <link rel="shortcut icon" href="//www.central.edu/favicon.ico" />
     <meta property="fb:app_id" content="122820004455478" />
     <meta property="fb:admins" content="78302220" />
     <meta property="fb:admins" content="14827654" />
