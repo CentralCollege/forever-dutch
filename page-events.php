@@ -6,8 +6,12 @@
       </div>
     </section>
     <section class="give">
-      <div class="container">
-        <iframe src="https://gateway.sourceallies.com/central/alumni/" width="100%" height="1400px" frameborder="0" scrolling="auto"></iframe>
+      <div class="container breathe newsEvents">
+        <?php
+          $response = wp_remote_get( 'http://dev.central.edu/api/alumni/events/' );
+          $body = $response['body'];
+          echo $body;
+        ?>
       </div>
     </section>
     <?php get_footer();?>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="copyright" content="Copyright (c) 2016 Central College" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="//img.centralcollege.info/icons/animal-monkey.png" />
+    <link rel="shortcut icon" href="//www.central.edu/favicon.ico" />
     <meta property="fb:app_id" content="122820004455478" />
     <meta property="fb:admins" content="78302220" />
     <meta property="fb:admins" content="14827654" />
@@ -36,11 +36,11 @@
           <a href="/history">History</a>
           <a href="/projects">Projects</a>
           <a href="/category/news/">News</a>
-          <a href="/category/events">Events</a>
+          <a href="/events">Events</a>
           <a href="/donate">Giving Info</a>
           <a href="//www.facebook.com/centralcollege" class="fa fa-facebook"></a>
-          <a href="//www.instagram.com/centralcollege" class="fa fa-twitter"></a>
-          <a href="//www.twitter.com/centralcollege" class="fa fa-instagram"></a>
+          <a href="//www.twitter.com/centralcollege" class="fa fa-twitter"></a>
+          <a href="//www.instagram.com/centralcollege" class="fa fa-instagram"></a>
         </div>
       </nav>
     </header>

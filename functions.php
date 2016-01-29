@@ -34,6 +34,12 @@ function CUI_disable_emojis() {
 }
 add_action( 'init', 'CUI_disable_emojis' );
 
+//Add theme support for the title tag
+function cui_add_title_tag(){
+		add_theme_support('title-tag');
+}
+add_action('after_setup_theme', 'cui_add_title_tag');
+
 /* Add additional thumbnail sizes*/
 	add_theme_support( 'post-thumbnails' );
 	add_image_size( 'central-home-large', 400, 266, true);
