@@ -8,10 +8,12 @@
     <section class="give">
       <div class="container breathe newsEvents">
         <?php
-          $response = wp_remote_get( 'http://dev.central.edu/api/alumni/events/' );
-          $body = $response['body'];
-          echo $body;
-        ?>
+          $response = wp_remote_get( 'http://www.central.edu/api/alumni/events/' );
+          if( $response['response']['code'] == '200'){
+            echo $response['body'];
+          } else { ?>
+            <h3>There are no upcoming events.</h3>
+          <?php }?>
       </div>
     </section>
     <?php get_footer();?>
