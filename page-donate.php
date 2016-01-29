@@ -8,20 +8,20 @@
       </div>
     </section>
 
-    <section class="videoPromo">
+    <section class="fundraisingTotal breathe">
       <div class="container">
-        <div class="four columns videoTitle">
-          <h2 class="redText">Time for a<br />Transformation.</h2>
+        <div class="four columns">
+          <h2>Total Phase 1 and 2 costs exceed $15 million.</h2>
         </div>
         <div class="eight columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/givingLevelsChart.svg" class="Giving Levels" class="u-max-full-width">
+          <img src="<?php echo bloginfo('template_directory')?>/images/fundraisingTotal.svg" alt="Fundraising Total" class="u-max-full-width">
         </div>
         <div class="clearBoth"></div>
       </div>
     </section>
     <section class="lightGray dropTop">
       <div class="breathe container">
-        <h2 class="whiteText">Giving Opportunities</h2>
+        <h2 class="whiteText">Naming Opportunities</h2>
         <table class="tableWithStyle">
           <tr>
             <th>Naming Levels</th>
@@ -37,41 +37,67 @@
           </tr>
           <tr>
             <td>National Champ</td>
-            <td>$550k - $999k</td>
+            <td>$500,000</td>
             <td>All American Corridor</td>
             <td>4</td>
           </tr>
           <tr>
             <td>All American</td>
-            <td>$250k - $499k</td>
+            <td>$250,000</td>
             <td>Women's Locker Room</td>
             <td>4</td>
           </tr>
           <tr>
             <td>Conference Champ</td>
-            <td>110k - 249k</td>
+            <td>$100,000</td>
             <td>Coach's Office Suite</td>
             <td>11</td>
           </tr>
           <tr>
             <td>Game-Winner</td>
-            <td>$50k - $99k</td>
+            <td>$50,000k</td>
             <td>Athletic Director's Office</td>
             <td>18</td>
           </tr>
           <tr>
             <td>Home Run</td>
-            <td>$25k - 49k</td>
+            <td>$25,000</td>
             <td>Assistant Coach's Office</td>
             <td>11</td>
           </tr>
         </table>
       </div>
     </section>
+    <section class="contactUs red">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="five columns">
+          <p><strong>Bill Northup</strong><br />
+            Vice President for Advancement<br />
+            641-628-7645<br />
+            <a href="mailto:northupb@central.edu">northupb@central.edu</a></p>
+          <p><strong>Dave Sutphen</strong><br />
+            Major Gifts Officer for Strategic Initiatives<br />
+            641-628-5192<br />
+            <a href="mailto:sutphend@central.edu">sutphend@central.edu</a></p>
+        </div>
+        <div class="five columns">
+          <p><strong>Don Morrison</strong><br />
+            Director of Development and Planned Giving<br />
+            641-628-5280<br />
+            <a href="mailto:morrisond@central.edu">morrisond@central.edu</a></p>
+          <p><strong>Kathy Cashen Thompson</strong><br />
+            Director of Alumni Relations<br />
+            641-628-5186<br />
+            <a href="mailto:cashenthompsonk@central.edu">cashenthompsonk@central.edu</a></p>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
+    </section>
     <section class="coachSkipQuote">
       <div class="top container">
-        <blockquote>If I can light a fire under one kid, then it's all worth it." <cite>Coach Ron Schipper</cite></blockquote>
         <p><a href="/give" class="redButton pullRight">Donate Now</a></p>
+        <blockquote>If I can light a fire under one kid, then it's all worth it." <cite>Coach Ron Schipper</cite></blockquote>
       </div>
     </section>
     <?php get_footer();?>
