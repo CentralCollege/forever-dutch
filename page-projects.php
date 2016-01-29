@@ -78,7 +78,7 @@
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Lower-Level Lobby</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Upper-Level Lobby</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>All-American Corridor</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>new Varsity Locker Room</li>
+            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Varsity Locker Room</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Wrestling Room</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>Major Infrastructure Improvements</li>
           </ul>

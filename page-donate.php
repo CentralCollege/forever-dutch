@@ -55,8 +55,8 @@
           </tr>
           <tr>
             <td>Game-Winner</td>
-            <td>$50,000k</td>
-            <td>Athletic Director's Office</td>
+            <td>$50,000</td>
+            <td>Head Coach's Office</td>
             <td>18</td>
           </tr>
           <tr>
