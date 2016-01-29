@@ -36,11 +36,11 @@
           <a href="/history">History</a>
           <a href="/projects">Projects</a>
           <a href="/category/news/">News</a>
-          <a href="/category/events">Events</a>
+          <a href="/events">Events</a>
           <a href="/donate">Giving Info</a>
           <a href="//www.facebook.com/centralcollege" class="fa fa-facebook"></a>
-          <a href="//www.instagram.com/centralcollege" class="fa fa-twitter"></a>
-          <a href="//www.twitter.com/centralcollege" class="fa fa-instagram"></a>
+          <a href="//www.twitter.com/centralcollege" class="fa fa-twitter"></a>
+          <a href="//www.instagram.com/centralcollege" class="fa fa-instagram"></a>
         </div>
       </nav>
     </header>
