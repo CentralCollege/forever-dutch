@@ -3,8 +3,8 @@ Theme Name: Forever Dutch
 Theme URI: http://github.com/centralcollege/forever-dutch
 Author: Jacob Oyen
 Author URI: http://www.jacoboyen.com
-Description: The theme for the Central College forver dutch campaign.
-Version: 0.1.14-beta
+Description: The theme for the Central College forever dutch campaign.
+Version: 0.1.15-beta
 */
 
 .clearBoth{
@@ -226,6 +226,7 @@ Page Features
 }
 .youTubeThumb{
   width: 100%;
+  cursor: pointer;
 }
 /* Quotes used on all pages */
 .quoteSpace blockquote{
@@ -358,6 +359,7 @@ Page Features
 .list-group .fa-fw{
   margin-right: 1em;
 }
+
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Image Grid on the projects page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -392,7 +394,13 @@ Image Grid on the projects page
   background-color: #cb2026;
   color: #fff;
 }
-
+.contactUs a:link, .contactUs a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+.contactUs a:hover{
+  color: #333;
+}
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 News/Events formatting
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
