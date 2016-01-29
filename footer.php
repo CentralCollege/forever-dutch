@@ -7,7 +7,7 @@
       <div class="email"><a href="mailto:foreverdutch@central.edu">foreverdutch@central.edu</a></div>
     </div>
     <div class="footerLogo one-half column">
-      <a href="/" id="logo"><img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/12centralCollegeLogo.png" alt="Central College" width="115" height="75"></a>
+      <a href="/" id="logo"><img src="<?php echo bloginfo('template_directory')?>/images/centralCollegeLogo.png" alt="Central College" width="115" height="75"></a>
     </div>
     <div class="clearBoth"></div>
   </footer>
