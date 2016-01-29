@@ -27,7 +27,7 @@
         <h2 class="redText">A life-changing athletics program.</h2>
         <p> More than trophies and titles, a Central College education changes lives. Facilities can enhance Central's ability to attact students and, ultimately, to serve them.</p>
         <h3>The time has come &mdash; not just for a renovation, but for a transformation.</h3>
-        <p><a href="/news" class="redButton">Upcoming Events</a></p>
+        <p><a href="/events" class="redButton">Upcoming Events</a></p>
       </div>
     </section>
     <section class="quoteSpace">
