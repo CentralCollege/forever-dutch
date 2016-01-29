@@ -42,7 +42,7 @@
         <p>P.H. Kuyper Gymnasium is the headquarters for Central’s athletics program. However, more than 45 years after construction, it’s no longer able to match the quality of Central’s athletes and teams.</p>
       </div>
     </section>
-    <section class="comparison exteriorMockAfter">
+    <section class="comparison top exteriorMockAfter">
       <img src="<?php echo bloginfo('template_directory')?>/images/comparison.svg" alt="Stat Comparison">
     </section>
     <section class="red">
