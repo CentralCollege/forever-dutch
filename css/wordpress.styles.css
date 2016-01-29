@@ -4,7 +4,7 @@ Theme URI: http://github.com/centralcollege/forever-dutch
 Author: Jacob Oyen
 Author URI: http://www.jacoboyen.com
 Description: The theme for the Central College forver dutch campaign.
-Version: 0.1.2-beta
+Version: 0.1.3-beta
 */
 
 .clearBoth{
@@ -176,7 +176,7 @@ Section Befores
 Section Afters
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footballTeamAfter::after{
-  background-image: url(/wp-content/themes/foreverDutch/images/footballPlayers.jpg);
+  background-image: url(images/footballPlayers.jpg);
   background-size:cover;
   display: block;
   width: 100%;
@@ -184,7 +184,7 @@ Section Afters
   height: 350px;
 }
 .dedicationAfter::after{
-  background-image: url(/wp-content/themes/foreverDutch/images/grayDedication.jpg);
+  background-image: url(images/grayDedication.jpg);
   background-size:cover;
   display: block;
   width: 100%;
@@ -192,7 +192,7 @@ Section Afters
   height: 350px;
 }
 .groundBreakingAfter::after{
-  background-image: url(/wp-content/themes/foreverDutch/images/kuyperGroundBreaking.jpg);
+  background-image: url(images/kuyperGroundBreaking.jpg);
   background-size:cover;
   display: block;
   width: 100%;
@@ -200,7 +200,7 @@ Section Afters
   height: 350px;
 }
 .exteriorMockAfter::after{
-  background-image: url(/wp-content/themes/foreverDutch/images/exteriorMockUp.jpg);
+  background-image: url(images/exteriorMockUp.jpg);
   background-size:cover;
   display: block;
   width: 100%;
@@ -234,7 +234,7 @@ Page Features
   color: #990000;
   text-transform:  uppercase;
   padding: 1.25em .75em;
-  background-image: url(/wp-content/themes/foreverDutch/images/quote.png);
+  background-image: url(images/quote.png);
   background-repeat: no-repeat;
 }
 .quoteSpace blockquote cite{
@@ -248,7 +248,7 @@ Page Features
 }
 /* Quad Quote Space */
 .quadStat{
-  background-image: url(/wp-content/themes/foreverDutch/images/footballRunWhite.jpg);
+  background-image: url(images/footballRunWhite.jpg);
   background-size:cover;
   display: block;
   width: 100%;
@@ -328,7 +328,7 @@ Page Features
   border-right: none;
 }
 .coachSkipQuote{
-  background-image: url(/wp-content/themes/foreverDutch/images/coachSkip.jpg);
+  background-image: url(images/coachSkip.jpg);
   background-size: cover;
   height: 600px;
   width: 100%;
@@ -341,7 +341,7 @@ Page Features
   text-transform:  uppercase;
   padding: .25em 0 0 .75em;
   margin-top:  .5em;
-  background-image: url(/wp-content/themes/foreverDutch/images/quoteDark.png);
+  background-image: url(images/quoteDark.png);
   background-repeat: no-repeat;
 }
 .coachSkipQuote blockquote cite{
@@ -408,9 +408,16 @@ News/Events formatting
   color: #999
 }
 .newsEvents{
-  border-bottom: 1px dashed #999;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+.post{
+  border-bottom: 1px dashed #999;
+  margin-bottom: 1em;
+  padding: 2em 5em;
+}
+.post:last-child{
+  border-bottom: none;
 }
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Footer
