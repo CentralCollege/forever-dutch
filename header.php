@@ -23,7 +23,7 @@
         <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
     <?php } ?>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" type="text/css" />
     <!--- WP HEADERS !--->
     <?php wp_head();?>
@@ -31,7 +31,7 @@
   <body>
     <header>
       <nav class="primary">
-        <a href="/" class="logo"><img src="http://d1lqhpmxg10s5j.cloudfront.net/images/2015/centralCollegeLogo.svg" alt="Central College Logo"></a>
+        <a href="/" class="logo"><img src="<?php echo bloginfo('template_directory')?>/images/centralCollegeLogo.svg" alt="Central College Logo"></a>
         <div class="nav-group">
           <a href="/history">History</a>
           <a href="/projects">Projects</a>
