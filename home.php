@@ -6,7 +6,7 @@
         <p>It’s forever a part of who we are and how we live. We are Forever Dutch.</p>
         <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
         <h2>This is your team. This is your time.</h2>
-        <p><a href="/give" class="whiteButton pullRight">Donate Now</a></p>
+        <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
         <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
       </div>
     </section>

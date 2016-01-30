@@ -70,14 +70,14 @@
     <section class="phase">
       <div class="container breathe">
         <div class="one-half column">
-          <h2>Phase 2: <span class="grayText">Fundraising</span></h2>
+          <h2>Phase 2: <span class="grayText">Fundraising Underway</span></h2>
           <h4 class="redText">P.H. Kupyer Gymansium Expansion</h4>
           <ul class="list-group">
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New P.H. Kupyer Gymansium Entrance</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Athletics Hall of Honor</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Lower-Level Lobby</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Upper-Level Lobby</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>All-American Corridor</li>
+            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>All-America Corridor</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Varsity Locker Room</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Wrestling Room</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>Major Infrastructure Improvements</li>
