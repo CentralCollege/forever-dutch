@@ -46,6 +46,7 @@ Adjustment
 @media (min-width: 400px) {
   .u-max-full-width{
     width: 100%;
+    margin: 0;
     display: block;
   }
 }
@@ -463,6 +464,7 @@ Image Grid on the projects page
 }
 @media (min-width: 400px) {
   .captionRight{
+    left: auto;
     right: 0;
   }
 }
