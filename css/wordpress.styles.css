@@ -4,7 +4,7 @@ Theme URI: http://github.com/centralcollege/forever-dutch
 Author: Jacob Oyen
 Author URI: http://www.jacoboyen.com
 Description: The theme for the Central College forever dutch campaign.
-Version: 0.1.16-beta
+Version: 0.1.17-beta
 */
 
 .clearBoth{
@@ -20,12 +20,15 @@ html{
 iframe{
   border: none;
 }
+
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Alignment
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.pullRight{
-  float: right;
-  display: block;
+@media (min-width: 400px) {
+  .pullRight{
+    float: right;
+    display: block;
+  }
 }
 .alignCenter{
   text-align: center;
@@ -37,8 +40,14 @@ Adjustment
   padding: 2em 0;
 }
 .u-max-full-width{
-  width: 100%;
-  display: block;
+  width: 90%;
+  margin: 1em;
+}
+@media (min-width: 400px) {
+  .u-max-full-width{
+    width: 100%;
+    display: block;
+  }
 }
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Background Colors
@@ -63,8 +72,9 @@ Buttons
   font-size: 1.25em;
   background-color: #fff;
   padding: .25em 1em;
-  display: inline-block;
+  display: block;
   color: #000;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   box-shadow: 6px 6px 0 #333;
@@ -77,8 +87,9 @@ Buttons
   font-size: 1.25em;
   background-color: #cb2026;
   padding: .25em 1em;
-  display: inline-block;
+  display: block;
   color: #fff;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   box-shadow: 6px 6px 0 #333;
@@ -86,20 +97,33 @@ Buttons
 .redButton:hover{
   background-color: #990000;
 }
+@media (min-width: 400px) {
+  .whiteButton, .redButton{
+    display: inline-block;
+  }
+}
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1{
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
-  font-size: 5em;
+  font-size: 3em;
   margin: 0;
   padding: .5em 0 .25em 0;
+}
+@media (min-width: 400px) {
+  h1{
+    font-size: 5em;
+  }
+  h2{
+    font-size: 2em;
+  }
 }
 h2{
   font-family: 'Rajdhani', sans-serif;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 0;
   margin: 0;
 }
@@ -127,8 +151,9 @@ Header/Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  padding: 0 3em;
+  padding: 0 .5em;
   position: relative;
+  text-align: center;
 }
 .logo img{
   width: 125px;
@@ -136,13 +161,12 @@ header{
 .nav-group{
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.2em;
-  float: right;
   margin-top: 1.25em;
 }
 .nav-group a:link, .nav-group a:visited{
   color: #333;
-  display: inline-block;
-  padding: 0 1em;
+  display: block;
+  padding: .25em 1em;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -153,12 +177,29 @@ header{
 }
 /* Special formatting for social navigation */
 .nav-group a.fa{
+  display: inline-block;
   padding: 0 .5em;
 }
 .nav-group a.fa:hover{
   background-color: inherit;
   box-shadow: none;
   color: #cb2026;
+}
+/* Mobile styles */
+@media (min-width: 400px) {
+  header{
+    padding: 0 3em;
+  }
+  .nav-group{
+    float: right;
+  }
+  .nav-group a:link, .nav-group a:visited{
+    display: inline-block;
+
+  }
+  .nav-group a.fa{
+    display: inline;
+  }
 }
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Section Befores
@@ -177,7 +218,8 @@ Section Afters
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footballTeamAfter::after{
   background-image: url(images/footballPlayers.jpg);
-  background-size:cover;
+  background-position: center;
+  background-size: cover;
   display: block;
   width: 100%;
   content: '';
@@ -185,6 +227,7 @@ Section Afters
 }
 .dedicationAfter::after{
   background-image: url(images/grayDedication.jpg);
+  background-position: center;
   background-size:cover;
   display: block;
   width: 100%;
@@ -193,6 +236,7 @@ Section Afters
 }
 .groundBreakingAfter::after{
   background-image: url(images/kuyperGroundBreaking.jpg);
+  background-position: center;
   background-size:cover;
   display: block;
   width: 100%;
@@ -201,7 +245,8 @@ Section Afters
 }
 .exteriorMockAfter::after{
   background-image: url(images/exteriorMockUp.jpg);
-  background-size:cover;
+  background-position: center;
+  background-size: cover;
   display: block;
   width: 100%;
   content: '';
@@ -221,8 +266,10 @@ Page Features
 .videoPromo iframe{
   width: 100%;
 }
-.videoTitle{
-  margin-top: 5em;
+@media (min-width: 400px) {
+  .videoTitle{
+    margin-top: 5em;
+  }
 }
 .youTubeThumb{
   width: 100%;
@@ -233,10 +280,15 @@ Page Features
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.6em;
   color: #990000;
+  margin: .25em;
   text-transform:  uppercase;
-  padding: 1.25em .75em;
   background-image: url(images/quote.png);
   background-repeat: no-repeat;
+}
+@media (min-width: 400px) {
+  .quoteSpace blockquote{
+    padding: 1.25em .75em;
+  }
 }
 .quoteSpace blockquote cite{
   font-family: 'Roboto', sans-serif;
@@ -249,36 +301,41 @@ Page Features
 }
 /* Quad Quote Space */
 .quadStat{
-  background-image: url(images/footballRunWhite.jpg);
-  background-size:cover;
-  display: block;
-  width: 100%;
-  height: 300px;
+  display: none;
 }
-.dateSpan{
-  font-family: 'Rajdhani', sans-serif;
-  background-color: #cb2026;
-  color: #fff;
-  font-size: 1.5em;
-  display: inline-block;
-  padding: 0 1em;
-  text-align: center;
-  margin: 0 auto;
-}
-.stat{
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 5em;
-  text-align: center;
-  color: #990000;
-  padding: 3rem 0;
-  margin-top: 1rem;
-}
+@media (min-width: 400px) {
+  .quadStat{
+    background-image: url(images/footballRunWhite.jpg);
+    background-size:cover;
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  .dateSpan{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #cb2026;
+    color: #fff;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 0 1em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .stat{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: #990000;
+    padding: 3rem 0;
+    margin-top: 1rem;
+  }
 
-.dashedBorderRight{
-  border-right: 1px dashed #999999;
-}
-.statDetails{
-  text-align: center;
+  .dashedBorderRight{
+    border-right: 1px dashed #999999;
+  }
+  .statDetails{
+    text-align: center;
+  }
 }
 .eschelon{
   float:left;
@@ -330,21 +387,30 @@ Page Features
 }
 .coachSkipQuote{
   background-image: url(images/coachSkip.jpg);
+  background-position: center;
   background-size: cover;
   height: 600px;
   width: 100%;
 }
+
 .coachSkipQuote blockquote{
   font-family: 'Rajdhani', sans-serif;
-  font-size: 4em;
-  width: 50%;
+  font-size: 2em;
   color: #fff;
   text-transform:  uppercase;
-  padding: .25em 0 0 .75em;
-  margin-top:  .5em;
-  background-image: url(images/quoteDark.png);
-  background-repeat: no-repeat;
+  margin-top: 6em;
 }
+@media (min-width: 400px) {
+  .coachSkipQuote blockquote{
+    font-size: 4em;
+    width: 50%;
+    padding: .25em 0 0 .75em;
+    margin-top:  .5em;
+    background-image: url(images/quoteDark.png);
+    background-repeat: no-repeat;
+  }
+}
+
 .coachSkipQuote blockquote cite{
   font-size: .5em;
   display: block;
@@ -352,6 +418,7 @@ Page Features
   color: #cb2026;
   padding-top: 1em;
 }
+
 .list-group{
   list-style: none;
   padding-left: 1em;
@@ -389,10 +456,15 @@ Image Grid on the projects page
   text-transform: uppercase;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   padding:.5em 2em;
   background-color: #cb2026;
   color: #fff;
+}
+@media (min-width: 400px) {
+  .captionRight{
+    right: 0;
+  }
 }
 .contactUs a:link, .contactUs a:visited{
   color: #fff;
@@ -401,9 +473,11 @@ Image Grid on the projects page
 .contactUs a:hover{
   color: #333;
 }
-.committeeMembers ul li{
-  display:  inline-block;
-  width: 48%;
+@media (min-width: 400px) {
+  .committeeMembers ul li{
+    display:  inline-block;
+    width: 48%;
+  }
 }
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 News/Events formatting
@@ -426,7 +500,13 @@ News/Events formatting
 .post{
   border-bottom: 1px dashed #999;
   margin-bottom: 1em;
-  padding: 2em 5em;
+  padding: 2em;
+}
+
+@media (min-width: 400px) {
+  .post{
+    padding: 2em  5em;
+  }
 }
 .post:last-child{
   border-bottom: none;
@@ -447,5 +527,10 @@ footer{
   color: #ccc;
 }
 .footerLogo{
-  text-align: right;
+  text-align: center;
+}
+@media (min-width: 400px) {
+  .footerLogo{
+    text-align: right;
+  }
 }
