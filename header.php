@@ -4,6 +4,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="copyright" content="Copyright (c) 2016 Central College" />
+    <meta name="Description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="//www.central.edu/favicon.ico" />
     <meta property="fb:app_id" content="122820004455478" />
@@ -17,8 +18,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@centralcollege">
     <meta name="twitter:creator" content="@centralcollege">
-    <meta name="twitter:title" content="<?php the_title();?>">
-    <meta name="twitter:description" content="<?php echo $storyDesc;?>">
+    <meta name="twitter:title" content="Forever Dutch">
+    <meta name="twitter:description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through.">
     <?php if($_SERVER['HTTP_HOST'] == '192.168.56.111'){ ?>
         <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
     <?php } ?>
