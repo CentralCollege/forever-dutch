@@ -150,6 +150,35 @@
         <div class="clearBoth"></div>
       </div>
     </section>
+    <section class="red steeringCommittee breathe">
+      <div class="container">
+        <h2>Forever Dutch Steering Committee</h2>
+        <div class="three columns">
+          <h3>Co-chairs</h3>
+          <ul>
+            <li>Pete Cartwright '82</li>
+            <li>Dennis Hanson '07H</li>
+            <li>Molly Parrott '02</li>
+          </ul>
+        </div>
+        <div class="eight columns committeeMembers">
+          <h3>Committee Members</h3>
+          <ul>
+            <li>Ann (Van Hemert) Allen '00</li>
+            <li>Mike Dahlhauser '94</li>
+            <li>Jim Danks '64</li>
+            <li>Vern Den Herder '71</li>
+            <li>John Edwards '72</li>
+            <li>Tom Koos '86</li>
+            <li>Marc Poortinga '98</li>
+            <li>Steve Sikkink '83</li>
+            <li>Harry Smith '73</li>
+            <li>Raegan (Schultz) Wagner '04</li>
+          </ul>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
+    </section>
     <section class="darkGray breathe">
       <div class="container">
         <div class="four columns">
@@ -168,4 +197,5 @@
         <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”<cite>Riley Gray '17</cite></blockquote>
       </div>
     </section>
+
     <?php get_footer();?>
