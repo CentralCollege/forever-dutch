@@ -4,7 +4,7 @@
         <h1>Your Time.</h1>
         <h2>A financial investment. An enduring legacy.</h2>
         <p>Those who have come before us helped create the Central legacy. Now, at this defining moment, it falls to this generation to carry it forward. The need is great. The time is now. Your investment helps reaffirm our pledge to further the intellectual, physical and spiritual development of future Central students.</p>
-        <p><a href="/give" class="whiteButton">Donate Now</a></p>
+        <p><a href="/give" class="whiteButton">Give Now</a></p>
       </div>
     </section>
 
@@ -55,8 +55,8 @@
           </tr>
           <tr>
             <td>Game-Winner</td>
-            <td>$50,000k</td>
-            <td>Athletic Director's Office</td>
+            <td>$50,000</td>
+            <td>Head Coach's Office</td>
             <td>18</td>
           </tr>
           <tr>

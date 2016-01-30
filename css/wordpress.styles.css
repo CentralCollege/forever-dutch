@@ -4,7 +4,7 @@ Theme URI: http://github.com/centralcollege/forever-dutch
 Author: Jacob Oyen
 Author URI: http://www.jacoboyen.com
 Description: The theme for the Central College forever dutch campaign.
-Version: 0.1.15-beta
+Version: 0.1.16-beta
 */
 
 .clearBoth{
@@ -400,6 +400,10 @@ Image Grid on the projects page
 }
 .contactUs a:hover{
   color: #333;
+}
+.committeeMembers ul li{
+  display:  inline-block;
+  width: 48%;
 }
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 News/Events formatting
