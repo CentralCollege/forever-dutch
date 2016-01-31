@@ -55,7 +55,7 @@
         $('.youTubeVideo').click(function(){
           var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/'+id+'/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo').html(youTubeEmbed);
-          _gaq.push(['_trackEvent', 'Forever Dutch Video', 'Play', 'Homepage Video Play']);
+          _gaq.push(['_trackEvent', 'Forever Dutch Video', 'Play', 'Homepage Announcement Video Play']);
         });
         $('.youTubeVideo').hover(function(){
           $('.playButtonImg').attr('src','//img.centralcollege.info/main/playButtonHover.png');
@@ -64,7 +64,7 @@
         });
       }
       $(document).ready(function(){
-        addYouTubeVideo('6BImc9wKKT4','Forever Dutch Video');
+        addYouTubeVideo('L9fD9lSvR_E','Forever Dutch Video');
       });
     </script>
     <?php get_footer();?>
