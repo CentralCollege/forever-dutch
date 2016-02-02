@@ -219,7 +219,7 @@ Section Afters
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footballTeamAfter::after{
   background-image: url(images/footballPlayers.jpg);
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   display: block;
   width: 100%;
@@ -228,7 +228,7 @@ Section Afters
 }
 .dedicationAfter::after{
   background-image: url(images/grayDedication.jpg);
-  background-position: center;
+  background-position: center top;
   background-size:cover;
   display: block;
   width: 100%;
@@ -237,7 +237,7 @@ Section Afters
 }
 .groundBreakingAfter::after{
   background-image: url(images/kuyperGroundBreaking.jpg);
-  background-position: center;
+  background-position: center top;
   background-size:cover;
   display: block;
   width: 100%;
@@ -246,7 +246,7 @@ Section Afters
 }
 .exteriorMockAfter::after{
   background-image: url(images/exteriorMockUp.jpg);
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   display: block;
   width: 100%;
