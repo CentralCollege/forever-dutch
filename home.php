@@ -35,13 +35,18 @@
         <blockquote>Being part of the Central community and Central softball opened my eyes to the difference I can make. Over four years, I learned that everything we do connects to something greater in our future. <cite>Heidi Reburn '14</cite></blockquote>
       </div>
     </section>
-    <section class="photoSplit">
+    <section class="photo">
+      <!--- First Row !--->
       <div class="container">
-        <div class="one-half column">
-          <img src="<?php echo bloginfo('template_directory')?>/images/staggBowlTrophy.jpg" class="u-max-full-width" alt="Forever Dutch">
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/staggBowlTrophy.jpg" alt="Central College Baseball Dugout">
+          </div>
         </div>
-        <div class="one-half column">
-          <img src="<?php echo bloginfo('template_directory')?>/images/2003SoftballTitle.jpg" class="u-max-full-width" alt="Forever Dutch">
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/2003SoftballTitle.jpg" class="u-max-full-width" alt="Forever Dutch">
+          </div>
         </div>
         <div class="clearBoth"></div>
       </div>
