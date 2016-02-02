@@ -53,23 +53,15 @@
     </section>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
-      function addYouTubeVideo(id,title){
-        var youTubeImage = '<img src="<?php echo bloginfo('template_directory')?>/images/videoThumb.jpg" alt="'+title+'" class="youTubeThumb" style="width: 100%;">';
+      $(document).ready(function(){
+        var youTubeImage = '<img src="<?php echo bloginfo('template_directory')?>/images/videoThumb.jpg" alt="Forever Dutch Video" class="youTubeThumb" style="width: 100%;">';
         $('.youTubeVideo').append(youTubeImage);
 
         $('.youTubeVideo').click(function(){
-          var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/'+id+'/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
+          var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/L9fD9lSvR_E/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo').html(youTubeEmbed);
-          _gaq.push(['_trackEvent', 'Forever Dutch Video', 'Play', 'Homepage Announcement Video Play']);
+          ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
-        $('.youTubeVideo').hover(function(){
-          $('.playButtonImg').attr('src','//img.centralcollege.info/main/playButtonHover.png');
-        },function(){
-          $('.playButtonImg').attr('src','//img.centralcollege.info/main/playButton.png');
-        });
-      }
-      $(document).ready(function(){
-        addYouTubeVideo('L9fD9lSvR_E','Forever Dutch Video');
       });
     </script>
     <?php get_footer();?>
