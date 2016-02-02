@@ -68,7 +68,7 @@
         </table>
       </div>
     </section>
-    <section class="contactUs red">
+    <section class="contactUs red breathe">
       <div class="container">
         <h2>Contact Us</h2>
         <div class="five columns">

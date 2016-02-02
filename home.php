@@ -35,36 +35,33 @@
         <blockquote>Being part of the Central community and Central softball opened my eyes to the difference I can make. Over four years, I learned that everything we do connects to something greater in our future. <cite>Heidi Reburn '14</cite></blockquote>
       </div>
     </section>
-    <section class="photoSplit">
+    <section class="photo">
+      <!--- First Row !--->
       <div class="container">
-        <div class="one-half column">
-          <img src="<?php echo bloginfo('template_directory')?>/images/staggBowlTrophy.jpg" class="u-max-full-width" alt="Forever Dutch">
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/staggBowlTrophy.jpg" alt="Central College Baseball Dugout">
+          </div>
         </div>
-        <div class="one-half column">
-          <img src="<?php echo bloginfo('template_directory')?>/images/2003SoftballTitle.jpg" class="u-max-full-width" alt="Forever Dutch">
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/2003SoftballTitle.jpg" class="u-max-full-width" alt="Forever Dutch">
+          </div>
         </div>
         <div class="clearBoth"></div>
       </div>
     </section>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
-      function addYouTubeVideo(id,title){
-        var youTubeImage = '<img src="<?php echo bloginfo('template_directory')?>/images/videoThumb.jpg" alt="'+title+'" class="youTubeThumb" style="width: 100%;">';
+      $(document).ready(function(){
+        var youTubeImage = '<img src="<?php echo bloginfo('template_directory')?>/images/videoThumb.jpg" alt="Forever Dutch Video" class="youTubeThumb" style="width: 100%;">';
         $('.youTubeVideo').append(youTubeImage);
 
         $('.youTubeVideo').click(function(){
-          var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/'+id+'/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
+          var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/L9fD9lSvR_E/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo').html(youTubeEmbed);
-          _gaq.push(['_trackEvent', 'Forever Dutch Video', 'Play', 'Homepage Announcement Video Play']);
+          ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
-        $('.youTubeVideo').hover(function(){
-          $('.playButtonImg').attr('src','//img.centralcollege.info/main/playButtonHover.png');
-        },function(){
-          $('.playButtonImg').attr('src','//img.centralcollege.info/main/playButton.png');
-        });
-      }
-      $(document).ready(function(){
-        addYouTubeVideo('L9fD9lSvR_E','Forever Dutch Video');
       });
     </script>
     <?php get_footer();?>
