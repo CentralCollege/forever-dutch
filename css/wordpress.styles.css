@@ -4,7 +4,7 @@ Theme URI: http://github.com/centralcollege/forever-dutch
 Author: Jacob Oyen
 Author URI: http://www.jacoboyen.com
 Description: The theme for the Central College forever dutch campaign.
-Version: 1.0.2
+Version: 1.0.3
 */
 
 .clearBoth{
@@ -386,6 +386,49 @@ Page Features
   color: #cb2026;
   border-right: none;
 }
+/* Table for generic pages */
+.whiteTableWithStyle{
+  width: 100%;
+  margin-top: 1em;
+  box-shadow: 10px 10px 0 #333;
+  border: 1px solid #333;
+}
+.whiteTableWithStyle th{
+  background-color: #cb2026;
+  border-collapse: separate;
+  border-spacing: 10px 50px;
+  padding: 1em;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+.whiteTableWithStyle td{
+  background-color: #efefef;
+  color: #000;
+  border-right: 1px solid #ccc;
+  padding: .5em;
+  width: 25%;
+  text-align: center;
+}
+.whiteTableWithStyle tr{
+  border-bottom: 1px dashed #ccc;
+}
+.whiteTableWithStyle tr:last-child, .whiteTableWithStyle  tr:first-child{
+  border-bottom: none;
+}
+.whiteTableWithStyle td:first-child, .whiteTableWithStyle  td:nth-child(2){
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.whiteTableWithStyle td:last-child{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1em;
+  color: #cb2026;
+  border-right: none;
+}
+
 .coachSkipQuote{
   background-image: url(images/coachSkip.jpg);
   background-position: center;
