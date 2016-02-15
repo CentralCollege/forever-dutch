@@ -20,6 +20,7 @@
     <meta name="twitter:creator" content="@centralcollege">
     <meta name="twitter:title" content="Forever Dutch">
     <meta name="twitter:description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through.">
+    <link rel="dns-prefetch" href="http://www.central.edu" />
     <?php if($_SERVER['HTTP_HOST'] == '192.168.56.111'){ ?>
         <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
     <?php } ?>
