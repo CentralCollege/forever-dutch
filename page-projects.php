@@ -93,7 +93,7 @@
       <div class="container">
       <div class="ten column">
         <div class="imageGroup">
-          <img src="<?php echo bloginfo('template_directory')?>/images/southEntry.jpg" alt="Gym Entry">
+          <a href="<?php echo bloginfo('template_directory')?>/images/southEntry-large.jpg" data-lightbox="renders" data-title="Gym Entry"><img src="<?php echo bloginfo('template_directory')?>/images/southEntry.jpg" alt="Gym Entry"></a>
           <div class="captionLeft">Gym Entry</div>
         </div>
       </div>
@@ -101,13 +101,13 @@
       <!--- Second Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/wrestlingRoom.jpg" alt="Wrestling Room">
+            <a href="<?php echo bloginfo('template_directory')?>/images/wrestlingRoom-large.jpg" data-lightbox="renders" data-title="Wrestling Room"><img src="<?php echo bloginfo('template_directory')?>/images/wrestlingRoom.jpg" alt="Wrestling Room"></a>
             <div class="captionLeft">Wrestling Room</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/upperAtrium.jpg" alt="Upper-Level Atrium">
+            <a href="<?php echo bloginfo('template_directory')?>/images/upperAtrium-large.jpg" data-lightbox="renders" data-title="Upper-Level Atrium"><img src="<?php echo bloginfo('template_directory')?>/images/upperAtrium.jpg" alt="Upper-Level Atrium"></a>
             <div class="captionRight">Upper-Level Atrium</div>
           </div>
         </div>
@@ -116,13 +116,13 @@
 
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/lowerAtrium.jpg" alt="Wrestling Room">
+            <a href="<?php echo bloginfo('template_directory')?>/images/lowerAtrium-large.jpg" data-lightbox="renders" data-title="Lower-Level Atrium"><img src="<?php echo bloginfo('template_directory')?>/images/lowerAtrium.jpg" alt="Wrestling Room"></a>
             <div class="captionLeft">Lower-Level Atrium</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/allAmericanHall.jpg" alt="All-America Corridor">
+            <a href="<?php echo bloginfo('template_directory')?>/images/allAmericanHall-large.jpg" data-lightbox="renders" data-title="All-America Corridor"><img src="<?php echo bloginfo('template_directory')?>/images/allAmericanHall.jpg" alt="All-America Corridor"></a>
             <div class="captionRight">All-America Corridor</div>
           </div>
         </div>
@@ -131,8 +131,16 @@
 
           <div class="ten column">
             <div class="imageGroup">
-              <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom.jpg" alt="Varsity Locker Room">
+              <a href="<?php echo bloginfo('template_directory')?>/images/lockerRoom-large.jpg" data-lightbox="renders" data-title="Varsity Locker Room"><img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom.jpg" alt="Varsity Locker Room"></a>
               <div class="captionLeft">Varsity Locker Room</div>
+            </div>
+          </div>
+          <div class="clearBoth"></div>
+
+          <div class="ten column">
+            <div class="imageGroup">
+              <a href="<?php echo bloginfo('template_directory')?>/images/southwestEntry-large.jpg" data-lightbox="renders" data-title="Southwest Entry"><img src="<?php echo bloginfo('template_directory')?>/images/southwestEntry.jpg" alt="Southwest Entry"></a>
+              <div class="captionLeft">Southwest Entry</div>
             </div>
           </div>
           <div class="clearBoth"></div>
@@ -197,5 +205,6 @@
         <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”<cite>Riley Gray '17</cite></blockquote>
       </div>
     </section>
-
+    <link href="<?php echo bloginfo('template_directory')?>/external-libraries/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+    <script src="<?php echo bloginfo('template_directory')?>/external-libraries/lightbox2/dist/js/lightbox-plus-jquery.min.js" async="true"></script>
     <?php get_footer();?>

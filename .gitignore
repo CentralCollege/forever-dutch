@@ -11,10 +11,14 @@ Thumbs.db
 # Project Specific #
 ####################
 css/styles.all.css
-external-libraries
 images-source
 js/scripts.all.js
 js/scripts.min.js
 node_modules
 support
 vagrant/.vagrant
+
+external-libraries/*
+!external-libraries/lightbox2/
+external-libraries/lightbox2/*
+!external-libraries/lightbox2/dist/

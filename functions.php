@@ -49,3 +49,15 @@ add_action('after_setup_theme', 'cui_add_title_tag');
 	function central_flush_rewrite(){
 		flush_rewrite_rules( false );
 	}
+// ----------------------------------------------------------------
+// Add menu for managing homepage items
+// ----------------------------------------------------------------
+function homepage_items_menu(){
+	add_menu_page('Homepage', 'Homepage', 'edit_pages', 'homepage_items_menu', 'homepage_items_edit', 'dashicons-admin-home', 4);
+}
+add_action('admin_menu', 'homepage_items_menu');
+
+//HTML for this page is done through an include.
+function homepage_items_edit(){
+	include 'features/homepage.php';
+}
