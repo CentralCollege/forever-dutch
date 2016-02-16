@@ -14,12 +14,16 @@
     <meta property="fb:admins" content="629217238" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<?php the_permalink();?>" />
-    <meta property="og:title" content="<?php the_title();?>" />
+    <meta property="og:title" content="Forever Dutch - <?php the_title();?>" />
+    <meta property="og:description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through.">
+    <meta property="og:image" content="<?php echo bloginfo('template_directory')?>/images/facebookOG.jpg" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@centralcollege">
     <meta name="twitter:creator" content="@centralcollege">
     <meta name="twitter:title" content="Forever Dutch">
     <meta name="twitter:description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through.">
+    <meta name="twitter:image" content="<?php echo bloginfo('template_directory')?>/images/facebookOG.jpg">
+    <link rel="dns-prefetch" href="http://www.central.edu" />
     <?php if($_SERVER['HTTP_HOST'] == '192.168.56.111'){ ?>
         <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
     <?php } ?>

@@ -58,7 +58,7 @@
         $('.youTubeVideo').append(youTubeImage);
 
         $('.youTubeVideo').click(function(){
-          var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/L9fD9lSvR_E/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
+          var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/<?php echo get_option('video_ID');?>/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo').html(youTubeEmbed);
           ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
