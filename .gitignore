@@ -11,6 +11,7 @@ Thumbs.db
 # Project Specific #
 ####################
 css/styles.all.css
+css/print.all.css
 images-source
 js/scripts.all.js
 js/scripts.min.js

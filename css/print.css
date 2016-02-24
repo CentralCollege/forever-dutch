@@ -1,0 +1,110 @@
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+.primary{
+  text-align: center;
+}
+.nav-group{
+  display: none;
+}
+.keystone h2{
+  display: none;
+}
+
+/* Table for the Donate page */
+.tableWithStyle{
+  width: 100%;
+  margin-top: 1em;
+  border: 1px solid #ccc;
+}
+.tableWithStyle th{
+  border-collapse: separate;
+  border-spacing: 10px 50px;
+  padding: 1em;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  color: #cb2026;
+}
+.tableWithStyle td{
+  background-color: #fff;
+  color: #000;
+  border-right: 1px solid #ccc;
+  padding: 1em;
+  width: 25%;
+  text-align: center;
+}
+.tableWithStyle tr{
+  border-bottom: 1px dashed #ccc;
+}
+.tableWithStyle tr:last-child, .tableWithStyle tr:first-child{
+  border-bottom: none;
+}
+.tableWithStyle td:first-child, .tableWithStyle td:nth-child(2){
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.tableWithStyle td:last-child{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1em;
+  color: #cb2026;
+  border-right: none;
+}
+
+/* Table for generic pages */
+.whiteTableWithStyle{
+  width: 100%;
+  margin-top: 1em;
+  border: 1px solid #333;
+}
+.whiteTableWithStyle th{
+  border-collapse: separate;
+  border-spacing: 10px 50px;
+  padding: 1em;
+  font-family: 'Rajdhani', sans-serif;
+  color: #cb2026;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+}
+.whiteTableWithStyle td{
+  background-color: #efefef;
+  color: #000;
+  border-right: 1px solid #ccc;
+  padding: .5em;
+  width: 25%;
+  text-align: center;
+}
+.whiteTableWithStyle tr{
+  border-bottom: 1px dashed #ccc;
+}
+.whiteTableWithStyle tr:last-child, .whiteTableWithStyle  tr:first-child{
+  border-bottom: none;
+}
+.whiteTableWithStyle td:first-child, .whiteTableWithStyle  td:nth-child(2){
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.whiteTableWithStyle td:last-child{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1em;
+  color: #cb2026;
+  border-right: none;
+}
+/* Captions */
+.imageGroup{
+  margin:1em 0;
+  text-align: center;
+}
+.captionLeft, .captionRight{
+  display: block;
+}
+
+footer{
+  margin-top: 1em;
+  text-align: center;
+}
