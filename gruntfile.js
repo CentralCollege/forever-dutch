@@ -8,7 +8,8 @@ var mozjpeg = require('imagemin-mozjpeg');
       },
       target: {
         files: {
-          'style.css': ['css/styles.all.css']
+          'style.css': ['css/styles.all.css'],
+          'print.css': ['css/print.all.css']
         }
       }
     },
@@ -20,6 +21,10 @@ var mozjpeg = require('imagemin-mozjpeg');
       css:{
         src:['external-libraries/normalize-css/normalize.css', 'css/skeleton.css', 'css/wordpress.styles.css'],
         dest: 'css/styles.all.css'
+      },
+      cssPrint:{
+        src:['external-libraries/normalize-css/normalize.css', 'css/print.css'],
+        dest: 'css/print.all.css'
       }
 		},
     imagemin:{
@@ -56,7 +61,7 @@ var mozjpeg = require('imagemin-mozjpeg');
         tasks: ['jshint', 'concat', 'uglify']
       },
       css:{
-        files: 'css/wordpress.styles.css',
+        files: ['css/wordpress.styles.css', 'css/print.css'],
         tasks: ['concat', 'cssmin']
       },
       images:{
