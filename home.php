@@ -12,11 +12,11 @@
     </section>
     <section class="videoPromo">
       <div class="container">
-        <div class="one-half column videoTitle">
-          <h2 class="redText">Time for a<br />Transformation.</h2>
-        </div>
         <div class="one-half column">
           <div class="youTubeVideo"></div>
+        </div>
+        <div class="one-half column">
+          <div class="youTubeVideo1"></div>
         </div>
         <div class="clearBoth"></div>
       </div>
@@ -54,12 +54,21 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-        var youTubeImage = '<img src="<?php echo bloginfo('template_directory')?>/images/videoThumb.jpg" alt="Forever Dutch Video" class="youTubeThumb" style="width: 100%;">';
+        var youTubeImage = '<img src="<?php echo get_option('video_thumb');?>" alt="<?php echo get_option('video_title');?>" class="youTubeThumb" style="width: 100%;">';
         $('.youTubeVideo').append(youTubeImage);
 
         $('.youTubeVideo').click(function(){
           var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/<?php echo get_option('video_ID');?>/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo').html(youTubeEmbed);
+          ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
+        });
+
+        var youTubeImage1 = '<img src="<?php echo get_option('video_thumb1');?>" alt="Forever Dutch Video" class="youTubeThumb1" style="width: 100%;">';
+        $('.youTubeVideo1').append(youTubeImage1);
+
+        $('.youTubeVideo1').click(function(){
+          var youTubeEmbed1 = '<iframe width="99%" height="350" src="//www.youtube.com/embed/<?php echo get_option('video_ID1');?>/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
+          $('.youTubeVideo1').html(youTubeEmbed1);
           ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
       });
