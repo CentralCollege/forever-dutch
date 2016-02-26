@@ -561,6 +561,11 @@ News/Events formatting
     width: 100%;
     height: auto;
 }
+/* Social Sharing */
+.social_FB, .social_GPlus, .social_twitter{
+	float: left;
+  margin: 5px;
+}
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
