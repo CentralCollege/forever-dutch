@@ -10,7 +10,11 @@
 	<div class="container breathe newsEvents">
 		<div class="post">
 			<div class="meta"><?php echo the_category(' '); ?> // <?php the_time( get_option( 'date_format' ) ) ?></div>
-			<h2 class="redText"><?php the_title();?></h2>
+			<?php if(is_single()==1){?>
+				<h2 class="redText"><?php the_title();?></h2>
+			<?php }else{?>
+				<h2 class="redText"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+			<?php } ?>
 			<?php the_content(); ?>
 			<?php if(is_single()==1){?>
 				<hr size=1 />
