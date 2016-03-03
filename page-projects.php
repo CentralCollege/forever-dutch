@@ -153,7 +153,7 @@
           <h2>Total Phase 1 and 2 costs exceed $15 million.</h2>
         </div>
         <div class="eight columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/fundraisingTotal.svg" alt="Fundraising Total" class="u-max-full-width">
+          <object data="<?php echo bloginfo('template_directory')?>/images/fundraisingTotal.svg" type="image/svg+xml" class="u-max-full-width"></object>
         </div>
         <div class="clearBoth"></div>
       </div>
