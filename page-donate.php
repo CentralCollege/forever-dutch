@@ -95,6 +95,16 @@
         <div class="clearBoth"></div>
       </div>
     </section>
+    <section class="fundraisingTotal breathe">
+      <div class="container">
+        <div class="eight columns offset-by-two">
+          <h2>Forever Dutch Endowment Fund</h2>
+          <p>Each athletic facility requires regular maintenance to keep in the best shape both structurally and aesthetically, to ensure the safety and enjoyments of its users, and to avoid costly repairs. Facility maintenance and refurbishment account for a significant portion of the college’s annual budget.</p>
+          <p><a href="/donate/endowment-fund/" class="redButton">Learn more</a></p>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
+    </section>
     <section class="coachSkipQuote">
       <div class="top container">
         <p><a href="/give" class="redButton pullRight">Donate Now</a></p>
