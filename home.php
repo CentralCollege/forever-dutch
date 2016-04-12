@@ -13,7 +13,7 @@
     <section class="videoPromo">
       <div class="container">
         <div class="one-half column">
-          <div class="youTubeVideo"></div>
+          <div><img src="http://img.centralcollege.info/forever-dutch/current.jpg" alt="Construction photo" style="width:100%;"/></div>
         </div>
         <div class="one-half column">
           <div class="youTubeVideo1"></div>
