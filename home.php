@@ -15,7 +15,7 @@
         <div class="one-half column">
           <h2>Follow the Construction</h2>
           &nbsp;
-          <div><img src="http://img.centralcollege.info/forever-dutch/current.jpg" alt="Construction photo" style="width:100%;"/></div>
+          <div><img src="//img.centralcollege.info/forever-dutch/current.jpg" alt="Construction photo" style="width:100%;"/></div>
         </div>
         <div class="one-half column">
           <h2>Forever Dutch Announcement</h2>
