@@ -15,15 +15,16 @@
         <div class="one-half column">
           <h2>Follow the Construction</h2>
           &nbsp;
-          <div><img src="//img.centralcollege.info/forever-dutch/current.jpg" alt="Construction photo" style="width:100%;"/></div>
+          <div><img src="//img.centralcollege.info/forever-dutch/current.jpg?v=<?php echo date('mdyHi')?>" alt="Construction photo" style="width:100%;"/></div>
         </div>
         <div class="one-half column">
-          <!---<h2>Forever Dutch Announcement</h2>
-          &nbsp;
-          <div class="youTubeVideo1"></div>--->
           <h2>Kuyper Gym Expansion Groundbreaking</h2>
           &nbsp;
+          <div class="youTubeVideo1"></div>
+          <!---<h2>Kuyper Gym Expansion Groundbreaking</h2>
+          &nbsp;
           <div><a href="//www.central.edu/athletics/story.cfm?storyID=6457"><img src="//img.centralcollege.info/forever-dutch/groundbreaking.jpg" alt="Kuyper Gym expansion groundbreaking" style="width:100%;"/></a></div>
+        </div>--->
         </div>
         <div class="clearBoth"></div>
       </div>
