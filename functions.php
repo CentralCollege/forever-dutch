@@ -61,3 +61,15 @@ add_action('admin_menu', 'homepage_items_menu');
 function homepage_items_edit(){
 	include 'features/homepage.php';
 }
+// ----------------------------------------------------------------
+// Add menu for managing homepage items
+// ----------------------------------------------------------------
+function tweak_image_gallery($output){
+	$string = $output;
+	$pattern = '<a ';
+	$replacement = '<a data-lightbox="central-gallery" data-lightbox="roadtrip"';
+	$result = str_ireplace($pattern, $replacement, $string);
+	$length = strlen($output);
+	return $result;
+}
+add_filter('the_content', 'tweak_image_gallery', 99);
