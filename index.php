@@ -36,6 +36,10 @@
 			<?php }?>
 		</div>
 	</div>
+	<?php if(has_shortcode($post->post_content, 'gallery')){ ?>
+		<link href="<?php echo bloginfo('template_directory')?>/external-libraries/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+		<script src="<?php echo bloginfo('template_directory')?>/external-libraries/lightbox2/dist/js/lightbox-plus-jquery.min.js" async="true"></script>
+	<?php } ?>
 	<?php endwhile; ?>
 	<?php else : ?>
 		<div class="container">
