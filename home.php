@@ -13,22 +13,14 @@
     <section class="videoPromo">
       <div class="container">
         <div class="one-half column">
-          <h2>Follow the Construction</h2>
-          &nbsp;
-          <div><img src="//img.centralcollege.info/forever-dutch/current.jpg?v=<?php echo date('mdyHi')?>" alt="Construction photo" style="width:100%;"/></div>
+          <div class="youTubeVideo"></div>
         </div>
         <div class="one-half column">
-          <h2>Kuyper Gym Expansion Groundbreaking</h2>
-          &nbsp;
           <div class="youTubeVideo1"></div>
-          <!---<h2>Kuyper Gym Expansion Groundbreaking</h2>
-          &nbsp;
-          <div><a href="//www.central.edu/athletics/story.cfm?storyID=6457"><img src="//img.centralcollege.info/forever-dutch/groundbreaking.jpg" alt="Kuyper Gym expansion groundbreaking" style="width:100%;"/></a></div>
-        </div>--->
         </div>
         <div class="clearBoth"></div>
       </div>
-    </section>
+    </section>    
     <section class="lightGray dedicationAfter dropTop">
       <div class="top container">
         <h2 class="redText">Game-changing facilities.</h2>
@@ -62,18 +54,15 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-        var youTubeImage = '<img src="<?php echo get_option('video_thumb');?>" alt="<?php echo get_option('video_title');?>" class="youTubeThumb" style="width: 100%;">';
+        var youTubeImage = '<h2><?php echo get_option('video_title');?></h2>&nbsp;<img src="<?php echo get_option('video_thumb');?>" alt="<?php echo get_option('video_title');?>" class="youTubeThumb" style="width: 100%;">';
         $('.youTubeVideo').append(youTubeImage);
-
         $('.youTubeVideo').click(function(){
           var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/<?php echo get_option('video_ID');?>/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo').html(youTubeEmbed);
           ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
-
-        var youTubeImage1 = '<img src="<?php echo get_option('video_thumb1');?>" alt="Forever Dutch Video" class="youTubeThumb1" style="width: 100%;">';
+		  var youTubeImage1 = '<h2><?php echo get_option('video_title1');?></h2>&nbsp;<img src="<?php echo get_option('video_thumb1');?>" alt="<?php echo get_option('video_title1');?>" class="youTubeThumb1" style="width: 100%;">';
         $('.youTubeVideo1').append(youTubeImage1);
-
         $('.youTubeVideo1').click(function(){
           var youTubeEmbed1 = '<iframe width="99%" height="350" src="//www.youtube.com/embed/<?php echo get_option('video_ID1');?>/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo1').html(youTubeEmbed1);
