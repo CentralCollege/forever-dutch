@@ -71,9 +71,9 @@
       <div class="container breathe">
         <div class="one-half column">
           <h2>Phase 2: <span class="grayText">Fundraising Underway</span></h2>
-          <h4 class="redText">P.H. Kupyer Gymansium Expansion</h4>
+          <h4 class="redText">P.H. Kuyper Gymnasium Expansion</h4>
           <ul class="list-group">
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New P.H. Kupyer Gymansium Entrance</li>
+            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New P.H. Kuyper Gymnasium Entrance</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Athletics Hall of Honor</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Lower-Level Lobby</li>
             <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Upper-Level Lobby</li>
