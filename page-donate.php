@@ -33,13 +33,13 @@
             <td>Hall of Fame</td>
             <td>$1 Million +</td>
             <td>Upper Lobby/Atrium</td>
-            <td>3</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>National Champ</td>
             <td>$500,000</td>
             <td>All American Corridor</td>
-            <td>4</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>All American</td>
@@ -51,19 +51,19 @@
             <td>Conference Champ</td>
             <td>$100,000</td>
             <td>Coach's Office Suite</td>
-            <td>11</td>
+            <td>8</td>
           </tr>
           <tr>
             <td>Game-Winner</td>
             <td>$50,000</td>
             <td>Head Coach's Office</td>
-            <td>18</td>
+            <td>12</td>
           </tr>
           <tr>
             <td>Home Run</td>
             <td>$25,000</td>
             <td>Assistant Coach's Office</td>
-            <td>11</td>
+            <td>18</td>
           </tr>
         </table>
         <p class="breathe"><a href="/donate/naming-opportunities/" class="redButton">See All Naming Opportunities</a></p>
