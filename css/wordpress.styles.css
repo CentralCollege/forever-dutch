@@ -33,6 +33,9 @@ Alignment
 .alignCenter{
   text-align: center;
 }
+.alignRight{
+  text-align: right;
+}
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Adjustment
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -263,6 +266,10 @@ Section Afters
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Page Features
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.latestPhotos img{
+  margin: 1em;
+  border: 1px solid #ccc;
+}
 /* Keystone content at the top of all of the pages. */
 .keystone{
   padding-bottom: 3em;

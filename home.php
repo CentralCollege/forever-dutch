@@ -20,7 +20,35 @@
         </div>
         <div class="clearBoth"></div>
       </div>
-    </section>    
+    </section>
+    <section class="darkGray breathe">
+      <div class="container">
+        <div class="twelve columns latestPhotos">
+          <h2>Latest Construction Photos:</h2>
+          <div class="alignCenter">
+          <?php
+            $attachments = get_posts( array(
+                'post_type' => 'attachment',
+                'posts_per_page' => 5,
+                'post_status' => null,
+                'post_mime_type' => 'image'
+            ) );
+
+            if(isset($attachments[0]->ID)) {
+             echo wp_get_attachment_image( $attachments[0]->ID, 'thumbnail' );
+             echo wp_get_attachment_image( $attachments[1]->ID, 'thumbnail' );
+             echo wp_get_attachment_image( $attachments[2]->ID, 'thumbnail' );
+             echo wp_get_attachment_image( $attachments[3]->ID, 'thumbnail' );
+             echo wp_get_attachment_image( $attachments[4]->ID, 'thumbnail' );
+            }
+            ?>
+          </div>
+          <p class="alignRight"><a href="/category/news/" class="whiteButton">See more photos</a></p>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
+    </section>
+
     <section class="lightGray dedicationAfter dropTop">
       <div class="top container">
         <h2 class="redText">Game-changing facilities.</h2>
