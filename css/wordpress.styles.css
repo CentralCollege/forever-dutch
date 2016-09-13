@@ -19,6 +19,8 @@ html{
 }
 iframe{
   border: none;
+  width:100%;
+  min-height:auto;
 }
 
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
