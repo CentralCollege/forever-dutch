@@ -89,7 +89,7 @@
           $('.youTubeVideo').html(youTubeEmbed);
           ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
-		  var youTubeImage1 = '<h2><?php echo get_option('video_title1');?></h2>&nbsp;<img src="<?php echo get_option('video_thumb1');?>" alt="<?php echo get_option('video_title1');?>" class="youTubeThumb1" style="width: 100%;">';
+		  var youTubeImage1 = '<h2><?php echo get_option('video_title1');?></h2>&nbsp;<img src="<?php echo get_option('video_thumb1');?>" alt="<?php echo get_option('video_title1');?>" class="youTubeThumb" style="width: 100%;">';
         $('.youTubeVideo1').append(youTubeImage1);
         $('.youTubeVideo1').click(function(){
           var youTubeEmbed1 = '<iframe width="99%" height="350" src="//www.youtube.com/embed/<?php echo get_option('video_ID1');?>/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
