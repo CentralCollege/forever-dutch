@@ -73,10 +73,10 @@
       <div class="container">
         <h2>Contact Us</h2>
         <div class="five columns">
-          <p><strong>Bill Northup</strong><br />
-            Vice President for Advancement<br />
-            641-628-7645<br />
-            <a href="mailto:northupb@central.edu">northupb@central.edu</a></p>
+          <p><strong>Sunny Eighmy</strong><br />
+            Interim Vice President for Advancement<br />
+            641-628-5272<br />
+            <a href="mailto:eighmys@central.edu">eighmys@central.edu</a></p>
           <p><strong>Dave Sutphen</strong><br />
             Major Gifts Officer for Strategic Initiatives<br />
             641-628-5192<br />
