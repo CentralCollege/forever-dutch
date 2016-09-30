@@ -33,11 +33,14 @@
 <form name="form1" method="post" action="">
   <?php wp_nonce_field( 'updateHomepage'); ?>
   <!--Video Title-->
+  <div class="error notice"><h2>Left homepage video is disabled to force the webcam image to update</h2></div>
+  <div class="error notice">
   <h2>Left homepage video:</h2>
   <p><label for="video_title">Video Title:</label> <input type="text" name="video_title" id="video_title" value="<?php echo get_option('video_title');?>" size="50" /></p>
   <p><label for="video_title">Video Thumbnail:</label> <input type="text" name="video_thumb" id="video_thumb" value="<?php echo get_option('video_thumb');?>" size="50" /></p>
   <p><label for="video_ID">Video ID:</label> youtube.com/watch?v=<input type="text" name="video_ID" id="video_ID" value="<?php echo get_option('video_ID');?>" size="18" /><br />
   <span class="description">Enter the Youtube video ID.  The ID is usually at the end of the video URL.</span></p>
+  </div>
   <hr />
   <h2>Right homepage video space:</h2>
   <p><label for="video_title1">Video Title:</label> <input type="text" name="video_title1" id="video_title1" value="<?php echo get_option('video_title1');?>" size="50" /></p>
