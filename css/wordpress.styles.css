@@ -612,7 +612,6 @@ Countdown
 }
 .clockGroup{
   display: inline-block;
-  padding: .5em;
   text-align: center;
   font-family: Rajdhani,sans-serif;
   font-size: 1.15em;
@@ -635,20 +634,11 @@ Countdown
 }
 .clock{
   background-color: #000;
-  border-radius: .25em;
-  border: 1px solid #000;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
   color: #fff;
   padding: .5em;
   display: inline-block;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
   margin-bottom: .5em;
-  width: 50%;
-
-
-  background-image: linear-gradient(rgba(255,255,255,0.15), transparent);
-  background-image: -webkit-linear-gradient(rgba(255,255,255,0.15), transparent);
-  background-image: -moz-linear-gradient(rgba(255,255,255,0.15), transparent);
-  background-image: -ms-linear-gradient(rgba(255,255,255,0.15), transparent);
-  background-image: -o-linear-gradient(rgba(255,255,255,0.15), transparent);
+  width: 30%;
+  box-shadow: 6px 6px 0 #666;
 }
