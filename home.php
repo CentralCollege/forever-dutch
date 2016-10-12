@@ -1,13 +1,36 @@
 <?php get_header();?>
-    <section class="red footballTeamAfter">
+    <section class="red">
       <div class="container">
-        <h1>Forever Dutch.</h1>
-        <p><strong>Central College is more than a four-year experience.</strong></p>
-        <p>It’s forever a part of who we are and how we live. We are Forever Dutch.</p>
-        <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
+        <h1>48 hour challenge</h1>
         <h2>This is your team. This is your time.</h2>
+        <p>Take the forever Dutch 48 challenge to raise $1 million.</p>
+        <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
+
         <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
         <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
+      </div>
+    </section>
+    <section class="darkGray dropTop breathe" style="padding-top:0;">
+      <div class="container">
+        <h2>Countdown</h2>
+        <div class="countdown">
+          <div class="clockGroup">
+            <div class="days clock">0</div>
+            <div class="label">days</div>
+          </div>
+          <div class="clockGroup">
+            <div class="hours clock">0</div>
+            <div class="label">hours</div>
+          </div>
+          <div class="clockGroup">
+            <div class="minutes clock">0</div>
+            <div class="label">minutes</div>
+          </div>
+          <div class="clockGroup">
+            <div class="seconds clock">0</div>
+            <div class="label">seconds</div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="videoPromo">
@@ -83,6 +106,7 @@
       </div>
     </section>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo bloginfo('template_directory')?>/external-libraries/jquery.countdown/dist/jquery.countdown.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         var youTubeImage = '<h2><?php echo get_option('video_title');?></h2><img src="<?php echo get_option('video_thumb');?>" alt="<?php echo get_option('video_title');?>" class="youTubeThumb" style="width: 100%;">';
@@ -99,6 +123,22 @@
           $('.youTubeVideo1').html(youTubeEmbed1);
           ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
+        //Setup the countdowns
+        // --------------------------------------------------------------
+        $('.days').countdown('10/24/2016 08:00:00', function(event) {
+          $('.days').html(event.strftime('%-D'));
+        });
+        $('.hours').countdown('10/24/2016 08:00:00', function(event) {
+          $('.hours').html(event.strftime('%-H'));
+        });
+        $('.minutes').countdown('10/24/2016 08:00:00', function(event) {
+          $('.minutes').html(event.strftime('%-m'));
+        });
+        $('.seconds').countdown('10/24/2016 08:00:00', function(event) {
+          $('.seconds').html(event.strftime('%-S'));
+        });
+        // --------------------------------------------------------------
       });
+
     </script>
     <?php get_footer();?>
