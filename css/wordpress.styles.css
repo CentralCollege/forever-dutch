@@ -197,6 +197,10 @@ header{
   box-shadow: none;
   color: #cb2026;
 }
+.redButtonNav{
+  border: 2px solid #cb2026;
+  box-shadow: 3px 3px 0 #333;
+}
 /* Mobile styles */
 @media (min-width: 400px) {
   header{
@@ -580,6 +584,30 @@ News/Events formatting
 .social_FB, .social_GPlus, .social_twitter{
 	float: left;
   margin: 5px;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Formstack formatting
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.fsSectionHeader{
+  padding: .5em 0 !important;
+}
+h2.fsSectionHeading{
+  font-family: 'Rajdhani', sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 2em !important;
+}
+.fsSubmitButton, input.fsSubmitButton{
+  font-family: 'Rajdhani', sans-serif !important;
+  font-size: 2em !important;
+  background-color: #cb2026 !important;
+  padding: .25em 1em !important;
+  display: block !important;
+  color: #fff !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  box-shadow: 6px 6px 0 #333 !important;
+  border: 1px solid #cb2026 !important;
 }
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Footer
