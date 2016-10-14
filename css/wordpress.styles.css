@@ -198,8 +198,14 @@ header{
   color: #cb2026;
 }
 .redButtonNav{
-  border: 2px solid #cb2026;
+  /*border: 2px solid #cb2026;
+  box-shadow: 3px 3px 0 #333;*/
+  background-color: #666666;
+  color: #fff !important;
   box-shadow: 3px 3px 0 #333;
+}
+.redButtonNav:hover{
+  background-color: #990000;
 }
 /* Mobile styles */
 @media (min-width: 400px) {
