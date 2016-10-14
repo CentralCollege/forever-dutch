@@ -604,3 +604,41 @@ footer{
     text-align: right;
   }
 }
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Countdown
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.countdown{
+  text-align: center;
+}
+.clockGroup{
+  display: inline-block;
+  text-align: center;
+  font-family: Rajdhani,sans-serif;
+  font-size: 1.15em;
+  min-width: 15%;
+}
+@media (min-width: 400px) {
+  .clockGroup{
+    font-size: 1.25em;
+  }
+}
+@media (min-width: 615px) {
+  .clockGroup{
+    font-size: 1.75em;
+  }
+}
+@media (min-width: 900px) {
+  .clockGroup{
+    font-size: 2em;
+  }
+}
+.clock{
+  background-color: #000;
+
+  color: #fff;
+  padding: .5em;
+  display: inline-block;
+  margin-bottom: .5em;
+  width: 30%;
+  box-shadow: 6px 6px 0 #666;
+}
