@@ -1,18 +1,17 @@
 <?php get_header();?>
     <section class="red">
-      <div class="container">
-        <h1>48 hour challenge</h1>
-        <h2>This is your team. This is your time.</h2>
-        <p>Take the forever Dutch 48 challenge to raise $1 million.</p>
-        <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
-
-        <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
-        <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
+      <div class="container breathe">
+        <h1>Forever Dutch.</h1>
+        <h2>Get in the game!</h2>
+        <p>After a great start, Forever Dutch is entering the fourth quarter.<br />
+        Now it’s your time for an opportunity to make this another Central victory!<br />
+        Learn more on Monday, Oct. 24. Your teammates are counting on you!</p>
+        <p class="alignRight"><a href="/give" class="whiteButton">Give Now</a></p>
       </div>
     </section>
     <section class="darkGray dropTop breathe" style="padding-top:0;">
       <div class="container">
-        <h2>Countdown</h2>
+        <h2>Announcement Countdown</h2>
         <div class="countdown">
           <div class="clockGroup">
             <div class="days clock">0</div>
