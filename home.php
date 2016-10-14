@@ -1,13 +1,14 @@
 <?php get_header();?>
-    <section class="red footballTeamAfter">
+    <section class="red breathe">
       <div class="container">
         <h1>Forever Dutch.</h1>
-        <p><strong>Central College is more than a four-year experience.</strong></p>
-        <p>It’s forever a part of who we are and how we live. We are Forever Dutch.</p>
-        <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
-        <h2>This is your team. This is your time.</h2>
+        <h2>Get in the game!</h2>
+        <p>After a great start, Forever Dutch is entering the fourth quarter.<br />
+        Now it’s your time for an opportunity to make this another Central victory!<br />
+        Learn more next Monday, Oct. 24. Your teammates are counting on you!</p>
+        <p>&nbsp;</p>
         <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
-        <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
+        <img src="<?php echo bloginfo('template_directory')?>/images-source/48HourChallenge.svg" alt="Central College Dutch" width="400">
       </div>
     </section>
     <section class="videoPromo">
