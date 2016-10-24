@@ -3,9 +3,9 @@
       <div class="container breathe">
         <h1>Forever Dutch.</h1>
         <h2>48-hour challenge</h2>
-        <p>What’s the 48-Hour Challenge? Starting at midnight tonight and for the next 48 hours, we’re asking everyone to join together and contribute to the Forever Dutch initiative.</p>
+        <p>When everyone contributes, our team grows stronger.  This is your team. Now is your time.</p>
         <img src="<?php echo bloginfo('template_directory')?>/images/48HourChallenge.svg" alt="48 Hour Challenge" width="300">
-        <p class="alignRight"><a href="/give" class="whiteButton">Contribute</a></p>
+        <p class="alignRight"><a href="/challenge" class="whiteButton">Take the Challenge</a></p>
       </div>
     </section>
     <section class="darkGray dropTop breathe" style="padding-top:0;">
@@ -123,16 +123,16 @@
         });
         //Setup the countdowns
         // --------------------------------------------------------------
-        $('.days').countdown('10/25/2016 00:00:00', function(event) {
+        $('.days').countdown('10/26/2016 23:59:59', function(event) {
           $('.days').html(event.strftime('%-D'));
         });
-        $('.hours').countdown('10/25/2016 00:00:00', function(event) {
+        $('.hours').countdown('10/26/2016 23:59:59', function(event) {
           $('.hours').html(event.strftime('%-H'));
         });
-        $('.minutes').countdown('10/25/2016 00:00:00', function(event) {
+        $('.minutes').countdown('10/26/2016 23:59:59', function(event) {
           $('.minutes').html(event.strftime('%-M'));
         });
-        $('.seconds').countdown('10/25/2016 00:00:00', function(event) {
+        $('.seconds').countdown('10/26/2016 23:59:59', function(event) {
           $('.seconds').html(event.strftime('%-S'));
         });
         // --------------------------------------------------------------
