@@ -155,5 +155,5 @@ fi
 	--allow-root
 
 ## Set excessively liberal permissions on all of WordPress since we are testing.
-chmod -R 777 /var/www/wordpress
+## chmod -R 777 /var/www/wordpress
 chown www-data.www-data /var/www/wordpress -R

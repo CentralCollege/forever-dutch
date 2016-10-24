@@ -20,6 +20,12 @@ support
 vagrant/.vagrant
 
 external-libraries/*
+
 !external-libraries/lightbox2/
 external-libraries/lightbox2/*
+
 !external-libraries/lightbox2/dist/
+
+!external-libraries/jquery.countdown/
+external-libraries/jquery.countdown/*
+!external-libraries/jquery.countdown/dist/

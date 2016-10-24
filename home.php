@@ -3,10 +3,10 @@
       <div class="container breathe">
         <h1>Forever Dutch.</h1>
         <h2>Get in the game!</h2>
-        <p>After a great start, Forever Dutch is entering the fourth quarter.<br />
-        Now it’s your time for an opportunity to make this another Central victory!<br />
-        Learn more on Monday, Oct. 24. Your teammates are counting on you!</p>
-        <p class="alignRight"><a href="/give" class="whiteButton">Give Now</a></p>
+        <p>After a great start, Forever Dutch is entering the fourth quarter.</p>
+        <p>But work remains! Central's board of trustees has endorsed the college’s efforts to continue raising additional funds to complete the much-needed P.H. Kuyper Gymnasium renovation.</p>
+<?php /*?>        <img src="<?php echo bloginfo('template_directory')?>/images/48HourChallenge.svg" alt="48 Hour Challenge" width="300">
+<?php */?>        <p class="alignRight"><a href="/2016/10/p-h-kuyper-gymnasium-renovation/" class="whiteButton">Learn More</a></p>
       </div>
     </section>
     <section class="darkGray dropTop breathe" style="padding-top:0;">
@@ -124,16 +124,16 @@
         });
         //Setup the countdowns
         // --------------------------------------------------------------
-        $('.days').countdown('10/24/2016 08:00:00', function(event) {
+        $('.days').countdown('10/24/2016 12:00:00', function(event) {
           $('.days').html(event.strftime('%-D'));
         });
-        $('.hours').countdown('10/24/2016 08:00:00', function(event) {
+        $('.hours').countdown('10/24/2016 12:00:00', function(event) {
           $('.hours').html(event.strftime('%-H'));
         });
-        $('.minutes').countdown('10/24/2016 08:00:00', function(event) {
-          $('.minutes').html(event.strftime('%-m'));
+        $('.minutes').countdown('10/24/2016 12:00:00', function(event) {
+          $('.minutes').html(event.strftime('%-M'));
         });
-        $('.seconds').countdown('10/24/2016 08:00:00', function(event) {
+        $('.seconds').countdown('10/24/2016 12:00:00', function(event) {
           $('.seconds').html(event.strftime('%-S'));
         });
         // --------------------------------------------------------------
