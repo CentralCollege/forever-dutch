@@ -2,16 +2,15 @@
     <section class="red">
       <div class="container breathe">
         <h1>Forever Dutch.</h1>
-        <h2>Get in the game!</h2>
-        <p>After a great start, Forever Dutch is entering the fourth quarter.</p>
-        <p>But work remains! Central's board of trustees has endorsed the college’s efforts to continue raising additional funds to complete the much-needed P.H. Kuyper Gymnasium renovation.</p>
-<?php /*?>        <img src="<?php echo bloginfo('template_directory')?>/images/48HourChallenge.svg" alt="48 Hour Challenge" width="300">
-<?php */?>        <p class="alignRight"><a href="/2016/10/p-h-kuyper-gymnasium-renovation/" class="whiteButton">Learn More</a></p>
+        <h2>48-hour challenge</h2>
+        <p>What’s the 48-Hour Challenge? Starting at midnight tonight and for the next 48 hours, we’re asking everyone to join together and contribute to the Forever Dutch initiative.</p>
+        <img src="<?php echo bloginfo('template_directory')?>/images/48HourChallenge.svg" alt="48 Hour Challenge" width="300">
+        <p class="alignRight"><a href="/give" class="whiteButton">Contribute</a></p>
       </div>
     </section>
     <section class="darkGray dropTop breathe" style="padding-top:0;">
       <div class="container">
-        <h2>Announcement Countdown</h2>
+        <h2>48-Hour Challenge Countdown</h2>
         <div class="countdown">
           <div class="clockGroup">
             <div class="days clock">0</div>
@@ -124,16 +123,16 @@
         });
         //Setup the countdowns
         // --------------------------------------------------------------
-        $('.days').countdown('10/24/2016 12:00:00', function(event) {
+        $('.days').countdown('10/25/2016 00:00:00', function(event) {
           $('.days').html(event.strftime('%-D'));
         });
-        $('.hours').countdown('10/24/2016 12:00:00', function(event) {
+        $('.hours').countdown('10/25/2016 00:00:00', function(event) {
           $('.hours').html(event.strftime('%-H'));
         });
-        $('.minutes').countdown('10/24/2016 12:00:00', function(event) {
+        $('.minutes').countdown('10/25/2016 00:00:00', function(event) {
           $('.minutes').html(event.strftime('%-M'));
         });
-        $('.seconds').countdown('10/24/2016 12:00:00', function(event) {
+        $('.seconds').countdown('10/25/2016 00:00:00', function(event) {
           $('.seconds').html(event.strftime('%-S'));
         });
         // --------------------------------------------------------------
