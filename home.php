@@ -2,39 +2,19 @@
     <section class="red">
       <div class="container breathe">
         <h1>Forever Dutch.</h1>
-        <h2>48-hour challenge</h2>
-        <p>When everyone contributes, our team grows stronger.  This is your team. Now is your time.</p>
-        <img src="<?php echo bloginfo('template_directory')?>/images/48HourChallenge.svg" alt="48 Hour Challenge" width="300">
-        <p class="alignRight"><a href="/challenge" class="whiteButton">Take the Challenge</a></p>
-      </div>
+        <p><strong>Central College is more than a four-year experience.</strong></p>
+        <p>It’s forever a part of who we are and how we live. We are Forever Dutch.</p>
+        <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
+        <h2>This is your team. This is your time.</h2>
+        <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
+        <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
+     </div>
     </section>
-    <section class="darkGray dropTop breathe" style="padding-top:0;">
-      <div class="container">
-        <h2>48-Hour Challenge Countdown</h2>
-        <div class="countdown">
-          <div class="clockGroup">
-            <div class="days clock">0</div>
-            <div class="label">days</div>
-          </div>
-          <div class="clockGroup">
-            <div class="hours clock">0</div>
-            <div class="label">hours</div>
-          </div>
-          <div class="clockGroup">
-            <div class="minutes clock">0</div>
-            <div class="label">minutes</div>
-          </div>
-          <div class="clockGroup">
-            <div class="seconds clock">0</div>
-            <div class="label">seconds</div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section class="videoPromo">
       <div class="container">
         <div class="one-half column">
-          <?php //<div class="youTubeVideo"></div>?>
+          <div class="youTubeVideo"></div>
           <h2>Follow the construction</h2>
           <img src="//img.centralcollege.info/forever-dutch/current.jpg?t=<?php echo date(ymdH);?>" alt="Follow the Construction" class="youTubeThumb" style="width: 100%;">
 
@@ -121,21 +101,6 @@
           $('.youTubeVideo1').html(youTubeEmbed1);
           ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
         });
-        //Setup the countdowns
-        // --------------------------------------------------------------
-        $('.days').countdown('10/26/2016 23:59:59', function(event) {
-          $('.days').html(event.strftime('%-D'));
-        });
-        $('.hours').countdown('10/26/2016 23:59:59', function(event) {
-          $('.hours').html(event.strftime('%-H'));
-        });
-        $('.minutes').countdown('10/26/2016 23:59:59', function(event) {
-          $('.minutes').html(event.strftime('%-M'));
-        });
-        $('.seconds').countdown('10/26/2016 23:59:59', function(event) {
-          $('.seconds').html(event.strftime('%-S'));
-        });
-        // --------------------------------------------------------------
       });
 
     </script>
