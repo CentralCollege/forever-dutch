@@ -3,7 +3,7 @@
     <div class="container">
       <h1>Take the challenge</h1>
       <h2>This is my time! This my team!</h2>
-      <p>Take the challenge or challenge a friend. Be forever Dutch!</p>
+      <p>Take the Forever Dutch Challenge. We're seeking as many contributions as possible to help transform the athletics experience at Central College. Construction has already started on the P.H. Kuyper Gymnasium expansion. Your donation will help Central College fund the P.H. Kuyper renovation project.</p>
     </div>
   </section>
   <section class="give">
