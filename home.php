@@ -17,7 +17,6 @@
           <div class="youTubeVideo"></div>
           <h2>Follow the construction</h2>
           <img src="//img.centralcollege.info/forever-dutch/current.jpg?t=<?php echo date(ymdH);?>" alt="Follow the Construction" class="youTubeThumb" style="width: 100%;">
-
         </div>
         <div class="one-half column">
           <div class="youTubeVideo1"></div>
@@ -87,13 +86,13 @@
     <script type="text/javascript" src="<?php echo bloginfo('template_directory')?>/external-libraries/jquery.countdown/dist/jquery.countdown.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-        var youTubeImage = '<h2><?php echo get_option('video_title');?></h2><img src="<?php echo get_option('video_thumb');?>" alt="<?php echo get_option('video_title');?>" class="youTubeThumb" style="width: 100%;">';
+        /* var youTubeImage = '<h2><?php echo get_option('video_title');?></h2><img src="<?php echo get_option('video_thumb');?>" alt="<?php echo get_option('video_title');?>" class="youTubeThumb" style="width: 100%;">';
         $('.youTubeVideo').append(youTubeImage);
         $('.youTubeVideo').click(function(){
           var youTubeEmbed = '<iframe width="99%" height="350" src="//www.youtube.com/embed/<?php echo get_option('video_ID');?>/?rel=0&showinfo=0&autohide=1&vq=hd720&autoplay=true"></iframe>';
           $('.youTubeVideo').html(youTubeEmbed);
           ga('send', 'event', 'Video', 'play', 'Forever Dutch Video', 'Homepage Announcement Video Play', {nonInteraction: true});
-        });
+        }); */
 		  var youTubeImage1 = '<h2><?php echo get_option('video_title1');?></h2><img src="<?php echo get_option('video_thumb1');?>" alt="<?php echo get_option('video_title1');?>" class="youTubeThumb" style="width: 100%;">';
         $('.youTubeVideo1').append(youTubeImage1);
         $('.youTubeVideo1').click(function(){
