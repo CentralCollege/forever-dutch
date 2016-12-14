@@ -18,6 +18,7 @@ js/scripts.min.js
 node_modules
 support
 vagrant/.vagrant
+wp-import-data.xml
 
 external-libraries/*
 
