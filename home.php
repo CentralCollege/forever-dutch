@@ -11,45 +11,12 @@
      </div>
     </section>
 
-    <section class="videoPromo">
+    <section class="dropTop">
       <div class="container">
-        <div class="one-half column">
-          <div class="youTubeVideo"></div>
-          <h2>Follow the construction</h2>
-          <img src="//img.centralcollege.info/forever-dutch/current.jpg?t=<?php echo date(ymdH);?>" alt="Follow the Construction" class="youTubeThumb" style="width: 100%;">
-        </div>
-        <div class="one-half column">
-          <div class="youTubeVideo1"></div>
-        </div>
-        <div class="clearBoth"></div>
-      </div>
-    </section>
-    <section class="darkGray breathe">
-      <div class="container">
-        <div class="twelve columns latestPhotos">
-          <h2>Latest Construction Photos:</h2>
-          <div class="alignCenter">
-          <?php
-            $attachments = get_posts( array(
-                'post_type' => 'attachment',
-                'posts_per_page' => 5,
-                'post_status' => null,
-                'post_mime_type' => 'image'
-            ) );
-
-            if(isset($attachments[0]->ID)) {
-             echo wp_get_attachment_image( $attachments[0]->ID, 'thumbnail' );
-             echo wp_get_attachment_image( $attachments[1]->ID, 'thumbnail' );
-             echo wp_get_attachment_image( $attachments[2]->ID, 'thumbnail' );
-             echo wp_get_attachment_image( $attachments[3]->ID, 'thumbnail' );
-             echo wp_get_attachment_image( $attachments[4]->ID, 'thumbnail' );
-            }
-            ?>
-          </div>
-          <p class="alignRight"><a href="/category/news/" class="whiteButton">See more photos</a></p>
-        </div>
-        <div class="clearBoth"></div>
-      </div>
+        <h2 class="redText">Phase 3</h2>
+        <p>The next phase of forever dutch!</p>
+        <p>More content coming...</p>
+    </div>
     </section>
 
     <section class="lightGray dedicationAfter dropTop">
@@ -58,7 +25,6 @@
         <h2 class="redText">A life-changing athletics program.</h2>
         <p> More than trophies and titles, a Central College education changes lives. Facilities can enhance Central's ability to attact students and, ultimately, to serve them.</p>
         <h3>The time has come &mdash; not just for a renovation, but for a transformation.</h3>
-        <p><a href="/events" class="redButton">Upcoming Events</a></p>
       </div>
     </section>
     <section class="quoteSpace">
