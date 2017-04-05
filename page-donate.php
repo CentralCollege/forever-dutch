@@ -8,17 +8,6 @@
       </div>
     </section>
 
-    <section class="fundraisingTotal breathe">
-      <div class="container">
-        <div class="four columns">
-          <h2>Total Phase 1 and 2 costs exceed $15 million.</h2>
-        </div>
-        <div class="eight columns">
-          <object data="<?php echo bloginfo('template_directory')?>/images/fundraisingTotal.svg" type="image/svg+xml" class="u-max-full-width"></object>
-        </div>
-        <div class="clearBoth"></div>
-      </div>
-    </section>
     <section class="lightGray dropTop">
       <div class="breathe container">
         <h2 class="whiteText">Naming Opportunities</h2>
@@ -74,13 +63,13 @@
         <h2>Contact Us</h2>
         <div class="five columns">
           <p><strong>Sunny Eighmy</strong><br />
-            Interim Vice President for Advancement<br />
+            Vice President for Advancement<br />
             641-628-5272<br />
             <a href="mailto:eighmys@central.edu">eighmys@central.edu</a></p>
-          <p><strong>Dave Sutphen</strong><br />
+          <?php /*<p><strong>Dave Sutphen</strong><br />
             Major Gifts Officer for Strategic Initiatives<br />
             641-628-5192<br />
-            <a href="mailto:sutphend@central.edu">sutphend@central.edu</a></p>
+            <a href="mailto:sutphend@central.edu">sutphend@central.edu</a></p>*/?>
         </div>
         <div class="five columns">
           <p><strong>Don Morrison</strong><br />
@@ -88,7 +77,7 @@
             641-628-5280<br />
             <a href="mailto:morrisond@central.edu">morrisond@central.edu</a></p>
           <p><strong>Kathy Cashen Thompson</strong><br />
-            Director of Alumni Relations<br />
+            Major Gifts Officer<br />
             641-628-5186<br />
             <a href="mailto:cashenthompsonk@central.edu">cashenthompsonk@central.edu</a></p>
         </div>
