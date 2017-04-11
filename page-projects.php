@@ -10,19 +10,6 @@
       <div class="container breathe">
         <div class="one-half column">
           <h2>Phase 3: <span class="grayText">Renovation</span></h2>
-          <h4 class="redText">Renovation of the orginal facility</h4>
-          <ul class="list-group">
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>ITEM</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>ITEM</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>ITEM</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>ITEM</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>ITEM</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>ITEM</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>ITEM</li>
-          </ul>
-        </div>
-        <div class="one-half column breathe">
-          <p class="redText"><strong>Additional Information HERE</strong> this space is for additional context of this phase of the rennovation.</p>
         </div>
         <div class="clearBoth"></div>
     </section>
