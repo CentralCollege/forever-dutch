@@ -25,11 +25,11 @@
           <div class="statDetails">All-Americans</div>
         </div>
         <div class="three columns">
-          <div class="stat">154</div>
+          <div class="stat">162</div>
           <div class="statDetails">Iowa Conference Championships</div>
         </div>
         <div class="three columns">
-          <div class="stat">227</div>
+          <div class="stat">235</div>
           <div class="statDetails">All-Americans</div>
         </div>
         <div class="clearBoth"></div>
