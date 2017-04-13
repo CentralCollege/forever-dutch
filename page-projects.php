@@ -3,7 +3,7 @@
       <div class="container">
         <h1>A Transformation.</h1>
         <h2>Championship facilities for an elite program.</h2>
-        <p>The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through. Forever Dutch began with outdoor field enhancements. Next is expansion of P.H. Kuyper Gymnasium, followed by the building’s renovation and possible additional construction.</p>
+        <p>The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through. Forever Dutch began with outdoor field enhancements. Next is expansion of P.H. Kuyper Gymnasium, followed by the building’s renovation and possible additional construction.</p>
       </div>
     </section>
     <section class="phase">
@@ -243,7 +243,7 @@
     </section>
     <section class="quoteSpace">
       <div class="container">
-        <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”<cite>Riley Gray '17</cite></blockquote>
+        <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”<cite>Riley Gray '17</cite></blockquote>
       </div>
     </section>
     <link href="<?php echo bloginfo('template_directory')?>/external-libraries/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
