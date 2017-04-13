@@ -3,7 +3,7 @@
       <div class="container">
         <h1>A Transformation.</h1>
         <h2>Championship facilities for an elite program.</h2>
-        <p>The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through. Forever Dutch began with outdoor field enhancements. Next is expansion of P.H. Kuyper Gymnasium, followed by the building’s renovation and possible additional construction.</p>
+        <p>The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through. Forever Dutch began with outdoor field enhancements followed by the expansion of P.H. Kuyper Gymnasium. Next is the building’s renovation and possible additional construction.</p>
       </div>
     </section>
     <section class="phase">
