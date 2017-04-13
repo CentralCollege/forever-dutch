@@ -2,9 +2,9 @@
     <section class="red">
       <div class="container breathe">
         <h1>Forever Dutch.</h1>
-        <p><strong>Central College is more than a four-year experience.</strong></p>
-        <p>It’s forever a part of who we are and how we live. We are Forever Dutch.</p>
-        <p>And now it falls to us to answer the call in this defining moment in the life of the college.</p>
+        <p>The game-winning shot. The rally cries from the dugout. The game-preserving defensive stop. The exchange of the baton. Red and white. "Hoo-rah!"</p>
+        <p>Teamwork ... It is the backbone of the Central spirit that defines what it means to be Forever Dutch.</p>
+        <p>Now more than ever, we need you&mdash;the Forever Dutch family&mdash;to help continue Central's legacy of supporting successful students.</p>
         <h2>This is your team. This is your time.</h2>
         <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
         <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
