@@ -13,19 +13,22 @@
 
     <section class="dropTop">
       <div class="container">
-        <h2 class="redText">The rennovation phase</h2>
+        <h2 class="redText">The renovation phase</h2>
         <p>“Game changers.” That’s what Eric Van Kley, Central’s athletics director, calls the transformation of the A.N. Kuyper Athletics Complex facilities. The Renovation phase of Forever Dutch builds off the momentum, excitement and energy of the earlier phases. With modern functionality and appearance, this phase will bring necessary renovations to several areas:</p>
       </div>
       <div class="container">
         <div class="four columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom-300.jpg" alt="Renovated locker room rendering" style="width: 100%;">
           <h2>Total renovation of locker rooms</h2>
           <p>The locker rooms were constructed for an all-male, eight-sport program that served 202 athletes in 1969. Central now boasts a 19-sport program for men and women and nearly 750 student-athletes. A large new locker room makes adequate space available for every team.</p>
         </div>
         <div class="four columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom-300.jpg" alt="Renovated training room rendering" style="width: 100%;">
           <h2>Expanded athletic training room</h2>
           <p>The athletic training room will expand by 30-40% and will provide elbow room for trainers to prepare athletes to be game-ready. The modernized treatment and programming space will enhance the educational value for student trainers.</p>
         </div>
         <div class="four columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-300.jpg" alt="Renovated waiting room rendering" style="width: 100%;">
           <h2>New team space</h2>
           <p>A multi-purpose space will be instrumental for recruiting, team building activities and watching game film.</p>
         </div>
@@ -33,14 +36,17 @@
       </div>
       <div class="container">
         <div class="four columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-300.jpg" alt="Renovated conference room rendering" style="width: 100%;">
           <h2>Recruiting and special event suites</h2>
           <p>Two suites overlooking the gym will provide space to host events and enhance the overall experience for students, alumni and top quality recruits.</p>
         </div>
         <div class="four columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/largeOffice-300.jpg" alt="Renovated large office rendering" style="width: 100%;">
           <h2>Renovation and addition of new assistant and head coach offices</h2>
           <p>Our nationally recognized coaching staff members get the best out of their athletes, so they deserve the best office environment to maximize their work and provide hospitality to recruits and families.</p>
         </div>
         <div class="four columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/sikkinkDykstraWelcomeCenter-300.jpg" alt="Renovated welcome center rendering" style="width: 100%;">
           <h2>Reception area/Sikkink Welcome Center</h2>
           <p>This area is an open and inviting space that will allow families, students and coaches to visit with each other.</p>
         </div>
