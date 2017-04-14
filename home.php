@@ -68,6 +68,14 @@
         <blockquote>Being part of the Central community and Central softball opened my eyes to the difference I can make. Over four years, I learned that everything we do connects to something greater in our future. <cite>Heidi Reburn '14</cite></blockquote>
       </div>
     </section>
+    <section class="darkGray breathe">
+      <div class="container">
+        <h2>The legacy of the Kuyper, Farver and Griffith extended family</h2>
+        <p>The descendants of Pella Corporation founder P.H. “Pete” Kuyper, along with their family foundations, teamed for a transformational $4.2-million gift for the Forever Dutch initiative, the largest gift in Central’s 164-year history.</p>
+        <p>The donation included a lead gift from the late M. Joan Farver, former chair of Pella Corporation and long-time Central trustee. Joan, who passed away Feb. 27, 2017, at the age of 97, was the daughter of P.H. Kuyper. The new atrium is named in her honor – the M. Joan Kuyper Farver Atrium, adding her name to those of other prominent family members. The A.N. Kuyper Athletics Complex is named for Farver’s grandfather, while H.S. Kuyper Fieldhouse carries the name of her brother.</p>
+        <p><a href="/history/the-kuyper-legacy/" class="redButton">The Kuyper Family Legacy</a></p>
+      </div>
+    </section>
     <section class="photo">
       <!--- First Row !--->
       <div class="container">
