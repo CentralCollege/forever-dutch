@@ -47,7 +47,7 @@
         </div>
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/sikkinkDykstraWelcomeCenter-300.jpg" alt="Renovated welcome center rendering" style="width: 100%;">
-          <h2>Reception area/Sikkink Welcome Center</h2>
+          <h2>Reception area and Welcome Center</h2>
           <p>This area is an open and inviting space that will allow families, students and coaches to visit with each other.</p>
         </div>
         <div class="clearBoth"></div>
