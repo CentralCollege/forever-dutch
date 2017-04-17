@@ -3,88 +3,75 @@
       <div class="container">
         <h1>A Transformation.</h1>
         <h2>Championship facilities for an elite program.</h2>
-        <p>The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through. Forever Dutch began with outdoor field enhancements. Next is expansion of P.H. Kuyper Gymnasium, followed by the building’s renovation and possible additional construction.</p>
-      </div>
-    </section>
-    <section class="phase">
-      <div class="container breathe">
-        <h2>Phase 1: <span class="grayText">Complete</span></h2>
-        <h4 class="redText">Outdoor field upgrades</h4>
-        <ul class="list-group">
-          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Baseball Dugouts, Stadium Seating</li>
-          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Softball Stadium Seating</li>
-          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Soccer Hillside Stadium Seating</li>
-          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>Ron and Joyce Schipper Stadium improvements, including Heritage Plaza</li>
-          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>PPI Videoboard</li>
-        </ul>
-      </div>
-    </section>
-    <section class="photo">
-      <!--- First Row !--->
-      <div class="container">
-        <div class="hard-half column">
-          <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/baseball.jpg" alt="Central College Baseball Dugout">
-            <div class="captionLeft">Baseball Dugout</div>
-          </div>
-        </div>
-        <div class="hard-half column">
-          <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/baseballSeating.jpg" alt="Central College Baseball Seating">
-            <div class="captionRight">Baseball Seating</div>
-          </div>
-        </div>
-        <div class="clearBoth">
-      <!--- Second Row !--->
-        <div class="ten column">
-          <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/soccer.jpg" alt="Central College Baseball Seating">
-            <div class="captionLeft">Soccer Seating</div>
-          </div>
-        </div>
-        <div class="clearBoth"></div>
-      <!---Third Row !--->
-        <div class="hard-half column">
-          <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/softball.jpg" alt="Central College Softball Seating" style="width: 100%;">
-            <div class="captionLeft">Softball Seating</div>
-          </div>
-        </div>
-        <div class="hard-half column">
-          <div class="imageGroup">
-            <img src="<?php echo bloginfo('template_directory')?>/images/heritagePlaza.jpg" alt="Central College Baseball Seating">
-            <div class="captionRight">Heritage Plaza</div>
-          </div>
-        </div>
-        <!--- Fourth Row !--->
-        <div class="clearBoth">
-          <div class="ten column">
-            <div class="imageGroup">
-              <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg" alt="Central College Schipper Stadium">
-              <div class="captionLeft">Schipper Stadium</div>
-            </div>
-          </div>
-          <div class="clearBoth"></div>
+        <p>The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through. Forever Dutch began with outdoor field enhancements followed by the expansion of P.H. Kuyper Gymnasium. Next is the building’s renovation and possible additional construction.</p>
       </div>
     </section>
     <section class="phase">
       <div class="container breathe">
         <div class="one-half column">
-          <h2>Phase 2: <span class="grayText">Fundraising Underway</span></h2>
+          <h2>Phase 3: <span class="grayText">Renovation</span></h2>
+        </div>
+        <div class="clearBoth"></div>
+    </section>
+    <section class="photo">
+      <div class="container">
+      <!--- First Row !--->
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <a href="<?php echo bloginfo('template_directory')?>/images/largeOffice-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/largeOffice.jpg" alt="Large Office"></a>
+            <div class="captionLeft">Large Offices</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <a href="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom.jpg" alt="Conference room"></a>
+            <div class="captionRight">Conference Room/Large Suites</div>
+          </div>
+        </div>
+        <div class="clearBoth">
+      <!--- Second Row !--->
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <a href="<?php echo bloginfo('template_directory')?>/images/sikkinkDykstraWelcomeCenter-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/sikkinkDykstraWelcomeCenter.jpg" alt="Welcome Center"></a>
+            <div class="captionLeft">Welcome Center</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea.jpg" alt="Training Room Waiting Area"></a>
+            <div class="captionRight">Team Space</div>
+          </div>
+        </div>
+        <div class="clearBoth">
+      <!--- Third Row !--->
+        <div class="ten column">
+          <div class="imageGroup">
+            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoom-large.jpg" data-lightbox="renders" data-title="Training Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom.jpg" alt="Training Room"></a>
+            <div class="captionLeft">Training Room</div>
+          </div>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
+    </section>
+
+    <section class="phase">
+      <div class="container breathe">
+        <div class="one-half column">
+          <h2>Phase 2: <span class="grayText">Complete</span></h2>
           <h4 class="redText">P.H. Kuyper Gymnasium Expansion</h4>
           <ul class="list-group">
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New P.H. Kuyper Gymnasium Entrance</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Athletics Hall of Honor</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Lower-Level Lobby</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Upper-Level Lobby</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>All-America Corridor</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Varsity Locker Room</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>New Wrestling Room</li>
-            <li class="list-group-item"><i class="fa fa-square-o fa-fw"></i>Major Infrastructure Improvements</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New P.H. Kuyper Gymnasium Entrance</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Athletics Hall of Honor</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Lower-Level Lobby</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Upper-Level Lobby</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>All-America Corridor</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Varsity Locker Room</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Wrestling Room</li>
+            <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>Major Infrastructure Improvements</li>
           </ul>
         </div>
         <div class="one-half column breathe">
-          <p class="redText"><strong>Anticipated future phases may include</strong> new recruitment and office space, a new team meeting room, an expanded athletic training room and practice/competition facilities.</p>
+          <p class="redText"><strong>Opening April 20, 2017</strong></p>
         </div>
         <div class="clearBoth"></div>
     </section>
@@ -147,17 +134,71 @@
 
       </div>
     </section>
-    <section class="fundraisingTotal breathe">
-      <div class="container">
-        <div class="four columns">
-          <h2>Total Phase 1 and 2 costs exceed $15 million.</h2>
-        </div>
-        <div class="eight columns">
-          <object data="<?php echo bloginfo('template_directory')?>/images/fundraisingTotal.svg" type="image/svg+xml" class="u-max-full-width"></object>
-        </div>
-        <div class="clearBoth"></div>
+
+    <section class="phase">
+      <div class="container breathe">
+        <h2>Phase 1: <span class="grayText">Complete</span></h2>
+        <h4 class="redText">Outdoor field upgrades</h4>
+        <ul class="list-group">
+          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Baseball Dugouts, Stadium Seating</li>
+          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Softball Stadium Seating</li>
+          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Soccer Hillside Stadium Seating</li>
+          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>Ron and Joyce Schipper Stadium improvements, including Heritage Plaza</li>
+          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>PPI Videoboard</li>
+        </ul>
       </div>
     </section>
+    <section class="photo">
+      <!--- First Row !--->
+      <div class="container">
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/baseball.jpg" alt="Central College Baseball Dugout">
+            <div class="captionLeft">Baseball Dugout</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/baseballSeating.jpg" alt="Central College Baseball Seating">
+            <div class="captionRight">Baseball Seating</div>
+          </div>
+        </div>
+        <div class="clearBoth">
+      <!--- Second Row !--->
+        <div class="ten column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/soccer.jpg" alt="Central College Baseball Seating">
+            <div class="captionLeft">Soccer Seating</div>
+          </div>
+        </div>
+        <div class="clearBoth"></div>
+      <!---Third Row !--->
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/softball.jpg" alt="Central College Softball Seating" style="width: 100%;">
+            <div class="captionLeft">Softball Seating</div>
+          </div>
+        </div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <img src="<?php echo bloginfo('template_directory')?>/images/heritagePlaza.jpg" alt="Central College Baseball Seating">
+            <div class="captionRight">Heritage Plaza</div>
+          </div>
+        </div>
+        <!--- Fourth Row !--->
+        <div class="clearBoth">
+          <div class="ten column">
+            <div class="imageGroup">
+              <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg" alt="Central College Schipper Stadium">
+              <div class="captionLeft">Schipper Stadium</div>
+            </div>
+          </div>
+          <div class="clearBoth"></div>
+      </div>
+    </section>
+
+
+
     <section class="red steeringCommittee breathe">
       <div class="container">
         <h2>Forever Dutch Steering Committee</h2>
@@ -202,7 +243,7 @@
     </section>
     <section class="quoteSpace">
       <div class="container">
-        <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”<cite>Riley Gray '17</cite></blockquote>
+        <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”<cite>Riley Gray '17</cite></blockquote>
       </div>
     </section>
     <link href="<?php echo bloginfo('template_directory')?>/external-libraries/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
