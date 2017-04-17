@@ -19,13 +19,13 @@
         <div class="hard-half column">
           <div class="imageGroup">
             <a href="<?php echo bloginfo('template_directory')?>/images/largeOffice-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/largeOffice.jpg" alt="Large Office"></a>
-            <div class="captionLeft">Large Office</div>
+            <div class="captionLeft">Large Offices</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
             <a href="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom.jpg" alt="Conference room"></a>
-            <div class="captionRight">Conference Room</div>
+            <div class="captionRight">Conference Room/Large Suites</div>
           </div>
         </div>
         <div class="clearBoth">
@@ -39,7 +39,7 @@
         <div class="hard-half column">
           <div class="imageGroup">
             <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea.jpg" alt="Training Room Waiting Area"></a>
-            <div class="captionRight">Training Room Waiting Area</div>
+            <div class="captionRight">Team Space</div>
           </div>
         </div>
         <div class="clearBoth">
