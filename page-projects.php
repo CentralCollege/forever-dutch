@@ -32,7 +32,7 @@
       <!--- Second Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/WelcomeCenter.jpg" alt="Welcome Center"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter.jpg" alt="Welcome Center"></a>
             <div class="captionLeft">Welcome Center</div>
           </div>
         </div>
