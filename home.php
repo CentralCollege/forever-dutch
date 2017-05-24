@@ -13,8 +13,8 @@
 
     <section class="dropTop">
       <div class="container">
-        <h2 class="redText">The renovation phase</h2>
-        <p>“Game changers.” That’s what Eric Van Kley, Central’s athletics director, calls the transformation of the A.N. Kuyper Athletics Complex facilities. The Renovation phase of Forever Dutch builds off the momentum, excitement and energy of the earlier phases. With modern functionality and appearance, this phase will bring necessary renovations to several areas:</p>
+        <h2 class="redText">Renovation</h2>
+        <p>“Game changers.” That’s what Eric Van Kley, Central’s athletics director, calls the renovation of the A.N. Kuyper Athletics Complex facilities. This builds off the momentum, excitement and energy of the expansion of P.H. Kuyper Gymnasium. With modern functionality and appearance, this will bring necessary renovations to several areas:</p>
       </div>
       <div class="container">
         <div class="four columns">
@@ -55,7 +55,7 @@
     </div>
     </section>
 
-    <section class="lightGray dedicationAfter dropTop">
+    <section class="lightGray dropTop">
       <div class="top container">
         <h2 class="redText">Game-changing facilities.</h2>
         <h2 class="redText">A life-changing athletics program.</h2>
