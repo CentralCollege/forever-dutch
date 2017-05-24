@@ -10,6 +10,7 @@
 
     <section class="contactUs lightGray breathe">
       <div class="container">
+        <p>Naming opportunities are available with gifts of $25,000 or more.</p>
         <h2>Contact Us</h2>
         <div class="five columns">
           <p><strong>Sunny Eighmy</strong><br />

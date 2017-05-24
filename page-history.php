@@ -35,11 +35,11 @@
         <div class="clearBoth"></div>
       </div>
     </section>
-    <section class="lightGray dropTop groundBreakingAfter">
+    <section class="lightGray dropTop">
       <div class="top container">
         <h2 class="redText"><img src="<?php echo bloginfo('template_directory')?>/images/echelon.svg" class="eschelon">The heart of the A.N. Kuyper Athletics Complex and the proud Dutch athletics tradition: P.H. Kuyper Gymnasium.</h2>
         <p>P.H. Kuyper Gymnasium is the headquarters for Central’s athletics program. However, more than 45 years after construction, it’s no longer able to match the quality of Central’s athletes and teams.</p>
-        <p class="breathe"><strong>Below:</strong> Central President Don Lubbers at P.H. Kuyper Gymnasium groundbreaking in fall, 1968.</p>
+        <p>&nbsp;</p>
       </div>
     </section>
     <section class="comparison top exteriorMockAfter">
