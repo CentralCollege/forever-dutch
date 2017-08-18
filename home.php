@@ -1,14 +1,23 @@
 <?php get_header();?>
     <section class="red">
       <div class="container breathe">
-        <h1>Forever Dutch.</h1>
-        <p>The game-winning shot. The rally cries from the dugout. The game-preserving defensive stop. The exchange of the baton. Red and white. "Hoo-rah!"</p>
-        <p>Teamwork ... It is the backbone of the Central spirit that defines what it means to be Forever Dutch.</p>
-        <p>Now more than ever, we need you&mdash;the Forever Dutch family&mdash;to help continue Central's legacy of supporting successful students.</p>
-        <h2>This is your team. This is your time.</h2>
-        <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
-        <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
+          <h1>Forever Dutch.</h1>
+          <p>The game-winning shot. The rally cries from the dugout. The game-preserving defensive stop. The exchange of the baton. Red and white. "Hoo-rah!"</p>
+          <p>Teamwork ... It is the backbone of the Central spirit that defines what it means to be Forever Dutch.</p>
+          <p>Now more than ever, we need you&mdash;the Forever Dutch family&mdash;to help continue Central's legacy of supporting successful students.</p>
+          <h2>This is your team. This is your time.</h2>
+          <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
+          <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
+        </div>
      </div>
+    </section>
+    <section class="section darkGray dropTop">
+      <div class="container breathe">
+        <div class="twelve columns alignCenter">
+          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/MnO6dU6_6vA?ecver=2?rel=0" width="100%" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
     </section>
 
     <section class="dropTop">
