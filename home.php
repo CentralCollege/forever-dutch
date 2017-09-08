@@ -7,7 +7,7 @@
           <p>Now more than ever, we need you&mdash;the Forever Dutch family&mdash;to help continue Central's legacy of supporting successful students.</p>
           <h2>This is your team. This is your time.</h2>
           <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
-          <img src="//d1lqhpmxg10s5j.cloudfront.net/images/athletics/templateImages/centralAthleticsLogo_2.png" alt="Central College Dutch" width="270" height="115">
+          <img src="<?php echo bloginfo('template_directory')?>/images/athleticsLogo.png" alt="Central College Dutch" width="auto" height="125">
         </div>
      </div>
     </section>
