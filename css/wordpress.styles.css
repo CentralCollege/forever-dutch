@@ -36,6 +36,14 @@ Alignment
 .alignRight{
   text-align: right;
 }
+img.alignright{
+  float: right;
+  margin: .75em 0 .75em .75em;
+}
+img.alignleft{
+  float: left;
+  margin: .75em .75em .75em 0;
+}
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Adjustment
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
