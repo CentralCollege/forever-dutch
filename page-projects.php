@@ -9,27 +9,29 @@
     <section class="phase">
       <div class="container breathe">
         <div class="one-half column">
-          <h2>Phase 3: <span class="grayText">Renovation</span></h2>
+          <h2>P.H. Kuyper Gymnasium Renovation: <span class="grayText">Next</span></h2>
         </div>
         <div class="clearBoth"></div>
     </section>
     <section class="photo">
       <div class="container">
       <!--- First Row !--->
-        <div class="hard-half column">
-          <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/largeOffice-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/largeOffice.jpg" alt="Large Office"></a>
-            <div class="captionLeft">Large Offices</div>
+          <div class="ten column">
+            <div class="imageGroup">
+              <a href="<?php echo bloginfo('template_directory')?>/images/lockerRoom-large.jpg" data-lightbox="renders" data-title="Locker Rooms"><img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom.jpg" alt="Locker Rooms"></a>
+              <div class="captionLeft">Locker Rooms</div>
+            </div>
           </div>
-        </div>
-        <div class="hard-half column">
-          <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom.jpg" alt="Conference room"></a>
-            <div class="captionRight">Conference Room/Large Suites</div>
-          </div>
-        </div>
-        <div class="clearBoth">
+          <div class="clearBoth"></div>
       <!--- Second Row !--->
+        <div class="ten column">
+          <div class="imageGroup">
+            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoom-large.jpg" data-lightbox="renders" data-title="Athletic Training Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom.jpg" alt="Athletic Training Room"></a>
+            <div class="captionLeft">Athletic Training Room</div>
+          </div>
+        </div>
+        <div class="clearBoth"></div>        
+      <!--- Third Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
             <a href="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter.jpg" alt="Welcome Center"></a>
@@ -39,25 +41,32 @@
         <div class="hard-half column">
           <div class="imageGroup">
             <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea.jpg" alt="Training Room Waiting Area"></a>
-            <div class="captionRight">Team Space</div>
+            <div class="captionRight">Athletic Training Reception</div>
           </div>
         </div>
         <div class="clearBoth">
-      <!--- Third Row !--->
-        <div class="ten column">
+      <!--- Fourth Row !--->
+        <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoom-large.jpg" data-lightbox="renders" data-title="Training Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom.jpg" alt="Training Room"></a>
-            <div class="captionLeft">Training Room</div>
+            <a href="<?php echo bloginfo('template_directory')?>/images/largeOffice-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/largeOffice.jpg" alt="Large Office"></a>
+            <div class="captionLeft">Offices</div>
           </div>
         </div>
-        <div class="clearBoth"></div>
+        <div class="hard-half column">
+          <div class="imageGroup">
+            <a href="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom.jpg" alt="Conference room"></a>
+            <div class="captionRight">Conference Room/Suites</div>
+          </div>
+        </div>
+        <div class="clearBoth">
+
       </div>
     </section>
 
     <section class="phase">
       <div class="container breathe">
-        <div class="one-half column">
-          <h2>Phase 2: <span class="grayText">Complete</span></h2>
+          <h2>P.H. Kuyper Gymnasium Expansion: <span class="grayText">Complete</span></h2>
+          <p class="redText"><strong>Open April 20, 2017</strong></p>
           <h4 class="redText">P.H. Kuyper Gymnasium Expansion</h4>
           <ul class="list-group">
             <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New P.H. Kuyper Gymnasium Entrance</li>
@@ -68,11 +77,7 @@
             <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Varsity Locker Room</li>
             <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Wrestling Room</li>
             <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>Major Infrastructure Improvements</li>
-          </ul>
-        </div>
-        <div class="one-half column breathe">
-          <p class="redText"><strong>Opening April 20, 2017</strong></p>
-        </div>
+          </ul>        <div class="one-half column breathe">
         <div class="clearBoth"></div>
     </section>
     <section class="photo">
@@ -118,7 +123,7 @@
 
           <div class="ten column">
             <div class="imageGroup">
-              <a href="<?php echo bloginfo('template_directory')?>/images/lockerRoom-large.jpg" data-lightbox="renders" data-title="Varsity Locker Room"><img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom.jpg" alt="Varsity Locker Room"></a>
+              <a href="<?php echo bloginfo('template_directory')?>/images/lockerRoomNew-large.jpg" data-lightbox="renders" data-title="Varsity Locker Room"><img src="<?php echo bloginfo('template_directory')?>/images/lockerRoomNew.jpg" alt="Varsity Locker Room"></a>
               <div class="captionLeft">Varsity Locker Room</div>
             </div>
           </div>
@@ -137,8 +142,7 @@
 
     <section class="phase">
       <div class="container breathe">
-        <h2>Phase 1: <span class="grayText">Complete</span></h2>
-        <h4 class="redText">Outdoor field upgrades</h4>
+        <h2>Outdoor Field Upgrades: <span class="grayText">Complete</span></h2>
         <ul class="list-group">
           <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Baseball Dugouts, Stadium Seating</li>
           <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Softball Stadium Seating</li>
@@ -154,7 +158,7 @@
         <div class="hard-half column">
           <div class="imageGroup">
             <img src="<?php echo bloginfo('template_directory')?>/images/baseball.jpg" alt="Central College Baseball Dugout">
-            <div class="captionLeft">Baseball Dugout</div>
+            <div class="captionLeft">Baseball Dugouts</div>
           </div>
         </div>
         <div class="hard-half column">
@@ -190,7 +194,7 @@
           <div class="ten column">
             <div class="imageGroup">
               <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg" alt="Central College Schipper Stadium">
-              <div class="captionLeft">Schipper Stadium</div>
+              <div class="captionLeft">Schipper Stadium Improvements</div>
             </div>
           </div>
           <div class="clearBoth"></div>
