@@ -29,35 +29,35 @@
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom-300.jpg" alt="Renovated locker room rendering" style="width: 100%;">
           <h2>Total renovation of locker rooms</h2>
-          <p>The locker rooms were constructed for an all-male, eight-sport program that served 202 athletes in 1969. Central now boasts a 19-sport program for men and women and nearly 750 student-athletes. A large new locker room makes adequate space available for every team.</p>
+          <p>The locker rooms were constructed for an all-male, eight-sport program that served 202 athletes in 1969. Central now boasts a 19-sport program for nearly 750 male and female student-athletes. The original locker rooms need to be transformed into a spacious facilities for every team mirroring the new varsity locker room that was part of the expansion.</p>
         </div>
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom-300.jpg" alt="Renovated training room rendering" style="width: 100%;">
           <h2>Expanded athletic training room</h2>
-          <p>The athletic training room will expand by 30-40% and will provide elbow room for trainers to prepare athletes to be game-ready. The modernized treatment and programming space will enhance the educational value for student trainers.</p>
+          <p>The athletic training room will expand more than 30 percent, eliminating overcrowding in treatment areas that requires utilizing hallways and floor spaces. The modernized facility will also enhance the educational value for athletic training students.</p>
         </div>
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-300.jpg" alt="Renovated waiting room rendering" style="width: 100%;">
-          <h2>New team space</h2>
-          <p>A multi-purpose space will be instrumental for recruiting, team building activities and watching game film.</p>
+          <h2>Athletic training reception &amp; team spaces</h2>
+          <p>With the construction of a reception area, student-athletes needing athletic training services during peak times will no longer need to wait on hallway floors and impede traffic flow. A new multi-purpose team space will also be constructed to utilize for video review, team activities and recruiting.</p>
         </div>
         <div class="clearBoth"></div>
       </div>
       <div class="container">
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-300.jpg" alt="Renovated conference room rendering" style="width: 100%;">
-          <h2>Recruiting and special event suites</h2>
-          <p>Two suites overlooking the gym will provide space to host events and enhance the overall experience for students, alumni and top quality recruits.</p>
+          <h2>Recruiting/event suites</h2>
+          <p>Two suites overlooking the gymnasium competition floor will provide space to host events and entertain students, alumni and top recruits.</p>
         </div>
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/largeOffice-300.jpg" alt="Renovated large office rendering" style="width: 100%;">
-          <h2>Renovation and addition of new assistant and head coach offices</h2>
-          <p>Our nationally recognized coaching staff members get the best out of their athletes, so they deserve the best office environment to maximize their work and provide hospitality to recruits and families.</p>
+          <h2>Renovation and addition of new assistant &amp; head coach offices</h2>
+          <p>Our nationally-recognized coaching staff members get the best out of their athletes, so they deserve the best office environment to maximize their work and provide hospitality to recruits and families.</p>
         </div>
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-300.jpg" alt="Renovated welcome center rendering" style="width: 100%;">
-          <h2>Reception area and Welcome Center</h2>
-          <p>This area is an open and inviting space that will allow families, students and coaches to visit with each other.</p>
+          <h2>Welcome Center</h2>
+          <p>The main athletics department reception area will provide an open and inviting space students, prospective students, families and other visitors.</p>
         </div>
         <div class="clearBoth"></div>
       </div>
@@ -74,7 +74,7 @@
     </section>
     <section class="quoteSpace">
       <div class="container">
-        <blockquote>Being part of the Central community and Central softball opened my eyes to the difference I can make. Over four years, I learned that everything we do connects to something greater in our future. <cite>Heidi Reburn '14</cite></blockquote>
+        <blockquote>I came to Central to become a better player. I am leaving as a better person. <cite>Karly Olson '17<br>Iowa Conference Softball Pitcher of the Year</cite></blockquote>
       </div>
     </section>
     <section class="darkGray breathe">
