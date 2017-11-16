@@ -27,17 +27,17 @@
       </div>
       <div class="container">
         <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom-300.jpg" alt="Renovated locker room rendering" style="width: 100%;">
+          <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom-300.jpg?v=2" alt="Renovated locker room rendering" style="width: 100%;">
           <h2>Total renovation of locker rooms</h2>
           <p>The locker rooms were constructed for an all-male, eight-sport program that served 202 athletes in 1969. Central now boasts a 19-sport program for nearly 750 male and female student-athletes. The original locker rooms need to be transformed into a spacious facilities for every team mirroring the new varsity locker room that was part of the expansion.</p>
         </div>
         <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom-300.jpg" alt="Renovated training room rendering" style="width: 100%;">
+          <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom-300.jpg?v=2" alt="Renovated training room rendering" style="width: 100%;">
           <h2>Expanded athletic training room</h2>
           <p>The athletic training room will expand more than 30 percent, eliminating overcrowding in treatment areas that requires utilizing hallways and floor spaces. The modernized facility will also enhance the educational value for athletic training students.</p>
         </div>
         <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-300.jpg" alt="Renovated waiting room rendering" style="width: 100%;">
+          <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-300.jpg?v=2" alt="Renovated waiting room rendering" style="width: 100%;">
           <h2>Athletic training reception &amp; team spaces</h2>
           <p>With the construction of a reception area, student-athletes needing athletic training services during peak times will no longer need to wait on hallway floors and impede traffic flow. A new multi-purpose team space will also be constructed to utilize for video review, team activities and recruiting.</p>
         </div>
@@ -45,17 +45,17 @@
       </div>
       <div class="container">
         <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-300.jpg" alt="Renovated conference room rendering" style="width: 100%;">
+          <img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-300.jpg?v=2" alt="Renovated conference room rendering" style="width: 100%;">
           <h2>Recruiting/event suites</h2>
           <p>Two suites overlooking the gymnasium competition floor will provide space to host events and entertain students, alumni and top recruits.</p>
         </div>
         <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/largeOffice-300.jpg" alt="Renovated large office rendering" style="width: 100%;">
+          <img src="<?php echo bloginfo('template_directory')?>/images/largeOffice-300.jpg?v=2" alt="Renovated large office rendering" style="width: 100%;">
           <h2>Renovation and addition of new assistant &amp; head coach offices</h2>
           <p>Our nationally-recognized coaching staff members get the best out of their athletes, so they deserve the best office environment to maximize their work and provide hospitality to recruits and families.</p>
         </div>
         <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-300.jpg" alt="Renovated welcome center rendering" style="width: 100%;">
+          <img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-300.jpg?v=2" alt="Renovated welcome center rendering" style="width: 100%;">
           <h2>Welcome Center</h2>
           <p>The main athletics department reception area will provide an open and inviting space students, prospective students, families and other visitors.</p>
         </div>

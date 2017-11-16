@@ -18,7 +18,7 @@
       <!--- First Row !--->
           <div class="ten column">
             <div class="imageGroup">
-              <a href="<?php echo bloginfo('template_directory')?>/images/lockerRoom-large.jpg" data-lightbox="renders" data-title="Locker Rooms"><img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom.jpg" alt="Locker Rooms"></a>
+              <a href="<?php echo bloginfo('template_directory')?>/images/lockerRoom-large.jpg?v=2" data-lightbox="renders" data-title="Locker Rooms"><img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom.jpg?v=2" alt="Locker Rooms"></a>
               <div class="captionLeft">Locker Rooms</div>
             </div>
           </div>
@@ -26,7 +26,7 @@
       <!--- Second Row !--->
         <div class="ten column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoom-large.jpg" data-lightbox="renders" data-title="Athletic Training Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom.jpg" alt="Athletic Training Room"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoom-large.jpg?v=2" data-lightbox="renders" data-title="Athletic Training Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom.jpg?v=2" alt="Athletic Training Room"></a>
             <div class="captionLeft">Athletic Training Room</div>
           </div>
         </div>
@@ -34,13 +34,13 @@
       <!--- Third Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter.jpg" alt="Welcome Center"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-large.jpg?v=2" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter.jpg?v=2" alt="Welcome Center"></a>
             <div class="captionLeft">Welcome Center</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea.jpg" alt="Training Room Waiting Area"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-large.jpg?v=2" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea.jpg?v=2" alt="Training Room Waiting Area"></a>
             <div class="captionRight">Athletic Training Reception</div>
           </div>
         </div>
@@ -48,13 +48,13 @@
       <!--- Fourth Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/largeOffice-large.jpg" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/largeOffice.jpg" alt="Large Office"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/largeOffice-large.jpg?v=2" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/largeOffice.jpg?v=2" alt="Large Office"></a>
             <div class="captionLeft">Offices</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-large.jpg" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom.jpg" alt="Conference room"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-large.jpg?v=2" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom.jpg?v=2" alt="Conference room"></a>
             <div class="captionRight">Conference Room/Suites</div>
           </div>
         </div>
@@ -85,7 +85,7 @@
       <div class="container">
       <div class="ten column">
         <div class="imageGroup">
-          <a href="<?php echo bloginfo('template_directory')?>/images/southEntry-large.jpg" data-lightbox="renders" data-title="Gym Entry"><img src="<?php echo bloginfo('template_directory')?>/images/southEntry.jpg" alt="Gym Entry"></a>
+          <a href="<?php echo bloginfo('template_directory')?>/images/southEntry-large.jpg?v=2" data-lightbox="renders" data-title="Gym Entry"><img src="<?php echo bloginfo('template_directory')?>/images/southEntry.jpg?v=2" alt="Gym Entry"></a>
           <div class="captionLeft">Gym Entry</div>
         </div>
       </div>
@@ -108,13 +108,13 @@
 
         <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/lowerAtrium-large.jpg" data-lightbox="renders" data-title="Lower-Level Atrium"><img src="<?php echo bloginfo('template_directory')?>/images/lowerAtrium.jpg" alt="Wrestling Room"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/lowerAtrium-large.jpg?v=2" data-lightbox="renders" data-title="Lower-Level Atrium"><img src="<?php echo bloginfo('template_directory')?>/images/lowerAtrium.jpg?v=2" alt="Lower-Level Atrium"></a>
             <div class="captionLeft">Lower-Level Atrium</div>
           </div>
         </div>
         <div class="hard-half column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/allAmericanHall-large.jpg" data-lightbox="renders" data-title="All-America Corridor"><img src="<?php echo bloginfo('template_directory')?>/images/allAmericanHall.jpg" alt="All-America Corridor"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/allAmericanHall-large.jpg?v=2" data-lightbox="renders" data-title="All-America Corridor"><img src="<?php echo bloginfo('template_directory')?>/images/allAmericanHall.jpg?v=2" alt="All-America Corridor"></a>
             <div class="captionRight">All-America Corridor</div>
           </div>
         </div>
@@ -131,7 +131,7 @@
 
           <div class="ten column">
             <div class="imageGroup">
-              <a href="<?php echo bloginfo('template_directory')?>/images/southwestEntry-large.jpg" data-lightbox="renders" data-title="Southwest Entry"><img src="<?php echo bloginfo('template_directory')?>/images/southwestEntry.jpg" alt="Southwest Entry"></a>
+              <a href="<?php echo bloginfo('template_directory')?>/images/southwestEntry-large.jpg?v=2" data-lightbox="renders" data-title="Southwest Entry"><img src="<?php echo bloginfo('template_directory')?>/images/southwestEntry.jpg?v=2" alt="Southwest Entry"></a>
               <div class="captionLeft">Southwest Entry</div>
             </div>
           </div>
@@ -193,7 +193,7 @@
         <div class="clearBoth">
           <div class="ten column">
             <div class="imageGroup">
-              <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg" alt="Central College Schipper Stadium">
+              <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg?v=2" alt="Central College Schipper Stadium">
               <div class="captionLeft">Schipper Stadium Improvements</div>
             </div>
           </div>
