@@ -30,7 +30,7 @@
             <div class="captionLeft">Athletic Training Room</div>
           </div>
         </div>
-        <div class="clearBoth"></div>        
+        <div class="clearBoth"></div>
       <!--- Third Row !--->
         <div class="hard-half column">
           <div class="imageGroup">
@@ -154,7 +154,7 @@
     </section>
     <section class="photo">
       <!--- First Row !--->
-      <div class="container">
+      <div class="container breathe">
         <div class="hard-half column">
           <div class="imageGroup">
             <img src="<?php echo bloginfo('template_directory')?>/images/baseball.jpg" alt="Central College Baseball Dugout">
