@@ -54,7 +54,7 @@
           <a href="//www.facebook.com/centralcollege" class="fa fa-facebook"></a>
           <a href="//www.twitter.com/centralcollege" class="fa fa-twitter"></a>
           <a href="//www.instagram.com/centralcollege" class="fa fa-instagram"></a>
-          <a href="//www.youtube.com/user/CentralAthletics" class="fa fa-youtube"></a>
+          <a href="//www.youtube.com/user/centralcollegeadm" class="fa fa-youtube"></a>
         </div>
       </nav>
     </header>
