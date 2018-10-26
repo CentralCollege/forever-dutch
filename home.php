@@ -1,16 +1,68 @@
 <?php get_header();?>
-    <section class="red">
+    <div id="heroBannerContain">
+        <?php
+        if(rand(1,4)==1)
+        {
+          $heroImage = "/images/hero1.jpg";
+        }
+        elseif(rand(1,4)==2)
+        {
+          $heroImage = "/images/hero2.jpg";
+        }
+        elseif(rand(1,4)==3)
+        {
+          $heroImage = "/images/hero3.jpg";
+        }
+        else
+        {
+          $heroImage = "/images/hero4.jpg";
+        };
+        ?>
+    <img src="<?php echo bloginfo('template_directory') . $heroImage ?>" alt="Central College Dutch athletics">
+    <div class="heroBannerText">
+      <div class="heroBannerMessage">
+        <h1 class="storyTitle" style="padding:0;">Forever Dutch</h1>
+        <h2>The Fourth Quarter</h2>
+        <p><a href="/give" class="redButton">Give Now</a></p>
+      </div>
+      <div id="heroBannerLogo">
+        <img src="<?php echo bloginfo('template_directory')?>/images/athleticsLogo.png" alt="Central College Dutch" width="auto" height="125">
+      </div>
+    </div>
+    </div>
+
+    <!-- <section class="red">
       <div class="container breathe">
           <h1>Forever Dutch.</h1>
           <p>The game-winning shot. The rally cries from the dugout. The game-preserving defensive stop. The exchange of the baton. Red and white. "Hoo-rah!"</p>
           <p>Teamwork ... It is the backbone of the Central spirit that defines what it means to be Forever Dutch.</p>
           <p>Now more than ever, we need you&mdash;the Forever Dutch family&mdash;to help continue Central's legacy of supporting successful students.</p>
           <h2>This is your team. This is your time.</h2>
-          <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
-          <img src="<?php echo bloginfo('template_directory')?>/images/athleticsLogo.png" alt="Central College Dutch" width="auto" height="125">
+          <img src="/images/athleticsLogo.png" alt="Central College Dutch" width="auto" height="125">
         </div>
      </div>
+    </section> -->
+
+    <section class="quoteSpace">
+      <div class="container">
+        <blockquote>
+          I came to Central to become a better player. I'm leaving as a better person.
+          <cite>Karly Olson '17<br>Iowa Conference Softball Pitcher of the Year</cite>
+        </blockquote>
+      </div>
     </section>
+
+    <section class="red dropTop">
+      <div class="top container breathe">
+        <h2 class="whiteText">Game-changing facilities.</h2>
+        <h2 class="whiteText">Life-changing experiences.</h2>
+        <p>It’s not just trophies and titles that make Central athletics special. It’s about growth, relationships and life lessons. The spectacular $12-million P.H. Kuyper Gym expansion enhances those opportunities.</p>
+        <h3>But the game's not over.</h3>
+        <p>The building is incomplete without the critical work necessary to give the original 50-year-old structure an <strong>urgently needed transformation into a championship 21st-century facility.</strong></p>
+        <p><a href="/give" class="whiteButton pullRight">Give Now</a>&nbsp;</p>
+      </div>
+    </section>
+
     <section class="section darkGray dropTop">
       <div class="container breathe">
         <h2>P.H. Kuyper Gymnasium Expansion Walk-Through</h2> &nbsp;
@@ -65,19 +117,6 @@
     </div>
     </section>
 
-    <section class="lightGray dropTop">
-      <div class="top container">
-        <h2 class="redText">Game-changing facilities.</h2>
-        <h2 class="redText">A life-changing athletics program.</h2>
-        <p> More than trophies and titles, a Central College education changes lives. Facilities can enhance Central's ability to attract students and, ultimately, to serve them.</p>
-        <h3>The time has come &mdash; not just for a renovation, but for a transformation.</h3>
-      </div>
-    </section>
-    <section class="quoteSpace">
-      <div class="container">
-        <blockquote>I came to Central to become a better player. I am leaving as a better person. <cite>Karly Olson '17<br>Iowa Conference Softball Pitcher of the Year</cite></blockquote>
-      </div>
-    </section>
     <section class="darkGray breathe">
       <div class="container">
         <h2>The legacy of the Kuyper, Farver and Griffith extended family</h2>
