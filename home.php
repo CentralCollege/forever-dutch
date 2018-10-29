@@ -72,16 +72,6 @@
       </div>
     </section>
 
-    <!-- <section class="section darkGray">
-      <div class="container breathe">
-        <h2>P.H. Kuyper Gymnasium Expansion Walk-Through</h2> &nbsp;
-        <div class="twelve columns alignCenter">
-          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/XRomzenp1fY?rel=0&amp;showinfo=0" width="100%" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-        </div>
-        <div class="clearBoth"></div>
-      </div>
-    </section> -->
-
     <section class="dropTop">
       <div class="container">
         <h1 class="redText">Renovation</h1>
