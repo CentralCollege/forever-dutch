@@ -129,12 +129,12 @@
       </div>
     </section>
 
-    <section class="darkGray breathe">
+    <section class="red breathe">
       <div class="container">
         <h2>The legacy of the Kuyper, Farver and Griffith extended family</h2>
         <p>The descendants of Pella Corporation founder P.H. “Pete” Kuyper, along with their family foundations, teamed for a transformational $4.2-million gift for the Forever Dutch initiative, the largest gift in Central’s 164-year history.</p>
         <p>The donation included a lead gift from the late M. Joan Farver, former chair of Pella Corporation and long-time Central trustee. Joan, who passed away Feb. 27, 2017, at the age of 97, was the daughter of P.H. Kuyper. The new atrium is named in her honor – the M. Joan Kuyper Farver Atrium, adding her name to those of other prominent family members. The A.N. Kuyper Athletics Complex is named for Farver’s grandfather, while H.S. Kuyper Fieldhouse carries the name of her brother.</p>
-        <p><a href="/history/the-kuyper-legacy/" class="redButton">The Kuyper Family Legacy</a></p>
+        <p><a href="/history/the-kuyper-legacy/" class="whiteButton">The Kuyper Family Legacy</a></p>
       </div>
     </section>
 
@@ -150,8 +150,8 @@
     <section class="section darkGray dropTop">
       <div class="container breathe">
         <h1>Why We're Forever Dutch</h1>
+        <h2>Dave ’61 and Ardie Pals ’64 Sutphen are passionate about Central students and the Dutch!</h2>
         <div class="six columns">
-          <p>Dave ’61 and Ardie Pals ’64 Sutphen are passionate about Central students and the Dutch!</p>
           <p><strong>ARDIE: </strong>Served the college from 1979-2012, primarily as assistant to the president.</p>
           <p><strong>DAVE: </strong>Joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
           <p><strong>NOTEWORTHY: </strong>Among top donors to Forever Dutch</p>
