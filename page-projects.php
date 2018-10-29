@@ -32,16 +32,10 @@
         </div>
         <div class="clearBoth"></div>
       <!--- Third Row !--->
-        <div class="hard-half column">
+        <div class="ten column">
           <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-large.jpg?v=2" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter.jpg?v=2" alt="Welcome Center"></a>
+            <a href="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-large.jpg?v=2" data-lightbox="renders" data-title="Large Office"><img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter.jpg?v=3" alt="Welcome Center"></a>
             <div class="captionLeft">Welcome Center</div>
-          </div>
-        </div>
-        <div class="hard-half column">
-          <div class="imageGroup">
-            <a href="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-large.jpg?v=2" data-lightbox="renders" data-title="Conference Room"><img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea.jpg?v=2" alt="Training Room Waiting Area"></a>
-            <div class="captionRight">Athletic Training Reception</div>
           </div>
         </div>
         <div class="clearBoth">
