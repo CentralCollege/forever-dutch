@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <section class="red keystone">
       <div class="container">
-        <h1>A Transformation.</h1>
+        <h1>A Transformation</h1>
         <h2>Championship facilities for an elite program.</h2>
         <p>The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through. Forever Dutch began with outdoor field enhancements followed by the expansion of P.H. Kuyper Gymnasium. Next is the building’s renovation and possible additional construction.</p>
       </div>
@@ -54,6 +54,16 @@
         </div>
         <div class="clearBoth">
 
+      </div>
+    </section>
+
+    <section class="section darkGray">
+      <div class="container breathe">
+        <h2>P.H. Kuyper Gymnasium Expansion Walk-Through</h2> &nbsp;
+        <div class="twelve columns alignCenter">
+          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/XRomzenp1fY?rel=0&amp;showinfo=0" width="100%" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+        </div>
+        <div class="clearBoth"></div>
       </div>
     </section>
 
