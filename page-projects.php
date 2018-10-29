@@ -67,6 +67,15 @@
       </div>
     </section>
 
+    <section class="quoteSpace darkGray breathe">
+      <div class="container">
+        <blockquote>
+          I was so excited when I first saw the new expansion. I was reminded again how much Central cares about its students.
+          <cite>Josiah Soderstrum ’19 <br />Football defensive back <br />Story City, Iowa</cite>
+        </blockquote>
+      </div>
+    </section>
+
     <section class="phase">
       <div class="container breathe">
           <h2>P.H. Kuyper Gymnasium Expansion: <span class="grayText">Complete</span></h2>
@@ -90,7 +99,7 @@
       <div class="ten column">
         <div class="imageGroup">
           <a href="<?php echo bloginfo('template_directory')?>/images/southEntry-large.jpg?v=2" data-lightbox="renders" data-title="Gym Entry"><img src="<?php echo bloginfo('template_directory')?>/images/southEntry.jpg?v=2" alt="Gym Entry"></a>
-          <div class="captionLeft">Gym Entry</div>
+          <div class="captionLeft">Entrance</div>
         </div>
       </div>
       <div class="clearBoth"></div>
@@ -119,7 +128,7 @@
         <div class="hard-half column">
           <div class="imageGroup">
             <a href="<?php echo bloginfo('template_directory')?>/images/allAmericanHall-large.jpg?v=2" data-lightbox="renders" data-title="All-America Corridor"><img src="<?php echo bloginfo('template_directory')?>/images/allAmericanHall.jpg?v=2" alt="All-America Corridor"></a>
-            <div class="captionRight">All-America Corridor</div>
+            <div class="captionRight">Display Corridor</div>
           </div>
         </div>
         <div class="clearBoth">
@@ -197,7 +206,7 @@
         <div class="clearBoth">
           <div class="ten column">
             <div class="imageGroup">
-              <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg?v=2" alt="Central College Schipper Stadium">
+              <img src="<?php echo bloginfo('template_directory')?>/images/stadium.jpg?v=3" alt="Central College Schipper Stadium">
               <div class="captionLeft">Schipper Stadium Improvements</div>
             </div>
           </div>
