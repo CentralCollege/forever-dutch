@@ -67,7 +67,7 @@
       </div>
     </section>
 
-    <section class="quoteSpace darkGray breathe">
+    <section class="quoteSpace breathe">
       <div class="container">
         <blockquote>
           I was so excited when I first saw the new expansion. I was reminded again how much Central cares about its students.

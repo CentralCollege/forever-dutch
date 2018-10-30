@@ -46,7 +46,7 @@
         <a href="//www.central.edu" class="logo"><img src="<?php echo bloginfo('template_directory')?>/images/centralCollegeLogo.svg" alt="Central College Logo"></a>
         <div class="nav-group">
           <a href="/">Home</a>
-          &nbsp;|&nbsp;
+          &nbsp;
           <a href="/projects">Projects</a>
           <a href="/history">History</a>
           <a href="/category/news/">News</a>
