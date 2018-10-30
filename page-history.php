@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <section class="red keystone">
       <div class="container">
-        <h1>Your Team.</h1>
+        <h1>Your Team</h1>
         <h2>A model division III athletics program</h2>
         <p>The Central College athletics program’s success level has soared since P.H. Kuyper Gymnasium was constructed more than 45 years ago. But the facilities have been outgrown.</p>
       </div>

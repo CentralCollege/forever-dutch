@@ -2,7 +2,7 @@
 <section class="red keystone">
 	<div class="container">
 		<h1><?php echo get_the_title();?></h1>
-		<h2>Stay connected.</h2>
+		<h2>Stay connected</h2>
 	</div>
 </section>
 <?php if (have_posts()) : while (have_posts()) : the_post();?>
