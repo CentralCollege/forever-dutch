@@ -71,7 +71,7 @@
       <div class="container">
         <blockquote>
           I was so excited when I first saw the new expansion. I was reminded again how much Central cares about its students.
-          <cite><strong>Josiah Soderstrum ’19</strong><br />Story City, Iowa<br />Football defensive back</cite>
+          <cite><strong>Josiah Soderstrum ’19</strong><br />Story City, Iowa<br />Football, defensive back</cite>
         </blockquote>
       </div>
     </section>
@@ -260,7 +260,9 @@
     </section>
     <section class="quoteSpace">
       <div class="container">
-        <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”<cite>Riley Gray '17</cite></blockquote>
+        <blockquote>I think we have something special happening here. This is our time to add something extra to this rich tradition.”
+          <cite><strong>Riley Gray ’17</strong><br />West Des Moines, Iowa<br />Football, quarterback</cite>
+        </blockquote>
       </div>
     </section>
     <link href="<?php echo bloginfo('template_directory')?>/external-libraries/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
