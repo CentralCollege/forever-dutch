@@ -37,7 +37,7 @@
     </section>
     <section class="lightGray dropTop">
       <div class="top container">
-        <h2 class="redText"><img src="<?php echo bloginfo('template_directory')?>/images/echelon.svg" class="eschelon">The heart of the A.N. Kuyper Athletics Complex and the proud Dutch athletics tradition: P.H. Kuyper Gymnasium.</h2>
+        <h2 class="redText"><img src="<?php echo bloginfo('template_directory')?>/images/echelon.svg?v=2" class="eschelon">The heart of the A.N. Kuyper Athletics Complex and the proud Dutch athletics tradition: P.H. Kuyper Gymnasium.</h2>
         <p>P.H. Kuyper Gymnasium is the headquarters for Central’s athletics program. However, nearly 50 years after construction, it’s no longer able to match the quality of Central’s athletes and teams.</p>
         <p>&nbsp;</p>
       </div>
@@ -48,7 +48,7 @@
     <section class="red">
       <div class="breathe container">
         <div class="three columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/94percent.svg" alt="94 percent" class="u-max-full-width">
+          <img src="<?php echo bloginfo('template_directory')?>/images/94percent.svg?v=2" alt="94 percent" class="u-max-full-width">
         </div>
         <div class="eight columns">
           <h3>The A.N. Kuyper Athletics Complex serves more than athletes. <strong>More than 94 percent</strong> of Central’s students were athletics facilities users in the past year. </h3>
@@ -59,7 +59,7 @@
     <section class="darkGray dropTop">
       <div class="breathe container">
         <h2 class="redText">Unfinished</h2>
-        <p><strong>Work remains.</strong> While portions of P.H. Kuyper Gymnasium’s aging infrastructure have been replaced, existing locker rooms, meeting/recruiting spaces, the athletic training room and offices are untouched an in pressing need of upgrade.</p>
+        <p><strong>Work remains.</strong> While portions of P.H. Kuyper Gymnasium’s aging infrastructure have been replaced, existing locker rooms, meeting/recruiting spaces, the athletic training room and offices are untouched and in pressing need of upgrades.</p>
         <p><strong>This is the time for not just a renovation, but a transformation that will accentuate Central’s position as an intercollegiate athletics leader, as well as a model for whole-person development.</strong></p>
       </div>
     </section>

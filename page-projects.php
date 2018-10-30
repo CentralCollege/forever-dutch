@@ -71,7 +71,7 @@
       <div class="container">
         <blockquote>
           I was so excited when I first saw the new expansion. I was reminded again how much Central cares about its students.
-          <cite>Josiah Soderstrum ’19 <br />Football defensive back <br />Story City, Iowa</cite>
+          <cite><strong>Josiah Soderstrum ’19</strong><br />Story City, Iowa<br />Football defensive back</cite>
         </blockquote>
       </div>
     </section>

@@ -35,17 +35,17 @@
       <div class="container">
         <blockquote>
           I came to Central to become a better player. I'm leaving as a better person.
-          <cite>Karly Olson ’17<br>Iowa Conference Softball Pitcher of the Year</cite>
+          <cite><strong>Karly Olson ’17</strong><br>Winterset, Iowa<br />Iowa Conference Softball Pitcher of the Year</cite>
         </blockquote>
       </div>
     </section>
 
     <section class="red dropTop">
       <div class="top container breathe">
-        <h2 class="whiteText">Game-changing facilities.</h2>
-        <h2 class="whiteText">Life-changing experiences.</h2>
-        <p>It’s not just trophies and titles that make Central athletics special. It’s about growth, relationships and life lessons. The spectacular $12-million P.H. Kuyper Gym expansion enhances those opportunities.</p>
-        <h3>But the game's not over.</h3>
+        <h2>Game-changing facilities</h2>
+        <h2>Life-changing experiences</h2>
+        <p>It’s not just the trophies and titles that make Central athletics special. It’s the growth, relationships and life lessons. The spectacular $12-million P.H. Kuyper Gymnasium expansion enhances those opportunities.</p>
+        <h2>But the game's not over</h2>
         <p>The building is incomplete without the critical work necessary to give the original 50-year-old structure an <strong>urgently needed transformation into a championship 21st-century facility.</strong></p>
         <p><a href="/give" class="whiteButton pullRight">Give Now</a>&nbsp;</p>
       </div>
@@ -53,7 +53,7 @@
 
     <section class="darkGray">
       <div class="top container breathe">
-        <p>Funding still needed as starting date nears for a <strong>sweeping $3-million refresh</strong> of the building’s lower level, including:
+        <p>Funding is still needed as the starting date nears for a <strong>sweeping $3-million refresh</strong> of the building’s lower level, including:
           <ul>
             <li>State-of-the-art women’s varsity locker room with team room</li>
             <li>Renovations for student recreational locker rooms</li>
@@ -80,7 +80,7 @@
         <div class="six columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom2018.jpg?v=2" alt="Renovated locker room rendering" style="width: 100%;">
           <h2>RENOVATED LOCKER ROOMS</h2>
-          <p>The new varsity locker room in the gymnasium expansion is spectacular. But it’s only a partial answer. Central’s men’s and women’s teams can access it only half of the year. A total renovation and reconfiguration of the old women’s space will create a matching dynamic new varsity locker room, tailored to the needs of Central’s female student-athletes. Student recreational locker rooms also need a refresh.</p>
+          <p>The new varsity locker room in the gymnasium expansion is spectacular. But it’s only a partial answer. Central’s men’s and women’s teams can access it only half of the year. A total renovation and reconfiguration of the old women’s space will create a matching, dynamic new varsity locker room, tailored to the needs of Central’s female student-athletes. Student recreational locker rooms also need a refresh.</p>
         </div>
         <div class="six columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom-300.jpg?v=2" alt="Renovated training room rendering" style="width: 100%;">
@@ -114,7 +114,7 @@
       <div class="container">
         <blockquote>
           Completing these renovations is not only important for our student-athletes, it is critical to the future of Central College.
-          <cite>Eric Van Kley<br>Athletics director</cite>
+          <cite><strong>Eric Van Kley</strong><br>Athletics Director</cite>
         </blockquote>
       </div>
     </section>
@@ -132,7 +132,7 @@
       <div class="container">
         <blockquote>
           What sold me on Central was family. I don’t have any blood relatives here, but I have a family here.
-          <cite>Jaime Miranda ’17<br />Wrestling, 285 pounds<br />Aberdeen, Washington</cite>
+          <cite><strong>Jaime Miranda ’17</strong><br />Aberdeen, Washington<br />Wrestling, 285 pounds</cite>
         </blockquote>
       </div>
     </section>
@@ -140,17 +140,18 @@
     <section class="section darkGray dropTop">
       <div class="container breathe">
         <h1>Why We're Forever Dutch</h1>
-        <h2>Dave ’61 and Ardie Pals ’64 Sutphen are passionate about Central students and the Dutch!</h2>
+        <h2>Dave ’61 and Ardie Pals Sutphen ’64</h2>
         <div class="six columns">
-          <p><strong>ARDIE: </strong>Served the college from 1979-2012, primarily as assistant to the president.</p>
-          <p><strong>DAVE: </strong>Joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
-          <p><strong>NOTEWORTHY: </strong>Among top donors to Forever Dutch</p>
-          <p><strong>WHY WE GIVE: </strong>“It is about facilities but the most important thing is the people and the difference Central makes in these students’ lives. I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957 and Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
+          <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
+          <p>Ardie served the college from 1979-2012, primarily as assistant to the president.</p>
+          <p>Dave joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
+          <p>The Sutphens are among top donors to Forever Dutch</p>
+          <p>“It is about facilities, but the most important thing is the people and the difference Central makes in these students’ lives,” Dave says. “I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957. Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
 
         </div>
         <div class="five columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/sutphens.jpg" alt="Dave and Ardie Sutphen" style="width: 100%;">
-          <p class="alignRight">Dave ’61 and Ardie Pals ’64 Sutphen</p>
+          <p class="alignRight">Dave ’61 and Ardie Pals Sutphen ’64</p>
         </div>
         <div class="clearBoth"></div>
       </div>
