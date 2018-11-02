@@ -43,15 +43,18 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP42LCH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header>
       <nav class="primary">
-        <a href="/" class="logo"><img src="<?php echo bloginfo('template_directory')?>/images/centralCollegeLogo.svg" alt="Central College Logo"></a>
+        <a href="//www.central.edu" class="logo"><img src="<?php echo bloginfo('template_directory')?>/images/centralCollegeLogo.svg" alt="Central College Logo"></a>
         <div class="nav-group">
-          <a href="/history">History</a>
+          <a href="/">Home</a>
+          &nbsp;
           <a href="/projects">Projects</a>
+          <a href="/history">History</a>
           <a href="/category/news/">News</a>
           <a href="/donate">Giving Info</a>
           <a href="//www.facebook.com/centralcollege" class="fa fa-facebook"></a>
           <a href="//www.twitter.com/centralcollege" class="fa fa-twitter"></a>
           <a href="//www.instagram.com/centralcollege" class="fa fa-instagram"></a>
+          <a href="//www.youtube.com/user/centralcollegeadm" class="fa fa-youtube"></a>
         </div>
       </nav>
     </header>

@@ -1,8 +1,8 @@
 <?php get_header(); ?>
     <section class="red keystone">
       <div class="container">
-        <h1>Your Time.</h1>
-        <h2>Your opportunity to learn more.</h2>
+        <h1>Your Time</h1>
+        <h2>Your opportunity to learn more</h2>
       </div>
     </section>
     <section class="give">

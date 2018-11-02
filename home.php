@@ -1,63 +1,108 @@
 <?php get_header();?>
-    <section class="red">
-      <div class="container breathe">
-          <h1>Forever Dutch.</h1>
-          <p>The game-winning shot. The rally cries from the dugout. The game-preserving defensive stop. The exchange of the baton. Red and white. "Hoo-rah!"</p>
-          <p>Teamwork ... It is the backbone of the Central spirit that defines what it means to be Forever Dutch.</p>
-          <p>Now more than ever, we need you&mdash;the Forever Dutch family&mdash;to help continue Central's legacy of supporting successful students.</p>
-          <h2>This is your team. This is your time.</h2>
-          <p><a href="/give" class="whiteButton pullRight">Give Now</a></p>
-          <img src="<?php echo bloginfo('template_directory')?>/images/athleticsLogo.png" alt="Central College Dutch" width="auto" height="125">
+    <div id="heroBannerContain">
+        <?php
+        if(rand(1,4)==1)
+        {
+          $heroImage = "/images/hero1.jpg";
+        }
+        elseif(rand(1,4)==2)
+        {
+          $heroImage = "/images/hero2.jpg";
+        }
+        elseif(rand(1,4)==3)
+        {
+          $heroImage = "/images/hero3.jpg";
+        }
+        else
+        {
+          $heroImage = "/images/hero4.jpg";
+        };
+        ?>
+      <img src="<?php echo bloginfo('template_directory') . $heroImage ?>" alt="Central College Dutch athletics">
+      <div class="heroBannerText">
+        <div class="heroBannerMessage">
+          <h1 class="storyTitle" style="padding:0;">Forever Dutch</h1>
+          <h2>The Fourth Quarter</h2>
+          <p><a href="/give" class="redButton">Give Now</a></p>
         </div>
-     </div>
+        <a href="#foreverDutch" class="page-scroll scroll" onclick="smoothScroll(document.getElementById('foreverDutch'))"><span class="fa fa-angle-down fa-5x" ></span> </a>
+      </div>
+    </div>
+    <div class="clearBoth"></div>
+
+
+    <section class="quoteSpace dropTop" id="foreverDutch">
+      <div class="container">
+        <blockquote>
+          I came to Central to become a better player. I'm leaving as a better person.
+          <cite><strong>Karly Olson ’17</strong><br>Winterset, Iowa<br />Iowa Conference Softball Pitcher of the Year</cite>
+        </blockquote>
+      </div>
     </section>
-    <section class="section darkGray dropTop">
-      <div class="container breathe">
-        <h2>P.H. Kuyper Gymnasium Expansion Walk-Through</h2> &nbsp;
-        <div class="twelve columns alignCenter">
-          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/XRomzenp1fY?rel=0&amp;showinfo=0" width="100%" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-        </div>
-        <div class="clearBoth"></div>
+
+    <section class="red dropTop">
+      <div class="top container breathe">
+        <h2>Game-changing facilities</h2>
+        <h2>Life-changing experiences</h2>
+        <p>It’s not just the trophies and titles that make Central athletics special. It’s the growth, relationships and life lessons. The spectacular $12-million P.H. Kuyper Gymnasium expansion enhances those opportunities.</p>
+        <h2>But the game's not over</h2>
+        <p>The building is incomplete without the critical work necessary to give the original 50-year-old structure an <strong>urgently needed transformation into a championship 21st-century facility.</strong></p>
+        <p><a href="/give" class="whiteButton pullRight">Give Now</a>&nbsp;</p>
+      </div>
+    </section>
+
+    <section class="darkGray">
+      <div class="top container breathe">
+        <p>Funding is still needed as the starting date nears for a <strong>sweeping $3-million refresh</strong> of the building’s lower level, including:
+          <ul>
+            <li>State-of-the-art women’s varsity locker room with team room</li>
+            <li>Renovations for student recreational locker rooms</li>
+            <li>Major upgrades to the athletic training room</li>
+          </ul>
+        </p>
+        <h3>Additional $3 million needed for upper level for:</h3>
+        <ul>
+          <li>Recruiting suites</li>
+          <li>Conference/film rooms</li>
+          <li>Sikkink-Dykstra Welcome Center</li>
+          <li>Football coaches’ suite</li>
+          <li>New coaches’ offices</li>
+        </ul>
+        <h3>Your gift can help us reach the end zone!</h3>
       </div>
     </section>
 
     <section class="dropTop">
       <div class="container">
-        <h2 class="redText">Renovation</h2>
-        <p>“Game changers.” That’s what Eric Van Kley, Central’s athletics director, calls the renovation of the A.N. Kuyper Athletics Complex facilities. This builds off the momentum, excitement and energy of the expansion of P.H. Kuyper Gymnasium. With modern functionality and appearance, this will bring necessary renovations to several areas:</p>
+        <h1 class="redText">Renovation</h1>
       </div>
       <div class="container">
-        <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom-300.jpg?v=2" alt="Renovated locker room rendering" style="width: 100%;">
-          <h2>Total renovation of locker rooms</h2>
-          <p>The locker rooms were constructed for an all-male, eight-sport program that served 202 athletes in 1969. Central now boasts a 19-sport program for nearly 750 male and female student-athletes. The original locker rooms need to be transformed into a spacious facilities for every team mirroring the new varsity locker room that was part of the expansion.</p>
+        <div class="six columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/lockerRoom2018.jpg?v=2" alt="Renovated locker room rendering" style="width: 100%;">
+          <h2>RENOVATED LOCKER ROOMS</h2>
+          <p>The new varsity locker room in the gymnasium expansion is spectacular. But it’s only a partial answer. Central’s men’s and women’s teams can access it only half of the year. A total renovation and reconfiguration of the old women’s space will create a matching, dynamic new varsity locker room, tailored to the needs of Central’s female student-athletes. Student recreational locker rooms also need a refresh.</p>
         </div>
-        <div class="four columns">
+        <div class="six columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoom-300.jpg?v=2" alt="Renovated training room rendering" style="width: 100%;">
-          <h2>Expanded athletic training room</h2>
-          <p>The athletic training room will expand more than 30 percent, eliminating overcrowding in treatment areas that requires utilizing hallways and floor spaces. The modernized facility will also enhance the educational value for athletic training students.</p>
-        </div>
-        <div class="four columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/trainingRoomWaitingArea-300.jpg?v=2" alt="Renovated waiting room rendering" style="width: 100%;">
-          <h2>Athletic training reception &amp; team spaces</h2>
-          <p>With the construction of a reception area, student-athletes needing athletic training services during peak times will no longer need to wait on hallway floors and impede traffic flow. A new multi-purpose team space will also be constructed to utilize for video review, team activities and recruiting.</p>
+          <h2>RENOVATED ATHLETIC TRAINING ROOM</h2>
+          <p>A renovated athletic training room will feature a redesigned floor plan providing for more space and efficiency. The modernized facility will also enhance its educational value.</p>
         </div>
         <div class="clearBoth"></div>
       </div>
       <div class="container">
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/conferenceRoom-300.jpg?v=2" alt="Renovated conference room rendering" style="width: 100%;">
-          <h2>Recruiting/event suites</h2>
-          <p>Two suites overlooking the gymnasium competition floor will provide space to host events and entertain students, alumni and top recruits.</p>
+          <h2>SUITES/CONFERENCE ROOMS</h2>
+          <p>In addition to meeting space, two suites overlooking the gymnasium will provide space to host events and prospective students.</p>
         </div>
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/largeOffice-300.jpg?v=2" alt="Renovated large office rendering" style="width: 100%;">
-          <h2>Renovation and addition of new assistant &amp; head coach offices</h2>
-          <p>Our nationally-recognized coaching staff members get the best out of their athletes, so they deserve the best office environment to maximize their work and provide hospitality to recruits and families.</p>
+          <h2>COACHES’ OFFICES</h2>
+          <p>Central’s coaches presently have to bring recruits to offices that are undersized and outdated. All new offices are part of the rebuild, including a new football coaches’ suite.</p>
         </div>
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-300.jpg?v=2" alt="Renovated welcome center rendering" style="width: 100%;">
-          <h2>Welcome Center</h2>
+          <h2>SIKKINK-DYKSTRA WELCOME CENTER</h2>
           <p>The main athletics department reception area will provide an open and inviting space students, prospective students, families and other visitors.</p>
         </div>
         <div class="clearBoth"></div>
@@ -65,27 +110,53 @@
     </div>
     </section>
 
-    <section class="lightGray dropTop">
-      <div class="top container">
-        <h2 class="redText">Game-changing facilities.</h2>
-        <h2 class="redText">A life-changing athletics program.</h2>
-        <p> More than trophies and titles, a Central College education changes lives. Facilities can enhance Central's ability to attract students and, ultimately, to serve them.</p>
-        <h3>The time has come &mdash; not just for a renovation, but for a transformation.</h3>
-      </div>
-    </section>
     <section class="quoteSpace">
       <div class="container">
-        <blockquote>I came to Central to become a better player. I am leaving as a better person. <cite>Karly Olson '17<br>Iowa Conference Softball Pitcher of the Year</cite></blockquote>
+        <blockquote>
+          Completing these renovations is not only important for our student-athletes, it is critical to the future of Central College.
+          <cite><strong>Eric Van Kley</strong><br>Athletics Director</cite>
+        </blockquote>
       </div>
     </section>
-    <section class="darkGray breathe">
+
+    <section class="red breathe">
       <div class="container">
         <h2>The legacy of the Kuyper, Farver and Griffith extended family</h2>
         <p>The descendants of Pella Corporation founder P.H. “Pete” Kuyper, along with their family foundations, teamed for a transformational $4.2-million gift for the Forever Dutch initiative, the largest gift in Central’s 164-year history.</p>
         <p>The donation included a lead gift from the late M. Joan Farver, former chair of Pella Corporation and long-time Central trustee. Joan, who passed away Feb. 27, 2017, at the age of 97, was the daughter of P.H. Kuyper. The new atrium is named in her honor – the M. Joan Kuyper Farver Atrium, adding her name to those of other prominent family members. The A.N. Kuyper Athletics Complex is named for Farver’s grandfather, while H.S. Kuyper Fieldhouse carries the name of her brother.</p>
-        <p><a href="/history/the-kuyper-legacy/" class="redButton">The Kuyper Family Legacy</a></p>
+        <p><a href="/history/the-kuyper-legacy/" class="whiteButton">The Kuyper Family Legacy</a></p>
       </div>
     </section>
+
+    <section class="quoteSpace">
+      <div class="container">
+        <blockquote>
+          What sold me on Central was family. I don’t have any blood relatives here, but I have a family here.
+          <cite><strong>Jaime Miranda ’17</strong><br />Aberdeen, Washington<br />Wrestling, 285 pounds</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section darkGray dropTop">
+      <div class="container breathe">
+        <h1>Why We're Forever Dutch</h1>
+        <h2>Dave ’61 and Ardie Pals Sutphen ’64</h2>
+        <div class="six columns">
+          <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
+          <p>Ardie served the college from 1979-2012, primarily as assistant to the president.</p>
+          <p>Dave joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
+          <p>The Sutphens are among top donors to Forever Dutch</p>
+          <p>“It is about facilities, but the most important thing is the people and the difference Central makes in these students’ lives,” Dave says. “I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957. Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
+
+        </div>
+        <div class="five columns">
+          <img src="<?php echo bloginfo('template_directory')?>/images/sutphens.jpg" alt="Dave and Ardie Sutphen" style="width: 100%;">
+          <p class="alignRight">Dave ’61 and Ardie Pals Sutphen ’64</p>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
+    </section>
+
     <section class="photo">
       <!--- First Row !--->
       <div class="container">
@@ -122,5 +193,29 @@
         });
       });
 
+    </script>
+    <script type="text/javascript">
+      window.smoothScroll = function(target) {
+          var scrollContainer = target;
+          do { //find scroll container
+              scrollContainer = scrollContainer.parentNode;
+              if (!scrollContainer) return;
+              scrollContainer.scrollTop += 1;
+          } while (scrollContainer.scrollTop == 0);
+
+          var targetY = 0;
+          do { //find the top of target relatively to the container
+              if (target == scrollContainer) break;
+              targetY += target.offsetTop;
+          } while (target = target.offsetParent);
+
+          scroll = function(c, a, b, i) {
+              i++; if (i > 30) return;
+              c.scrollTop = a + (b - a) / 30 * i;
+              setTimeout(function(){ scroll(c, a, b, i); }, 20);
+          }
+          // start scrolling
+          scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+      }
     </script>
     <?php get_footer();?>
