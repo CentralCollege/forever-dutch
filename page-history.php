@@ -37,7 +37,7 @@
     </section>
     <section class="lightGray dropTop">
       <div class="top container">
-        <h2 class="redText"><img src="<?php echo bloginfo('template_directory')?>/images/echelon.svg?v=2" class="eschelon">The heart of the A.N. Kuyper Athletics Complex and the proud Dutch athletics tradition: P.H. Kuyper Gymnasium.</h2>
+        <h2 class="redText"><img src="<?php echo bloginfo('template_directory')?>/images/echelon.svg?v=2" class="eschelon">P.H. Kuyper Gymnasium: The heart of the A.N. Kuyper Athletics Complex and the proud Dutch athletics tradition</h2>
         <p>P.H. Kuyper Gymnasium is the headquarters for Central’s athletics program. However, nearly 50 years after construction, it’s no longer able to match the quality of Central’s athletes and teams.</p>
         <p>&nbsp;</p>
       </div>
@@ -66,7 +66,9 @@
 <img src="<?php echo bloginfo('template_directory')?>/images/displayCorridor.jpg" alt="Display Corridor in P.H. Kuyper Gymnasium" class="u-max-full-width">
     <section class="quoteSpace">
       <div class="container">
-        <blockquote>Football made me set standards for myself as an athlete, as well as a student—to do everything with a passion and a purpose, and to do it to my full capability. There is no doubt in my mind that playing  football at Central College changed my life, and it changed it for the better." <cite>Travis Hook '13</cite></blockquote>
+        <blockquote>Football made me set standards for myself as an athlete, as well as a student—to do everything with a passion and a purpose, and to do it to my full capability. There is no doubt in my mind that playing  football at Central College changed my life, and it changed it for the better.
+          <cite><strong>Travis Hook ’13</strong><br />Account Manager<br />Aerotek<br />Denver, Colorado</cite>
+        </blockquote>
       </div>
     </section>
     <?php get_footer();?>
