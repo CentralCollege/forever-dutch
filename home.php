@@ -150,7 +150,7 @@
 
         </div>
         <div class="five columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/sutphens.jpg" alt="Dave and Ardie Sutphen" style="width: 100%;">
+          <img src="<?php echo bloginfo('template_directory')?>/images/Sutphens.jpg" alt="Dave and Ardie Sutphen" style="width: 100%;">
           <p class="alignRight">Dave ’61 and Ardie Pals Sutphen ’64</p>
         </div>
         <div class="clearBoth"></div>
