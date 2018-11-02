@@ -25,7 +25,7 @@
           <h2>The Fourth Quarter</h2>
           <p><a href="/give" class="redButton">Give Now</a></p>
         </div>
-        <a href="#foreverDutch" class="page-scroll scroll" onclick="smoothScroll(document.getElementById('foreverDutch'))"><span class="fa fa-angle-down fa-5x" ></span> </a>
+        <a href="#foreverDutch" class="page-scroll scroll" onclick="smoothScroll(document.getElementById('foreverDutch'))"><span class="fa fa-angle-down fa-5x" style="color:white;"></span> </a>
       </div>
     </div>
     <div class="clearBoth"></div>
