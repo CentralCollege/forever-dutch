@@ -47,7 +47,6 @@
         <p>It’s not just the trophies and titles that make Central athletics special. It’s the growth, relationships and life lessons. The spectacular $12-million P.H. Kuyper Gymnasium expansion enhances those opportunities.</p>
         <h2>But the game's not over</h2>
         <p>The building is incomplete without the critical work necessary to give the original 50-year-old structure an <strong>urgently needed transformation into a championship 21st-century facility.</strong></p>
-        <p><a href="/give" class="whiteButton pullRight">Give Now</a>&nbsp;</p>
       </div>
     </section>
 
@@ -69,6 +68,7 @@
           <li>New coaches’ offices</li>
         </ul>
         <h3>Your gift can help us reach the end zone!</h3>
+        <p><a href="/give" class="redButton pullRight">Give Now</a>&nbsp;</p>
       </div>
     </section>
 
@@ -103,7 +103,7 @@
         <div class="four columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/welcomeCenter-300.jpg?v=2" alt="Renovated welcome center rendering" style="width: 100%;">
           <h2>SIKKINK-DYKSTRA WELCOME CENTER</h2>
-          <p>The main athletics department reception area will provide an open and inviting space students, prospective students, families and other visitors.</p>
+          <p>The main athletics department reception area will provide an open and inviting space for students, prospective students, families and other visitors.</p>
         </div>
         <div class="clearBoth"></div>
       </div>
@@ -145,7 +145,7 @@
           <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
           <p>Ardie served the college from 1979-2012, primarily as assistant to the president.</p>
           <p>Dave joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
-          <p>The Sutphens are among top donors to Forever Dutch</p>
+          <p>The Sutphens are among top donors to Forever Dutch.</p>
           <p>“It is about facilities, but the most important thing is the people and the difference Central makes in these students’ lives,” Dave says. “I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957. Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
 
         </div>

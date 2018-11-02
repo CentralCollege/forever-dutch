@@ -13,13 +13,13 @@
         <p>Naming opportunities are available with gifts of $25,000 or more.</p>
         <h2>Contact Us</h2>
         <div class="five columns">
-          <p><strong>Sunny Eighmy</strong><br />
+          <p><strong>Sunny Gonzales Eighmy ’99</strong><br />
             Vice President for Advancement<br />
             641-628-5272<br />
             <a href="mailto:eighmys@central.edu">eighmys@central.edu</a></p>
         </div>
         <div class="five columns">
-          <p><strong>Kathy Cashen Thompson</strong><br />
+          <p><strong>Kathy Cashen Thompson ’87</strong><br />
             Major Gifts Officer<br />
             641-628-5186<br />
             <a href="mailto:cashenthompsonk@central.edu">cashenthompsonk@central.edu</a></p>
@@ -39,8 +39,8 @@
     </section>
     <section class="coachSkipQuote">
       <div class="top container">
-        <p><a href="/give" class="redButton pullRight">Donate Now</a></p>
-        <blockquote>If I can light a fire under one kid, then it's all worth it." <cite>Coach Ron Schipper</cite></blockquote>
+        <p><a href="/give" class="redButton pullRight">Give Now</a></p>
+        <blockquote>If I can light a fire under one kid, then it's all worth it.<cite>Coach Ron Schipper</cite></blockquote>
       </div>
     </section>
     <?php get_footer();?>
