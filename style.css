@@ -1117,9 +1117,9 @@ footer {
   transform:translateX(-50%);
   z-index:10
 }
-.page-scroll:visited{
+.page-scroll a:visited{
   color:#fff;
 }
-.page-scroll:hover{
+.page-scroll a:hover{
   color:#cb2026;
 }
