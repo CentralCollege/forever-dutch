@@ -30,7 +30,7 @@
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" type="text/css" media="screen" />
-    <link href="<?php echo bloginfo('template_directory')?>/print.css" rel="stylesheet" type="text/css" media="print" />
+    <link href="<?php echo bloginfo('template_directory')?>/print.css?v=2" rel="stylesheet" type="text/css" media="print" />
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
