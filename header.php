@@ -6,7 +6,7 @@
     <meta name="copyright" content="Copyright (c) 2016 Central College" />
     <meta name="Description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="//www.central.edu/favicon.ico" />
+    <link rel="shortcut icon" href="<?php echo bloginfo('template_directory')?>/images/favicon.ico" />
     <meta property="fb:app_id" content="122820004455478" />
     <meta property="fb:admins" content="78302220" />
     <meta property="fb:admins" content="14827654" />
@@ -29,7 +29,7 @@
     <?php } ?>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
-    <link href="<?php bloginfo('template_directory'); ?>/style.min.css?v=2" rel="stylesheet" type="text/css" media="all" />  
+    <link href="<?php bloginfo('template_directory'); ?>/style.min.css?v=2" rel="stylesheet" type="text/css" media="all" />
     <link href="<?php echo bloginfo('template_directory')?>/print.css?v=2" rel="stylesheet" type="text/css" media="print" />
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
