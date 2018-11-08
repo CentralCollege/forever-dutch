@@ -114,7 +114,7 @@
       <div class="container">
         <blockquote>
           Completing these renovations is not only important for our student-athletes, it is critical to the future of Central College.
-          <cite><strong>Eric Van Kley</strong><br>Athletics Director</cite>
+          <cite><strong>Eric Van Kley</strong><br>Director of Athletics</cite>
         </blockquote>
       </div>
     </section>
