@@ -150,8 +150,11 @@
 
         </div>
         <div class="five columns">
-          <img src="<?php echo bloginfo('template_directory')?>/images/Sutphens.jpg" alt="Dave and Ardie Sutphen" style="width: 100%;">
-          <p class="alignRight">Dave ’61 and Ardie Pals Sutphen ’64</p>
+        <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe src="https://player.vimeo.com/video/320872199?color=cb2026&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:110%;height:110%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <p class="alignRight" style="padding-top:.5em;">Dave ’61 and Ardie Pals Sutphen ’64</p>
         </div>
         <div class="clearBoth"></div>
       </div>
