@@ -145,7 +145,7 @@
           <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
           <p>Ardie served the college from 1979-2012, primarily as assistant to the president.</p>
           <p>Dave joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
-          <p>The Sutphens are among top donors to Forever Dutch.</p>
+          <p>The Sutphens are among the top donors to Forever Dutch.</p>
           <p>“It is about facilities, but the most important thing is the people and the difference Central makes in these students’ lives,” Dave says. “I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957. Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
 
         </div>
