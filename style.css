@@ -1044,7 +1044,6 @@ footer {
   width: 100%;
   height: auto;
   max-height: 92vh;
-  min-height:475px;
   overflow: hidden;
   display: block;
 }
@@ -1066,7 +1065,6 @@ footer {
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  padding-top: 0;
   text-shadow: 0 0 5px #000;
 }
 
@@ -1082,34 +1080,38 @@ footer {
   -webkit-transition: .5s;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 320px) {
   .heroBannerText {
     padding-top:1em;;
   }
 
-  .heroBannerText h1 {
-    font-size: 3em;
+  h1 {
+    font-size: 3em;  
   }
 
-  .heroBannerText h2 {
+  .heroBannerText h1 {
     font-size: 2em;
   }
 
+  .heroBannerText h2 {
+    font-size: 1.5em;
+  }
+
   .heroBannerText h3 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin-block-start: .25em;
     margin-block-end: .25em;
   }
 
   .heroBannerText p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-transform:uppercase;
   }
 }
 
 @media (min-width: 870px) {
   .heroBannerText {
-    padding-top:1em;;
+    padding-top:2em;;
   }
 
   .heroBannerText h1 {

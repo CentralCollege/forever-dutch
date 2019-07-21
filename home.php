@@ -21,7 +21,7 @@
       <img src="<?php echo bloginfo('template_directory') . $heroImage ?>" alt="Central College Dutch athletics">
       <div class="heroBannerText">
         <div class="heroBannerMessage">
-          <h1 class="storyTitle" style="padding:0;">Forever Dutch</h1>
+          <h1 class="storyTitle">Forever Dutch</h1>
           <h2>Go All In</h2>
           <p><a href="/give" class="redButton">Give Now</a></p>
           &nbsp;
@@ -105,7 +105,7 @@
 
     <section class="section darkGray breathe">
       <div class="container">
-        <h1 style="font-size:4.5em;">Why We're Forever Dutch</h1>
+        <h1>Why We're Forever Dutch</h1>
         <h2>Dave ’61 and Ardie Pals Sutphen ’64</h2>
         <div class="six columns">
           <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
