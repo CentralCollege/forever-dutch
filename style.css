@@ -399,8 +399,9 @@ h1, h2 {
   background-color: #999;
   color: #fff
 }
-.lightGray .redText{
-  color:#900;
+
+.lightGray .redText {
+  color: #900;
 }
 
 .darkGray {
@@ -497,11 +498,13 @@ h4 {
 header {
   box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
   padding: 0 .5em;
-  text-align: center
+  text-align: center;
 }
 
 .logo img {
-  width: 125px
+  padding: .5em;
+  width: 125px;
+  height: auto;
 }
 
 .nav-group {
@@ -654,6 +657,7 @@ header {
   padding-top: 1em;
   text-align: right;
 }
+
 .darkGray blockquote cite {
   font-family: Roboto, sans-serif;
   font-size: .8em;
@@ -1030,27 +1034,30 @@ footer {
   font-size: 5em;
   text-shadow: 0 0 5px #000;
 }
-.heroBackgroundImage p{
+
+.heroBackgroundImage p {
   font-size: 1.25em;
 }
-#heroBannerContain{
+
+#heroBannerContain {
   position: relative;
   width: 100%;
   height: auto;
-  max-height:92vh;
+  max-height: 92vh;
+  min-height:475px;
   overflow: hidden;
   display: block;
-}
-#heroBannerContain img{
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  display: block;
-  height: auto;
 }
 
-.heroBannerText{
-  background:rgba(0, 0, 0, .4);
+#heroBannerContain img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.heroBannerText {
+  background: rgba(0, 0, 0, .4);
   position: absolute;
   top: 0;
   right: 0;
@@ -1062,43 +1069,66 @@ footer {
   padding-top: 0;
   text-shadow: 0 0 5px #000;
 }
-.heroBannerText .redButton{
-  border:solid white 2px;
-  box-shadow:none;
+
+.heroBannerText .redButton {
+  border: solid white 2px;
+  box-shadow: none;
 }
-.heroBannerText .redButton:hover{
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
- }
+
+.heroBannerText .redButton:hover {
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+}
+
 @media (min-width: 540px) {
-  .heroBannerText{
-    padding-top: 12%;
+  .heroBannerText {
+    padding-top:1em;;
   }
-  .heroBannerText h1{
+
+  .heroBannerText h1 {
     font-size: 3em;
   }
-  .heroBannerText h2{
+
+  .heroBannerText h2 {
     font-size: 2em;
   }
-  .heroBannerText p{
-    font-size: 1.25em;
+
+  .heroBannerText h3 {
+    font-size: 1.6em;
+    margin-block-start: .25em;
+    margin-block-end: .25em;
+  }
+
+  .heroBannerText p {
+    font-size: 1.4em;
+    text-transform:uppercase;
   }
 }
 
 @media (min-width: 870px) {
-  .heroBannerText{
-    padding-top: 12%;
+  .heroBannerText {
+    padding-top:1em;;
   }
-  .heroBannerText h1{
+
+  .heroBannerText h1 {
     font-size: 8em;
   }
-  .heroBannerText h2{
+
+  .heroBannerText h2 {
     font-size: 4em;
   }
-  .heroBannerText p{
-    font-size: 1.25em;
+
+  .heroBannerText h3 {
+    font-size: 3em;
+    margin-block-start: .25em;
+    margin-block-end: .25em;
+  }
+
+  .heroBannerText p {
+    font-size: 1.75em;
+    text-transform:uppercase;
   }
 }
 
@@ -1107,19 +1137,22 @@ footer {
     font-size: 4.6em;
   }
 }
-.page-scroll .down-arrow{
-  color:#fff;
-  position:absolute;
-  top:0px;
-  left:50%;
-  right:auto;
-  -webkit-transform:translateX(-50%);
-  transform:translateX(-50%);
-  z-index:10
+
+.page-scroll .down-arrow {
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 10
 }
-.page-scroll:visited{
-  color:#fff;
+
+.page-scroll:visited {
+  color: #fff;
 }
-.page-scroll:hover{
-  color:#cb2026;
+
+.page-scroll:hover {
+  color: #cb2026;
 }

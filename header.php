@@ -29,7 +29,7 @@
     <?php } ?>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
-    <link href="<?php bloginfo('template_directory'); ?>/style.min.css?v=2" rel="stylesheet" type="text/css" media="all" />
+    <link href="<?php bloginfo('template_directory'); ?>/style.min.css?v=3" rel="stylesheet" type="text/css" media="all" />
     <link href="<?php echo bloginfo('template_directory')?>/print.css?v=2" rel="stylesheet" type="text/css" media="print" />
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -43,7 +43,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP42LCH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header>
       <nav class="primary">
-        <a href="//www.central.edu" class="logo"><img src="<?php echo bloginfo('template_directory')?>/images/centralCollegeLogo.svg" alt="Central College Logo"></a>
+        <a href="/" class="logo"><img src="<?php echo bloginfo('template_directory')?>/images/logo.png" alt="Central College Logo"></a>
         <div class="nav-group">
           <a href="/">Home</a>
           &nbsp;

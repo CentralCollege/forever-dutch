@@ -22,8 +22,13 @@
       <div class="heroBannerText">
         <div class="heroBannerMessage">
           <h1 class="storyTitle" style="padding:0;">Forever Dutch</h1>
-          <h2>The Fourth Quarter</h2>
+          <h2>Go All In</h2>
           <p><a href="/give" class="redButton">Give Now</a></p>
+          &nbsp;
+          <h3>48-HOUR CHALLENGE</h3>
+            <p>Double Your Gift<br>
+              Noon, Aug. 20 - Noon, Aug. 22
+            </p>
         </div>
         <a href="#foreverDutch" class="page-scroll scroll" onclick="smoothScroll(document.getElementById('foreverDutch'))"><span class="fa fa-angle-down fa-5x" style="color:white;"></span> </a>
       </div>
@@ -34,23 +39,49 @@
     <section class="quoteSpace dropTop" id="foreverDutch">
       <div class="container">
         <blockquote>
-          I came to Central to become a better player. I'm leaving as a better person.
-          <cite><strong>Karly Olson ’17</strong><br>Winterset, Iowa<br />Iowa Conference Softball Pitcher of the Year</cite>
+          IT’S ABOUT MORE THAN FUNDRAISING. IT’S ABOUT BEING A PART OF THE CENTRAL FAMILY AND KEEPING A TRADITION ALIVE THAT’S BEEN THRIVING SINCE 1853. IT’S ABOUT BEING FOREVER DUTCH!
+          <cite><strong>Thomas Spoehr ’22</strong><br>Men's Basketball<br>Bennington, Nebraska</cite>
         </blockquote>
       </div>
     </section>
 
     <section class="red dropTop">
       <div class="top container breathe">
-        <h2>Game-changing facilities</h2>
-        <h2>Life-changing experiences</h2>
-        <p>It’s not just the trophies and titles that make Central athletics special. It’s the growth, relationships and life lessons. The spectacular $12-million P.H. Kuyper Gymnasium expansion enhances those opportunities.</p>
-        <h2>But the game's not over</h2>
-        <p>The building is incomplete without the critical work necessary to give the original 50-year-old structure an <strong>urgently needed transformation into a championship 21st-century facility.</strong></p>
+        <h2>$3-MILLION REFRESH OF THE P.H. KUYPER GYMNASIUM LOWER LEVEL:</h2>
+        <p>
+          <ul>
+            <li>State-of-the-art women’s varsity locker room with team room</li>
+            <li>Major upgrades to the athletic training room</li>
+            <li>Renovated equipment room</li>
+          </ul>
+        </p>
+        <h3>Additional $3 million needed for upper level for:</h3>
+        <ul>
+          <li>Recruiting suites</li>
+          <li>Conference/film rooms</li>
+          <li>Sikkink-Dykstra Welcome Center</li>
+          <li>Football coaches’ suite</li>
+          <li>New coaches’ offices</li>
+        </ul>
+        <h3>Your gift can help us reach the end zone!</h3>
+        <p><a href="/give" class="whiteButton">Give Now</a>&nbsp;</p>
       </div>
     </section>
 
-    <section class="darkGray">
+    <section class="quoteSpace">
+      <div class="top container breathe">
+        <blockquote>
+          We sometimes have up to 150 athletes needing treatment in a two-hour span. <br><br>Renovating the athletic training room will allow us to provide better rehab on more athletes. We’re excited!
+          <cite><strong>Frank Neu ‘91</strong><br>Head Athletic Trainer</cite>
+        </blockquote>
+        <blockquote>
+          There is so much more room in the new locker room. We are able to watch film as a team and at halftime we do not have to squeeze together on the floor. <br><br>It would mean a lot to have a locker room we can use all year long.
+          <cite><strong>Maci Gambell ‘22</strong><br>Women's Basketball<br>Hedrick, Iowa</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- <section class="darkGray">
       <div class="top container breathe">
         <p>Funding is still needed as the starting date nears for a <strong>sweeping $3-million refresh</strong> of the building’s lower level, including:
           <ul>
@@ -69,6 +100,38 @@
         </ul>
         <h3>Your gift can help us reach the end zone!</h3>
         <p><a href="/give" class="redButton pullRight">Give Now</a>&nbsp;</p>
+      </div>
+    </section> -->
+
+    <section class="section darkGray breathe">
+      <div class="container">
+        <h1 style="font-size:4.5em;">Why We're Forever Dutch</h1>
+        <h2>Dave ’61 and Ardie Pals Sutphen ’64</h2>
+        <div class="six columns">
+          <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
+          <p>Ardie served the college from 1979-2012, primarily as assistant to the president.</p>
+          <p>Dave joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
+          <p>The Sutphens are among the top donors to Forever Dutch.</p>
+          <p>“It is about facilities, but the most important thing is the people and the difference Central makes in these students’ lives,” Dave says. “I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957. Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
+        </div>
+        <div class="five columns">
+        <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe src="https://player.vimeo.com/video/320872199?color=cb2026&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:110%;height:110%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <p class="alignRight" style="padding-top:.5em;">Dave ’61 and Ardie Pals Sutphen ’64</p>
+        </div>
+        <div class="clearBoth"></div>
+      </div>
+    </section>
+
+    <section class="red dropTop">
+      <div class="top container breathe">
+        <h2>Game-changing facilities</h2>
+        <h2>Life-changing experiences</h2>
+        <p>It’s not just the trophies and titles that make Central athletics special. It’s the growth, relationships and life lessons. The spectacular $12-million P.H. Kuyper Gymnasium expansion enhances those opportunities.</p>
+        <h2>But the game's not over</h2>
+        <p>The building is incomplete without the critical work necessary to give the original 50-year-old structure an <strong>urgently needed transformation into a championship 21st-century facility.</strong></p>
       </div>
     </section>
 
@@ -134,29 +197,6 @@
           What sold me on Central was family. I don’t have any blood relatives here, but I have a family here.
           <cite><strong>Jaime Miranda ’17</strong><br />Aberdeen, Washington<br />Wrestling, 285 pounds</cite>
         </blockquote>
-      </div>
-    </section>
-
-    <section class="section darkGray dropTop">
-      <div class="container breathe">
-        <h1>Why We're Forever Dutch</h1>
-        <h2>Dave ’61 and Ardie Pals Sutphen ’64</h2>
-        <div class="six columns">
-          <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
-          <p>Ardie served the college from 1979-2012, primarily as assistant to the president.</p>
-          <p>Dave joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
-          <p>The Sutphens are among the top donors to Forever Dutch.</p>
-          <p>“It is about facilities, but the most important thing is the people and the difference Central makes in these students’ lives,” Dave says. “I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957. Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
-
-        </div>
-        <div class="five columns">
-        <div style="padding:56.25% 0 0 0;position:relative;">
-          <iframe src="https://player.vimeo.com/video/320872199?color=cb2026&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:110%;height:110%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-        <p class="alignRight" style="padding-top:.5em;">Dave ’61 and Ardie Pals Sutphen ’64</p>
-        </div>
-        <div class="clearBoth"></div>
       </div>
     </section>
 
