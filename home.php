@@ -72,11 +72,11 @@
       <div class="top container breathe">
         <blockquote>
           We sometimes have up to 150 athletes needing treatment in a two-hour span. <br><br>Renovating the athletic training room will allow us to provide better rehab on more athletes. We’re excited!
-          <cite><strong>Frank Neu ‘91</strong><br>Head Athletic Trainer</cite>
+          <cite><strong>Frank Neu ’91</strong><br>Head Athletic Trainer</cite>
         </blockquote>
         <blockquote>
           There is so much more room in the new locker room. We are able to watch film as a team and at halftime we do not have to squeeze together on the floor. <br><br>It would mean a lot to have a locker room we can use all year long.
-          <cite><strong>Maci Gambell ‘22</strong><br>Women's Basketball<br>Hedrick, Iowa</cite>
+          <cite><strong>Maci Gambell ’22</strong><br>Women's Basketball<br>Hedrick, Iowa</cite>
         </blockquote>
       </div>
     </section>
