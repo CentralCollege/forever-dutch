@@ -42,6 +42,10 @@
           IT’S ABOUT MORE THAN FUNDRAISING. IT’S ABOUT BEING A PART OF THE CENTRAL FAMILY AND KEEPING A TRADITION ALIVE THAT’S BEEN THRIVING SINCE 1853. IT’S ABOUT BEING FOREVER DUTCH!
           <cite><strong>Thomas Spoehr ’22</strong><br>Men's Basketball<br>Bennington, Nebraska</cite>
         </blockquote>
+         <blockquote>
+          It’s amazing to see how much support we have from our alumni and there aren’t enough words to express how grateful we are. The alumni reflect all of the great things that this place has brought to their lives, and it’s evident they want the same things for us. I think we are all a part of something very special here.
+          <cite><strong>Payton Rogers ’22</strong><br>Women's Basketball<br>Moravia, Iowa</cite>
+        </blockquote>
       </div>
     </section>
 
