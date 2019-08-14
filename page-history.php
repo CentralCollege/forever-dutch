@@ -25,7 +25,7 @@
           <div class="statDetails">All-Americans</div>
         </div>
         <div class="three columns">
-          <div class="stat">164</div>
+          <div class="stat">165</div>
           <div class="statDetails">Conference Championships</div>
         </div>
         <div class="three columns">
