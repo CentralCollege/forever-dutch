@@ -17,7 +17,7 @@
       </div>
       <div class="container statGroup">
         <div class="three columns">
-          <div class="stat">16</div>
+          <div class="stat">17</div>
           <div class="statDetails">Iowa Conference Championships</div>
         </div>
         <div class="three columns dashedBorderRight">
