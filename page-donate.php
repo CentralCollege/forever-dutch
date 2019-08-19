@@ -4,7 +4,7 @@
         <h1>Your Time</h1>
         <h2>A financial investment. An enduring legacy.</h2>
         <p>Those who have come before us helped create the Central legacy. Now, at this defining moment, it falls to this generation to carry it forward. The need is great. The time is now. Your investment helps reaffirm our pledge to further the intellectual, physical and spiritual development of future Central students.</p>
-        <p><a href="/give" class="whiteButton">Give Now</a></p>
+        <p><a href="https://ignite.central.edu/project/16066" class="whiteButton">Give Now</a></p>
       </div>
     </section>
 
@@ -39,7 +39,7 @@
     </section>
     <section class="coachSkipQuote">
       <div class="top container">
-        <p><a href="/give" class="redButton pullRight">Give Now</a></p>
+        <p><a href="https://ignite.central.edu/project/16066" class="redButton pullRight">Give Now</a></p>
         <blockquote>If I can light a fire under one kid, then it's all worth it.<cite>Coach Ron Schipper</cite></blockquote>
       </div>
     </section>

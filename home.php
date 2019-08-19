@@ -23,7 +23,7 @@
         <div class="heroBannerMessage">
           <h1 class="storyTitle">Forever Dutch</h1>
           <h2>Go All In</h2>
-          <p><a href="/give" class="redButton">Give Now</a></p>
+          <p><a href="https://ignite.central.edu/project/16066" class="redButton">Give Now</a></p>
           &nbsp;
           <h3>48-HOUR CHALLENGE</h3>
             <p>Double Your Gift<br>
@@ -68,18 +68,18 @@
           <li>New coaches’ offices</li>
         </ul>
         <h3>Your gift can help us reach the end zone!</h3>
-        <p><a href="/give" class="whiteButton">Give Now</a>&nbsp;</p>
+        <p><a href="https://ignite.central.edu/project/16066" class="whiteButton">Give Now</a>&nbsp;</p>
       </div>
     </section>
 
     <section class="quoteSpace">
       <div class="top container breathe">
         <blockquote>
-          We sometimes have up to 150 athletes needing treatment in a two-hour span. <br><br>Renovating the athletic training room will allow us to provide better rehab on more athletes. We’re excited!
+          We sometimes have up to 150 athletes needing treatment in a two-hour span. <br>Renovating the athletic training room will allow us to provide better rehab on more athletes. We’re excited!
           <cite><strong>Frank Neu ’91</strong><br>Head Athletic Trainer</cite>
         </blockquote>
         <blockquote>
-          There is so much more room in the new locker room. We are able to watch film as a team and at halftime we do not have to squeeze together on the floor. <br><br>It would mean a lot to have a locker room we can use all year long.
+          There is so much more room in the new locker room. We are able to watch film as a team and at halftime we do not have to squeeze together on the floor. <br>It would mean a lot to have a locker room we can use all year long.
           <cite><strong>Maci Gambell ’22</strong><br>Women's Basketball<br>Hedrick, Iowa</cite>
         </blockquote>
       </div>
