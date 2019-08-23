@@ -23,12 +23,12 @@
         <div class="heroBannerMessage">
           <h1 class="storyTitle">Forever Dutch</h1>
           <h2>Go All In</h2>
-          <p><a href="https://ignite.central.edu/project/16066" class="redButton">Give Now</a></p>
-          &nbsp;
+          <p><a href="/give/" class="redButton">Give Now</a></p>
+          <!-- &nbsp;
           <h3>48-HOUR CHALLENGE</h3>
             <p>Double Your Gift<br>
               Noon, Aug. 20 - Noon, Aug. 22
-            </p>
+            </p> -->
         </div>
         <a href="#foreverDutch" class="page-scroll scroll" onclick="smoothScroll(document.getElementById('foreverDutch'))"><span class="fa fa-angle-down fa-5x" style="color:white;"></span> </a>
       </div>
@@ -68,7 +68,7 @@
           <li>New coaches’ offices</li>
         </ul>
         <h3>Your gift can help us reach the end zone!</h3>
-        <p><a href="https://ignite.central.edu/project/16066" class="whiteButton">Give Now</a>&nbsp;</p>
+        <p><a href="/give/" class="whiteButton">Give Now</a>&nbsp;</p>
       </div>
     </section>
 

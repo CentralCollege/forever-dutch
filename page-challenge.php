@@ -11,7 +11,7 @@
       <div class="one-half column" style="border-right: 3px solid #cb2026">
         <h2 class="alignCenter">Yes, I want to take the challenge</h2>
         <p class="alignCenter"><img src="<?php echo bloginfo('template_directory')?>/images/justMe.svg" alt="placeholder"></p>
-        <p class="alignCenter"><a href="https://ignite.central.edu/project/16066" class="redButton">Give Now</a></p>
+        <p class="alignCenter"><a href="/give/" class="redButton">Give Now</a></p>
       </div>
       <div class="one-half column">
         <h2 class="alignCenter">I want to challenge a friend</h2>
