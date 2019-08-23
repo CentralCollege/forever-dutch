@@ -253,7 +253,7 @@
         <div class="eight columns">
           <h2 class="redText">We need you on our team.</h2>
           <p>When everyone contributes, our team grows stronger. This is your team. Now is your time. Your investment will help ensure Central’s continued ability to serve others.</p>
-          <p class="top"><a href="https://ignite.central.edu/project/16066" class="whiteButton ">Donate Now</a></p>
+          <p class="top"><a href="/give/" class="whiteButton ">Donate Now</a></p>
         </div>
         <div class="clearBoth"></div>
       </div>
