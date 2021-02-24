@@ -23,13 +23,13 @@
     <meta name="twitter:title" content="Forever Dutch">
     <meta name="twitter:description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through.">
     <meta name="twitter:image" content="<?php echo bloginfo('template_directory')?>/images/facebookOG.jpg">
-    <link rel="dns-prefetch" href="http://www.central.edu" />
+    <link rel="dns-prefetch" href="https://central.edu" />
     <?php if($_SERVER['HTTP_HOST'] == '192.168.56.111'){ ?>
         <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
     <?php } ?>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
-    <link href="<?php bloginfo('template_directory'); ?>/style.min.css?v=3" rel="stylesheet" type="text/css" media="all" />
+    <link href="<?php bloginfo('template_directory'); ?>/style.min.css?ver=2021" rel="stylesheet" type="text/css" media="all" />
     <link href="<?php echo bloginfo('template_directory')?>/print.css?v=2" rel="stylesheet" type="text/css" media="print" />
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
