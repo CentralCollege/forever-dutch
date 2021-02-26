@@ -103,14 +103,15 @@
 			</div>
 			<div class="container breathe">
 				<div class="six columns">
-					<h2 style="margin-top: 1rem;">$3 Million Lower-Level Renovation</h2>
-	        <p>
-						<strong>Open September 2020</strong>
+					<h2 style="margin-top: 1rem;">$3 Million Upper-Level Renovation</h2>
+					<p>
+						<strong>Open April 2021</strong>
 	          <ul>
-	            <li>New Women’s Varsity Locker Room </li>
-							<li>New Equipment Room </li>
-							<li>Renovated Coaches’ Offices </li>
-							<li>Renovated Athletic Training Room</li>
+	            <li>Team Video Room</li>
+							<li>Recruiting Suites </li>
+							<li>Sikking-Dykstra Welcome Center </li>
+							<li>Football Coaches’ Suite</li>
+							<li>New Coaches’ Offices</li>
 	          </ul>
 	        </p>
 				</div>
