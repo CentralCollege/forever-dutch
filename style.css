@@ -653,7 +653,6 @@ nav.primary {
   font-size: 1.6em;
   color: #cb2026;
   margin: .25em;
-  text-transform: uppercase;
   background-image: url(images/quote.png);
   background-repeat: no-repeat
 }
@@ -1151,11 +1150,11 @@ footer {
   }
 }
 
-.page-scroll .down-arrow {
+.page-scroll {
   color: #fff;
-  position: absolute;
-  top: 0px;
-  left: 50%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom:20px;
   right: auto;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
