@@ -21,9 +21,15 @@
       <img src="<?php echo bloginfo('template_directory') . $heroImage ?>" alt="Central College Dutch athletics">
       <div class="heroBannerText">
         <div class="heroBannerMessage">
-          <h1 class="storyTitle">Forever Dutch</h1>
-          <h2>Go All In</h2>
-          <p><a href="/give/" class="redButton">Give Now</a></p>
+					<h1 class="storyTitle">Forever Dutch</h1>
+					<div class="container">
+						<div class="ten columns offset-by-one" style="border: 3px solid #fff; padding: 1rem .25rem; background-color: rgba(0,0,0,.45)">
+							<h2>Victory!</h2>
+							<h3 style="font-size: 2rem;">Fundraising Completed for $18 Million P.H. Kuyper Gymnasium Renovation/Expansion</h3>
+						</div>
+						<div class="clearBoth"></div>
+					</div>
+          <!-- <p><a href="/give/" class="redButton">Give Now</a></p> -->
           <!-- &nbsp;
           <h3>48-HOUR CHALLENGE</h3>
             <p>Double Your Gift<br>
@@ -38,48 +44,93 @@
 
     <section class="quoteSpace dropTop" id="foreverDutch">
       <div class="container">
+				<p><strong>Fundraising is complete for Forever Dutch<sup>&reg;</sup>,</strong> the most ambitious athletics capital initiative in Central history. A record 2,712 Central alumni and friends provided support for the project, and renovation work in P.H. Kuyper Gymnasium is scheduled for completion in April.</p>
+				<p>Watch for an announcement about a major celebration!</p>
         <blockquote>
-          IT’S ABOUT MORE THAN FUNDRAISING. IT’S ABOUT BEING A PART OF THE CENTRAL FAMILY AND KEEPING A TRADITION ALIVE THAT’S BEEN THRIVING SINCE 1853. IT’S ABOUT BEING FOREVER DUTCH!
-          <cite><strong>Thomas Spoehr ’22</strong><br>Men's Basketball<br>Bennington, Nebraska</cite>
-        </blockquote>
-         <blockquote>
           It’s amazing to see how much support we have from our alumni and there aren’t enough words to express how grateful we are. The alumni reflect all of the great things that this place has brought to their lives, and it’s evident they want the same things for us. I think we are all a part of something very special here.
           <cite><strong>Payton Rogers ’22</strong><br>Women's Basketball<br>Moravia, Iowa</cite>
+        </blockquote>
+				<blockquote>
+          It’s about more than fundraising. It’s about being a part of the central family and keeping a tradition alive that’s been thriving since 1853. It’s about being forever dutch!
+          <cite><strong>Thomas Spoehr ’22</strong><br>Men's Basketball<br>Bennington, Nebraska</cite>
         </blockquote>
       </div>
     </section>
 
     <section class="red dropTop">
-      <div class="top container breathe">
-        <h2>$3-MILLION REFRESH OF THE P.H. KUYPER GYMNASIUM LOWER LEVEL:</h2>
-        <p>
-          <ul>
-            <li>State-of-the-art women’s varsity locker room with team room</li>
-            <li>Major upgrades to the athletic training room</li>
-            <li>Renovated equipment room</li>
-          </ul>
-        </p>
-        <h3>Additional $3 million needed for upper level for:</h3>
-        <ul>
-          <li>Recruiting suites</li>
-          <li>Conference/film rooms</li>
-          <li>Sikkink-Dykstra Welcome Center</li>
-          <li>Football coaches’ suite</li>
-          <li>New coaches’ offices</li>
-        </ul>
-        <h3>Your gift can help us reach the end zone!</h3>
-        <p><a href="/give/" class="whiteButton">Give Now</a>&nbsp;</p>
-      </div>
+			<div class="container breathe">
+				<div class="twelve columns">
+					<h1>$18 Million P.H. Kuyper Gymnasium Transformation</h1>
+				</div>
+			</div>
+      <div class="container breathe">
+				<div class="six columns">
+					<h2 style="margin-top: 1rem;">$12 Million Expansion</h2>
+					<p>
+						<strong>Open April 2017</strong>
+						<ul>
+							<li>New P.H. Kuyper Gymnasium Entrance With M. Joan Farver Atrium</li>
+							<li>New Athletics Hall of Honor</li>
+							<li>New Pacha Family Lobby</li>
+							<li>New Men’s Varsity Locker Room</li>
+							<li>Major Infrastructure Improvements</li>
+							<li>New Wrestling Room</li>
+						</ul>
+					</p>
+				</div>
+				<div class="six columns">
+					<img src="https://forever.central.edu/wp-content/uploads/2021/02/RenovationPhase1.jpg" alt="Grid of photos displaying renovations made during the $12 million expansion completed in April 2017." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
+      <div class="container breathe">
+				<div class="six columns">
+					<h2 style="margin-top: 1rem;">$3 Million Lower-Level Renovation</h2>
+	        <p>
+						<strong>Open September 2020</strong>
+	          <ul>
+	            <li>New Women’s Varsity Locker Room </li>
+							<li>New Equipment Room </li>
+							<li>Renovated Coaches’ Offices </li>
+							<li>Renovated Athletic Training Room</li>
+	          </ul>
+	        </p>
+				</div>
+				<div class="six columns">
+					<img src="https://forever.central.edu/wp-content/uploads/2021/02/RenovationPhase1.jpg" alt="Grid of photos displaying renovations made during the $12 million expansion completed in April 2017." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
+			<div class="container breathe">
+				<div class="six columns">
+					<h2 style="margin-top: 1rem;">$3 Million Lower-Level Renovation</h2>
+	        <p>
+						<strong>Open September 2020</strong>
+	          <ul>
+	            <li>New Women’s Varsity Locker Room </li>
+							<li>New Equipment Room </li>
+							<li>Renovated Coaches’ Offices </li>
+							<li>Renovated Athletic Training Room</li>
+	          </ul>
+	        </p>
+				</div>
+				<div class="six columns">
+					<img src="https://forever.central.edu/wp-content/uploads/2021/02/RenovationPhase1.jpg" alt="Grid of photos displaying renovations made during the $12 million expansion completed in April 2017." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+	        <!-- <h3>Your gift can help us reach the end zone!</h3>
+	        <p><a href="/give/" class="whiteButton">Give Now</a>&nbsp;</p> -->
+	      </div>
+				<div class="clearBoth"></div>
+			</div>
     </section>
 
     <section class="quoteSpace">
       <div class="top container breathe">
         <blockquote>
-          We sometimes have up to 150 athletes needing treatment in a two-hour span. <br>Renovating the athletic training room will allow us to provide better rehab on more athletes. We’re excited!
+          We sometimes have up to 150 athletes needing treatment in a two-hour span. Renovating the athletic training room will allow us to provide better rehab on more athletes. We’re excited!
           <cite><strong>Frank Neu ’91</strong><br>Head Athletic Trainer</cite>
         </blockquote>
         <blockquote>
-          There is so much more room in the new locker room. We are able to watch film as a team and at halftime we do not have to squeeze together on the floor. <br>It would mean a lot to have a locker room we can use all year long.
+          There is so much more room in the new locker room. We are able to watch film as a team and at halftime we do not have to squeeze together on the floor. It would mean a lot to have a locker room we can use all year long.
           <cite><strong>Maci Gambell ’22</strong><br>Women's Basketball<br>Hedrick, Iowa</cite>
         </blockquote>
       </div>
