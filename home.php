@@ -64,8 +64,8 @@
 				</div>
 			</div>
       <div class="container breathe">
-				<div class="six columns">
-					<h2 style="margin-top: 1rem;">$12 Million Expansion</h2>
+				<div class="six columns" style="margin-top: 1rem;">
+					<h2>$12 Million Expansion</h2>
 					<p>
 						<strong>Open April 2017</strong>
 						<ul>
@@ -158,27 +158,27 @@
         <p><a href="/give" class="redButton pullRight">Give Now</a>&nbsp;</p>
       </div>
     </section> -->
-
-    <section class="section darkGray breathe">
-      <div class="container">
-        <h1>Why We're Forever Dutch</h1>
-        <h2>Dave ’61 and Ardie Pals Sutphen ’64</h2>
-        <div class="six columns">
+    <section class="darkGray">
+			<div class="container breathe">
+				<div class="twelve columns">
+					<h1>Why We're Forever Dutch</h1>
+          <h2>Dave ’61 and Ardie Pals Sutphen ’64</h2>
+				</div>
+			</div>
+      <div class="container breathe">
+				<div class="six columns">
           <p><strong>Dave ’61 and Ardie Pals Sutphen ’64</strong> are passionate about Central students and the Dutch!</p>
           <p>Ardie served the college from 1979-2012, primarily as assistant to the president.</p>
           <p>Dave joined the Central staff in 2000 and retired as vice president of advancement in 2013. He continues in retirement as major gifts advisor.</p>
           <p>The Sutphens are among the top donors to Forever Dutch.</p>
           <p>“It is about facilities, but the most important thing is the people and the difference Central makes in these students’ lives,” Dave says. “I get to see it first-hand. I’ve been involved with Central since I came as a student in 1957. Ardie and I just believe in this place, and we believe in our students and coaches. They are absolutely fantastic and we need to support them.”</p>
-        </div>
-        <div class="five columns">
-        <div style="padding:56.25% 0 0 0;position:relative;">
-          <iframe src="https://player.vimeo.com/video/320872199?color=cb2026&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:110%;height:110%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-        <p class="alignRight" style="padding-top:.5em;">Dave ’61 and Ardie Pals Sutphen ’64</p>
-        </div>
-        <div class="clearBoth"></div>
-      </div>
+				</div>
+        <div class="six columns" style="margin-top: 1rem;">
+          <div style="padding: 56.25% 0 0 0; position: relative;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://player.vimeo.com/video/320872199?color=cb2026&amp;title=0&amp;byline=0&amp;portrait=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
     </section>
 
     <section class="red dropTop">
