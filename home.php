@@ -22,10 +22,10 @@
       <div class="heroBannerText">
         <div class="heroBannerMessage">
 					<h1 class="storyTitle">Forever Dutch</h1>
-					<div class="container">
+					<div class="container promo">
 						<div class="ten columns offset-by-one" style="border: 3px solid #fff; padding: 1rem .25rem; background-color: rgba(0,0,0,.45)">
 							<h2>Victory!</h2>
-							<h3 style="font-size: 2rem;">Fundraising Completed for $18 Million P.H. Kuyper Gymnasium Renovation/Expansion</h3>
+							<h3>Fundraising Completed for $18 Million P.H. Kuyper Gymnasium Renovation/Expansion</h3>
 						</div>
 						<div class="clearBoth"></div>
 					</div>
@@ -44,8 +44,8 @@
 
     <section class="quoteSpace dropTop" id="foreverDutch">
       <div class="container breathe">
-				<p><strong>Fundraising is complete for Forever Dutch<sup>&reg;</sup>,</strong> the most ambitious athletics capital initiative in Central history. A record 2,712 Central alumni and friends provided support for the project, and renovation work in P.H. Kuyper Gymnasium is scheduled for completion in April.</p>
-        <p>Watch for an announcement about a major celebration!</p>
+				<p style="font-size:larger;"><strong>Fundraising is complete for Forever Dutch<sup>&reg;</sup>,</strong> the most ambitious athletics capital initiative in Central history. A record 2,712 Central alumni and friends provided support for the project, and renovation work in P.H. Kuyper Gymnasium is scheduled for completion in April.</p>
+        <p style="font-size:larger;">Watch for an announcement about a major celebration!</p>
       </div>
       <div class="container breathe">
         <blockquote>
@@ -99,7 +99,7 @@
 	        </p>
 				</div>
 				<div class="six columns">
-					<img src="https://forever.central.edu/wp-content/uploads/2021/02/RenovationPhase1.jpg" alt="Grid of photos displaying renovations made during the $12 million expansion completed in April 2017." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+					<img src="https://forever.central.edu/wp-content/uploads/2021/02/Athletic-training-room_WEB.jpg" alt="Ongoing renovation work in the athletic training room." width="450" height="300" style="width: 100%; max-width: 450px;"/>
 				</div>
 				<div class="clearBoth"></div>
 			</div>
@@ -118,7 +118,7 @@
 	        </p>
 				</div>
 				<div class="six columns">
-					<img src="https://forever.central.edu/wp-content/uploads/2021/02/RenovationPhase1.jpg" alt="Grid of photos displaying renovations made during the $12 million expansion completed in April 2017." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+					<img src="https://forever.central.edu/wp-content/uploads/2021/02/Upper-level-hallway_WEB.jpg" alt="Ongoing renovation work in the upper-level hallway." width="450" height="300" style="width: 100%; max-width: 450px;"/>
 	        <!-- <h3>Your gift can help us reach the end zone!</h3>
 	        <p><a href="/give/" class="whiteButton">Give Now</a>&nbsp;</p> -->
 	      </div>
