@@ -43,9 +43,11 @@
 
 
     <section class="quoteSpace dropTop" id="foreverDutch">
-      <div class="container">
+      <div class="container breathe">
 				<p><strong>Fundraising is complete for Forever Dutch<sup>&reg;</sup>,</strong> the most ambitious athletics capital initiative in Central history. A record 2,712 Central alumni and friends provided support for the project, and renovation work in P.H. Kuyper Gymnasium is scheduled for completion in April.</p>
-				<p>Watch for an announcement about a major celebration!</p>
+        <p>Watch for an announcement about a major celebration!</p>
+      </div>
+      <div class="container breathe">
         <blockquote>
           It’s amazing to see how much support we have from our alumni and there aren’t enough words to express how grateful we are. The alumni reflect all of the great things that this place has brought to their lives, and it’s evident they want the same things for us. I think we are all a part of something very special here.
           <cite><strong>Payton Rogers ’22</strong><br>Women's Basketball<br>Moravia, Iowa</cite>
@@ -181,7 +183,7 @@
 			</div>
     </section>
 
-    <section class="red dropTop">
+    <!-- <section class="red dropTop">
       <div class="top container breathe">
         <h2>Game-changing facilities</h2>
         <h2>Life-changing experiences</h2>
@@ -189,9 +191,9 @@
         <h2>But the game's not over</h2>
         <p>The building is incomplete without the critical work necessary to give the original 50-year-old structure an <strong>urgently needed transformation into a championship 21st-century facility.</strong></p>
       </div>
-    </section>
+    </section> -->
 
-    <section class="dropTop">
+    <!-- <section class="dropTop">
       <div class="container">
         <h1 class="redText">Renovation</h1>
       </div>
@@ -227,16 +229,16 @@
         <div class="clearBoth"></div>
       </div>
     </div>
-    </section>
+    </section> -->
 
-    <section class="quoteSpace">
+    <!-- <section class="quoteSpace">
       <div class="container">
         <blockquote>
           Completing these renovations is not only important for our student-athletes, it is critical to the future of Central College.
           <cite><strong>Eric Van Kley</strong><br>Director of Athletics</cite>
         </blockquote>
       </div>
-    </section>
+    </section> -->
 
     <section class="red breathe">
       <div class="container">
