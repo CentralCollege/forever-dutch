@@ -37,6 +37,21 @@
 		</div>
 	</div>
 	<?php endwhile; ?>
+	<div class="container breathe pageNavigation">
+		<div class="twelve columns redText">
+			<strong>
+			<?php	if ( get_previous_posts_link() ) :
+				previous_posts_link( '&larr; Newer', 0 );
+				endif; ?>
+			</strong>
+			<strong class="pullRight">
+			<?php	if ( get_next_posts_link() ) :
+				next_posts_link( 'Older &rarr;', 0 );
+				endif; ?>
+			</strong>
+		</div>
+		<div class="clearBoth"></div>
+	</div>
 	<?php else : ?>
 		<div class="container">
 			<h1>Not Found</h1>
