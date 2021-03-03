@@ -83,7 +83,7 @@
 					</p>
 				</div>
 				<div class="six columns">
-					<img src="https://forever.central.edu/wp-content/uploads/2021/02/RenovationPhase1.jpg" alt="Grid of photos displaying renovations made during the $12 million expansion completed in April 2017." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+					<img src="https://forever.central.edu/wp-content/uploads/2021/02/RenovationPhase1.jpg" alt="Grid of photos displaying renovations made during the $12 million expansion completed in April 2017." width="450" height="300" style="width: 100%; height: auto; max-width: 450px;"/>
 				</div>
 				<div class="clearBoth"></div>
 			</div>
@@ -101,7 +101,7 @@
 	        </p>
 				</div>
 				<div class="six columns">
-					<img src="https://forever.central.edu/wp-content/uploads/2021/03/Renovated-locker-room_WEB.jpg" alt="Renovated women's locker room." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+					<img src="https://forever.central.edu/wp-content/uploads/2021/03/Renovated-locker-room_WEB.jpg" alt="Renovated women's locker room." width="450" height="300" style="width: 100%;  height: auto;max-width: 450px;"/>
 				</div>
 				<div class="clearBoth"></div>
 			</div>
@@ -120,7 +120,7 @@
 	        </p>
 				</div>
 				<div class="six columns">
-					<img src="https://forever.central.edu/wp-content/uploads/2021/02/Upper-level-hallway_WEB.jpg" alt="Ongoing renovation work in the upper-level hallway." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+					<img src="https://forever.central.edu/wp-content/uploads/2021/02/Upper-level-hallway_WEB.jpg" alt="Ongoing renovation work in the upper-level hallway." width="450" height="300" style="width: 100%; height: auto; max-width: 450px;"/>
 	        <!-- <h3>Your gift can help us reach the end zone!</h3>
 	        <p><a href="/give/" class="whiteButton">Give Now</a>&nbsp;</p> -->
 	      </div>
@@ -241,14 +241,23 @@
         </blockquote>
       </div>
     </section> -->
-
-    <section class="red breathe">
-      <div class="container">
-        <h2>The legacy of the Kuyper, Farver and Griffith extended family</h2>
-        <p>The descendants of Pella Corporation founder P.H. “Pete” Kuyper, along with their family foundations, teamed for a transformational $4.2-million gift for the Forever Dutch initiative, the largest gift in Central’s 164-year history.</p>
-        <p>The donation included a lead gift from the late M. Joan Farver, former chair of Pella Corporation and long-time Central trustee. Joan, who passed away Feb. 27, 2017, at the age of 97, was the daughter of P.H. Kuyper. The new atrium is named in her honor – the M. Joan Kuyper Farver Atrium, adding her name to those of other prominent family members. The A.N. Kuyper Athletics Complex is named for Farver’s grandfather, while H.S. Kuyper Fieldhouse carries the name of her brother.</p>
-        <p><a href="/history/the-kuyper-legacy/" class="whiteButton">The Kuyper Family Legacy</a></p>
-      </div>
+		<section class="red">
+			<div class="container breathe">
+				<div class="twelve columns">
+					<h1>The legacy of the Kuyper, Farver and Griffith extended family</h1>
+				</div>
+			</div>
+      <div class="container breathe">
+				<div class="seven columns">
+					<p>The descendants of Pella Corporation founder P.H. “Pete” Kuyper, along with their family foundations, teamed for a transformational $4.2-million gift for the Forever Dutch initiative, the largest gift in Central’s 164-year history.</p>
+	        <p>The donation included a lead gift from the late M. Joan Farver, former chair of Pella Corporation and long-time Central trustee. Joan, who passed away Feb. 27, 2017, at the age of 97, was the daughter of P.H. Kuyper. The new atrium is named in her honor – the M. Joan Kuyper Farver Atrium, adding her name to those of other prominent family members. The A.N. Kuyper Athletics Complex is named for Farver’s grandfather, while H.S. Kuyper Fieldhouse carries the name of her brother.</p>
+	        <p class="top"><a href="/history/the-kuyper-legacy/" class="whiteButton">The Kuyper Family Legacy</a></p>
+				</div>
+        <div class="five columns">
+					<a href="/history/the-kuyper-legacy/"><img src="https://forever.central.edu/wp-content/uploads/2021/03/Atrium-rgb_WEB.jpg" alt="The M. Joan Kuyper Farver Atrium." width="450" height="300" style="width: 100%; height: auto;max-width: 450px;"/></a>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
     </section>
 
     <section class="quoteSpace">
