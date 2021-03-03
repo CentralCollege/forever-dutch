@@ -3,8 +3,8 @@
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="copyright" content="Copyright (c) 2016 Central College" />
-    <meta name="Description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through." />
+    <meta name="copyright" content="Copyright (c) <?php echo date('Y');?> Central College" />
+    <meta name="Description" content="Fundraising is complete for Forever Dutch®, the most ambitious athletics capital initiative in Central history." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?php echo bloginfo('template_directory')?>/images/favicon.ico" />
     <meta property="fb:app_id" content="122820004455478" />
@@ -13,20 +13,17 @@
     <meta property="fb:admins" content="1183110072" />
     <meta property="fb:admins" content="629217238" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="<?php the_permalink();?>" />
+    <meta property="og:url" content="https://forever.central.edu<?php echo $_SERVER['REQUEST_URI'];?>" />
     <meta property="og:title" content="Forever Dutch - <?php the_title();?>" />
-    <meta property="og:description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through.">
-    <meta property="og:image" content="<?php echo bloginfo('template_directory')?>/images/facebookOG.jpg" />
+    <meta property="og:description" content="Fundraising is complete for Forever Dutch®, the most ambitious athletics capital initiative in Central history.">
+    <meta property="og:image" content="<?php echo bloginfo('template_directory')?>/images/SharingOG.png" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@centralcollege">
     <meta name="twitter:creator" content="@centralcollege">
     <meta name="twitter:title" content="Forever Dutch">
-    <meta name="twitter:description" content="The transformation of the A.N. Kuyper Athletics Complex has begun and we need your help to see it through.">
-    <meta name="twitter:image" content="<?php echo bloginfo('template_directory')?>/images/facebookOG.jpg">
+    <meta name="twitter:description" content="Fundraising is complete for Forever Dutch®, the most ambitious athletics capital initiative in Central history.">
+    <meta name="twitter:image" content="<?php echo bloginfo('template_directory')?>/images/SharingOG.png">
     <link rel="dns-prefetch" href="https://central.edu" />
-    <?php if($_SERVER['HTTP_HOST'] == '192.168.56.111'){ ?>
-        <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
-    <?php } ?>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,700|Rajdhani:700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo('template_directory'); ?>/style.min.css?ver=2021" rel="stylesheet" type="text/css" media="all" />
@@ -51,8 +48,8 @@
           <a href="/history">History</a>
           <a href="/category/news/">News</a>
           <a href="/donate">Supporters</a>
+					<a href="//www.twitter.com/centralcollege" class="fa fa-twitter"></a>
           <a href="//www.facebook.com/centralcollege" class="fa fa-facebook"></a>
-          <a href="//www.twitter.com/centralcollege" class="fa fa-twitter"></a>
           <a href="//www.instagram.com/centralcollege" class="fa fa-instagram"></a>
           <a href="//www.youtube.com/user/centralcollegeadm" class="fa fa-youtube"></a>
         </div>
