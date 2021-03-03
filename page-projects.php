@@ -3,7 +3,7 @@
       <div class="container">
         <h1>A Transformation</h1>
         <h2>Championship facilities for an elite program</h2>
-        <p>The Forever Dutch<sup>®</sup> initiative is part of an overall transformation of the A.N. Kuyper Athletics Complex. It began with outdoor field enhancements and is now followed with the expansion and renovation of P.H. Kuyper Gymnasium.</p>
+        <p style="font-size:larger;">The Forever Dutch<sup>®</sup> initiative is part of an overall transformation of the A.N. Kuyper Athletics Complex. It began with outdoor field enhancements and is now followed with the expansion and renovation of P.H. Kuyper Gymnasium.</p>
       </div>
     </section>
     <!-- <section class="phase">
@@ -68,8 +68,9 @@
 
     <section class="phase">
       <div class="container">
-          <h2>P.H. Kuyper Gymnasium Expansion/Renovation: <span class="grayText">Complete</span></h2>
-          <p class="redText"><strong>Open April 20, 2017</strong></p>
+          <h2 style="font-size:xx-large;">P.H. Kuyper Gymnasium Expansion / Renovation<!-- : <span class="grayText">Complete</span> --></h2>
+					&nbsp;
+          <!-- <p class="redText"><strong>Open April 20, 2017</strong></p> -->
           <!-- <ul class="list-group">
             <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New P.H. Kuyper Gymnasium Entrance</li>
             <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Athletics Hall of Honor</li>
@@ -154,14 +155,14 @@
       <!--- Seventh Row !--->
       <div class="hard-half column">
         <div class="imageGroup">
-          <a href="https://forever.central.edu/wp-content/uploads/2021/03/Former-reception-area-demolition_WEB-large.jpg" data-lightbox="renders" data-title="Former Reception Area"><img src="https://forever.central.edu/wp-content/uploads/2021/02/Former-reception-area-demolition_WEB.jpg" alt="Former Reception Area"></a>
-          <div class="captionLeft">Former Reception Area</div>
+          <a href="https://forever.central.edu/wp-content/uploads/2021/03/Former-reception-area-demolition_WEB-large.jpg" data-lightbox="renders" data-title="Administrative Offices"><img src="https://forever.central.edu/wp-content/uploads/2021/02/Former-reception-area-demolition_WEB.jpg" alt="Administrative Offices"></a>
+          <div class="captionLeft">Administrative Offices</div>
         </div>
       </div>
       <div class="hard-half column">
         <div class="imageGroup">
-          <a href="https://forever.central.edu/wp-content/uploads/2021/03/New-office-area_WEB-large.jpg" data-lightbox="renders" data-title="New Office Area"><img src="https://forever.central.edu/wp-content/uploads/2021/02/New-office-area_WEB.jpg" alt="New Office Area"></a>
-          <div class="captionRight">New Office Area</div>
+          <a href="https://forever.central.edu/wp-content/uploads/2021/03/New-office-area_WEB-large.jpg" data-lightbox="renders" data-title="Football Suite"><img src="https://forever.central.edu/wp-content/uploads/2021/02/New-office-area_WEB.jpg" alt="Football Suite"></a>
+          <div class="captionRight">Football Suite</div>
         </div>
       </div>
     <div class="clearBoth"></div>
@@ -175,8 +176,9 @@
           <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Baseball Dugouts, Stadium Seating</li>
           <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Softball Stadium Seating</li>
           <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Soccer Hillside Stadium Seating</li>
-          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>Ron and Joyce Schipper Stadium improvements, including Heritage Plaza</li>
+          <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>Ron and Joyce Schipper Stadium Improvements, Including Heritage Plaza</li>
           <li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>PPI Videoboard</li>
+					<li class="list-group-item"><i class="fa fa-check-square fa-fw"></i>New Baseball, Softball, Soccer Scoreboards</li>
         </ul>
       </div>
     </section>
@@ -231,7 +233,7 @@
 
     <section class="section darkGray">
       <div class="container breathe">
-        <h2>P.H. Kuyper Gymnasium Expansion Walk-Through</h2> &nbsp;
+        <h2 style="font-size:xx-large">P.H. Kuyper Gymnasium Expansion Walk-Through</h2> &nbsp;
         <div class="twelve columns alignCenter">
           <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/XRomzenp1fY?rel=0&amp;showinfo=0" width="100%" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
         </div>
@@ -241,7 +243,7 @@
 
     <section class="red steeringCommittee breathe">
       <div class="container">
-        <h2>Forever Dutch Steering Committee</h2>
+        <h2 style="font-size:xx-large">Forever Dutch Steering Committee</h2>
         <div class="three columns">
           <h3>Co-chairs</h3>
           <ul>
