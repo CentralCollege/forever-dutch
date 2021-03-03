@@ -45,7 +45,9 @@
     <section class="quoteSpace dropTop" id="foreverDutch">
       <div class="container breathe">
 				<p style="font-size:larger;"><strong>Fundraising is complete for Forever Dutch<sup>&reg;</sup>,</strong> the most ambitious athletics capital initiative in Central history. A record 2,712 Central alumni and friends provided support for the project, and renovation work in P.H. Kuyper Gymnasium is scheduled for completion in April.</p>
-        <p style="font-size:larger;">Watch for an announcement about a major celebration!</p>
+        <h2 style="border: 1px solid #cb2026;font-size:xx-large;padding: .5em;text-align: center;">
+					Watch for an announcement about a major celebration!
+				</h2>
       </div>
       <div class="container breathe">
         <blockquote>
@@ -53,7 +55,7 @@
           <cite><strong>Payton Rogers ’22</strong><br>Women's Basketball<br>Moravia, Iowa</cite>
         </blockquote>
 				<blockquote>
-          It’s about more than fundraising. It’s about being a part of the central family and keeping a tradition alive that’s been thriving since 1853. It’s about being forever dutch!
+          It’s about more than fundraising. It’s about being a part of the Central family and keeping a tradition alive that’s been thriving since 1853. It’s about being forever Dutch!
           <cite><strong>Thomas Spoehr ’22</strong><br>Men's Basketball<br>Bennington, Nebraska</cite>
         </blockquote>
       </div>
@@ -99,7 +101,7 @@
 	        </p>
 				</div>
 				<div class="six columns">
-					<img src="https://forever.central.edu/wp-content/uploads/2021/02/Athletic-training-room_WEB.jpg" alt="Ongoing renovation work in the athletic training room." width="450" height="300" style="width: 100%; max-width: 450px;"/>
+					<img src="https://forever.central.edu/wp-content/uploads/2021/03/Renovated-locker-room_WEB.jpg" alt="Renovated women's locker room." width="450" height="300" style="width: 100%; max-width: 450px;"/>
 				</div>
 				<div class="clearBoth"></div>
 			</div>
@@ -111,7 +113,7 @@
 	          <ul>
 	            <li>Team Video Room</li>
 							<li>Recruiting Suites </li>
-							<li>Sikking-Dykstra Welcome Center </li>
+							<li>Sikkink-Dykstra Welcome Center</li>
 							<li>Football Coaches’ Suite</li>
 							<li>New Coaches’ Offices</li>
 	          </ul>
