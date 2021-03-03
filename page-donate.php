@@ -38,7 +38,7 @@
       </div>
     </section> -->
 		<section class="quoteSpace">
-      <div class="top container breathe">
+      <div class="top container">
         <blockquote>
           We are so grateful to all the alumni and friends of the college who have given thoughtfully and generously to help us finish this project for our students and coaches. Time and time again, members of the Central family have demonstrated their unyielding support. We send our deepest thanks for their confidence in Central and belief in our mission. Through their generosity, we are able to optimize the Central student-athlete experience now and well into the future.
           <cite><strong>Sunny Gonzales Eighmy ’99 </strong><br>Vice President for Advancement </cite>
