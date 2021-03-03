@@ -3,7 +3,7 @@
       <div class="container">
         <h1>Your Team</h1>
         <h2>A model division III athletics program</h2>
-        <p>The Central College athletics program’s success level has soared since P.H. Kuyper Gymnasium was constructed more than 45 years ago. But the facilities have been outgrown.</p>
+        <p style="font-size:larger;">The Central College athletics program’s success level has soared since P.H. Kuyper Gymnasium was constructed more than 45 years ago. But the facilities have been outgrown.</p>
       </div>
     </section>
     <section class="quadStat">
