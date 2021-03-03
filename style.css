@@ -609,13 +609,13 @@ nav.primary {
 }
 
 .exteriorMockAfter::after {
-  background-image: url(images/exteriorMockUp.jpg);
-  background-position: center top;
+  background-image: url(images/exteriorPhoto.jpg);
+  background-position: center;
   background-size: cover;
   display: block;
   width: 100%;
   content: '';
-  height: 200px
+  height: 400px
 }
 
 .latestPhotos img {
