@@ -3,7 +3,7 @@
 	<div class="container">
 		<?php if(in_category('News')){?><h1>News</h1><?php }
 		else if (in_category('Events')){?><h1>Events</h1><?php } ?>
-		<h2>Stay connected</h2>
+		<h2>Stay Connected</h2>
 	</div>
 </section>
 <?php if (have_posts()) : while (have_posts()) : the_post();?>
@@ -37,6 +37,21 @@
 		</div>
 	</div>
 	<?php endwhile; ?>
+	<div class="container breathe pageNavigation">
+		<div class="twelve columns redText">
+			<strong>
+			<?php	if ( get_previous_posts_link() ) :
+				previous_posts_link( '&larr; Newer', 0 );
+				endif; ?>
+			</strong>
+			<strong class="pullRight">
+			<?php	if ( get_next_posts_link() ) :
+				next_posts_link( 'Older &rarr;', 0 );
+				endif; ?>
+			</strong>
+		</div>
+		<div class="clearBoth"></div>
+	</div>
 	<?php else : ?>
 		<div class="container">
 			<h1>Not Found</h1>

@@ -3,7 +3,7 @@
       <div class="container">
         <h1>Your Team</h1>
         <h2>A model division III athletics program</h2>
-        <p>The Central College athletics program’s success level has soared since P.H. Kuyper Gymnasium was constructed more than 45 years ago. But the facilities have been outgrown.</p>
+        <p style="font-size:larger;">The Central College athletics program’s success level has soared since P.H. Kuyper Gymnasium was constructed more than 45 years ago. But the facilities have been outgrown.</p>
       </div>
     </section>
     <section class="quadStat">
@@ -25,11 +25,11 @@
           <div class="statDetails">All-Americans</div>
         </div>
         <div class="three columns">
-          <div class="stat">165</div>
+          <div class="stat">167</div>
           <div class="statDetails">Conference Championships</div>
         </div>
         <div class="three columns">
-          <div class="stat">245</div>
+          <div class="stat">253</div>
           <div class="statDetails">All-Americans</div>
         </div>
         <div class="clearBoth"></div>
@@ -45,7 +45,7 @@
     <section class="comparison top exteriorMockAfter">
       <img src="<?php echo bloginfo('template_directory')?>/images/comparison.svg?v=2" alt="Stat Comparison">
     </section>
-    <section class="red">
+    <section class="red dropTop">
       <div class="breathe container">
         <div class="three columns">
           <img src="<?php echo bloginfo('template_directory')?>/images/94percent.svg?v=2" alt="94 percent" class="u-max-full-width">
@@ -56,13 +56,13 @@
         <div class="clearBoth"></div>
       </div>
     </section>
-    <section class="darkGray dropTop">
+    <!-- <section class="darkGray dropTop">
       <div class="breathe container">
         <h2 class="redText">Unfinished</h2>
         <p><strong>Work remains.</strong> While portions of P.H. Kuyper Gymnasium’s aging infrastructure have been replaced, existing locker rooms, meeting/recruiting spaces, the athletic training room and offices are untouched and in pressing need of upgrades.</p>
         <p><strong>This is the time for not just a renovation, but a transformation that will accentuate Central’s position as an intercollegiate athletics leader, as well as a model for whole-person development.</strong></p>
       </div>
-    </section>
+    </section> -->
 <img src="<?php echo bloginfo('template_directory')?>/images/displayCorridor.jpg" alt="Display Corridor in P.H. Kuyper Gymnasium" class="u-max-full-width">
     <section class="quoteSpace">
       <div class="container">

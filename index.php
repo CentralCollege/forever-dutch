@@ -3,7 +3,7 @@
 	<div class="container">
 		<?php if(in_category('News')){?><h1>News</h1><?php }
 		else if (in_category('Events')){?><h1>Events</h1><?php } ?>
-		<h2>Stay connected.</h2>
+		<h2>Stay Connected</h2>
 	</div>
 </section>
 <?php if (have_posts()) : while (have_posts()) : the_post();?>

@@ -446,7 +446,7 @@ h1 {
   }
 
   h1 {
-    font-size: 5em
+    font-size: 2.5em
   }
 
   h2 {
@@ -497,10 +497,10 @@ h4 {
 
 header {
   box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
-  padding: 0 .5em;
+  padding:.5em;
 }
 
-@media (max-width:924px) {
+@media (max-width:948px) {
 	header {
 		text-align: center;
 	}
@@ -520,7 +520,7 @@ nav.primary {
 
 .nav-group {
   font-size: 1.2em;
-  margin-top: 1.25em
+  margin-top: .75em;
 }
 
 .nav-group a:link, .nav-group a:visited {
@@ -558,9 +558,9 @@ nav.primary {
   background-color: #900
 }
 
-@media (min-width:400px) {
+@media (min-width:948px) {
   header {
-    padding: 0 3em
+    padding: 1em;
   }
 
   .nav-group {
@@ -609,13 +609,13 @@ nav.primary {
 }
 
 .exteriorMockAfter::after {
-  background-image: url(images/exteriorMockUp.jpg);
-  background-position: center top;
+  background-image: url(images/exteriorPhoto.jpg);
+  background-position: center;
   background-size: cover;
   display: block;
   width: 100%;
   content: '';
-  height: 200px
+  height: 400px
 }
 
 .latestPhotos img {
@@ -653,7 +653,6 @@ nav.primary {
   font-size: 1.6em;
   color: #cb2026;
   margin: .25em;
-  text-transform: uppercase;
   background-image: url(images/quote.png);
   background-repeat: no-repeat
 }
@@ -666,6 +665,7 @@ nav.primary {
   font-style: normal;
   color: #000;
   padding-top: 1em;
+	margin-bottom: 2em;
   text-align: right;
 }
 
@@ -841,7 +841,7 @@ nav.primary {
 @media (min-width:400px) {
   .coachSkipQuote blockquote {
     font-size: 4em;
-    width: 50%;
+    width: 80%;
     padding: .25em 0 0 .75em;
     margin-top: .5em;
     background-image: url(images/quoteDark.png);
@@ -902,7 +902,7 @@ nav.primary {
 }
 
 .newsEvents, .post {
-  margin-bottom: 1em
+  margin-bottom: .25em
 }
 
 .meta a {
@@ -911,12 +911,12 @@ nav.primary {
 }
 
 .newsEvents {
-  margin-top: 1em
+  margin-top: .25em;
 }
 
 .post {
   border-bottom: 1px dashed #999;
-  padding: 2em
+  padding: 1em
 }
 
 @media (min-width:400px) {
@@ -931,7 +931,7 @@ nav.primary {
   }
 
   .post {
-    padding: 2em 5em
+    padding: 1em 5em
   }
 }
 
@@ -969,7 +969,7 @@ nav.primary {
 }
 
 footer {
-  background-color: #cb2026;
+  background-color: #333;
   color: #fff;
   padding: .5rem 2rem
 }
@@ -1091,21 +1091,38 @@ footer {
   -webkit-transition: .5s;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 450px) {
+	.heroBannerText .promo h3 {
+		display: none;
+	}
+}
+@media (max-width: 349px) {
+	h1 {
+		font-size: 2em;
+	}
+	.heroBannerText h1 {
+		font-size: 3.5em;
+		padding:20px 10px;
+	}
+	.heroBannerText .promo {
+		display: none;
+	}
+}
+@media (min-width: 350px) {
   .heroBannerText {
-    padding-top:1em;;
+    padding-top:.25em;;
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .heroBannerText h1 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   .heroBannerText h2 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .heroBannerText h3 {
@@ -1120,9 +1137,9 @@ footer {
   }
 }
 
-@media (min-width: 870px) {
+@media (min-width: 895px) {
   .heroBannerText {
-    padding-top:2em;;
+    padding-top:2em;
   }
 
   .heroBannerText h1 {
@@ -1134,7 +1151,7 @@ footer {
   }
 
   .heroBannerText h3 {
-    font-size: 3em;
+    font-size: 1.5em;
     margin-block-start: .25em;
     margin-block-end: .25em;
   }
@@ -1150,22 +1167,110 @@ footer {
     font-size: 4.6em;
   }
 }
-
-.page-scroll .down-arrow {
-  color: #fff;
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  right: auto;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  z-index: 10
+.page-scroll {
+	display: none;
 }
 
-.page-scroll:visited {
-  color: #fff;
+@media (min-width: 1075px) {
+	.page-scroll {
+		display: inline-block;
+	  color: #fff;
+		position: absolute;
+		bottom: 0;
+		margin-bottom: 5em;
+		left: 50%;
+	  width: 60px;
+	  height: 60px;
+	  margin-left: -30px;
+	  -webkit-transform: translateX(-50%);
+	  transform: translateX(-50%);
+	  z-index: 10
+		animation: bounce 2.5s infinite;
+		-webkit-animation: bounce 2.5s infinite;
+		-moz-animation: bounce 2.5s infinite;
+		-o-animation: bounce 2.5s infinite;
+	}
+
+	.page-scroll:visited {
+	  color: #fff;
+	}
+
+	.page-scroll:hover {
+	  color: #cb2026;
+	}
+}
+@-webkit-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-25px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+  }
 }
 
-.page-scroll:hover {
-  color: #cb2026;
+@-moz-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+  }
+
+  40% {
+    -moz-transform: translateY(-25px);
+  }
+
+  60% {
+    -moz-transform: translateY(-15px);
+  }
+}
+
+@-o-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -o-transform: translateY(0);
+  }
+
+  40% {
+    -o-transform: translateY(-25px);
+  }
+
+  60% {
+    -o-transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-25px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
 }
