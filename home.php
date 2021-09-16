@@ -23,9 +23,10 @@
         <div class="heroBannerMessage">
 					<h1 class="storyTitle">Forever Dutch</h1>
 					<div class="container promo">
-						<div class="ten columns offset-by-one" style="border: 3px solid #fff; padding: 1rem .25rem; background-color: rgba(0,0,0,.45)">
-							<h2>Victory!</h2>
-							<h3>Fundraising Completed for $18 Million P.H. Kuyper Gymnasium Renovation/Expansion</h3>
+						<div class="ten columns offset-by-one promoDiv">
+							<!-- <h2>Celebrating Forever Dutch</h2> -->
+							<h3>The $18 million renovation and expansion of P.H. Kuyper Gymnasium is complete!</h3>
+							<h3> Celebrate with us Saturday, Sept. 18.</h3>
 						</div>
 						<div class="clearBoth"></div>
 					</div>
@@ -45,9 +46,12 @@
     <section class="quoteSpace dropTop" id="foreverDutch">
       <div class="container breathe">
 				<p style="font-size:larger;"><strong>Fundraising is complete for Forever Dutch<sup>&reg;</sup>,</strong> the most ambitious athletics capital initiative in Central history. A record 2,712 Central alumni and friends provided support for the project, and renovation work in P.H. Kuyper Gymnasium is scheduled for completion in April.</p>
-        <h2 style="border: 1px solid #cb2026;font-size:xx-large;padding: .5em;text-align: center;">
-					Watch for an announcement about a major celebration!
-				</h2>
+				<div style="border: 1px solid #cb2026;padding: .5em;text-align: center;">
+					<h2 style="font-size:xx-large;text-align: center;">
+						Celebrate with us Saturday, Sept. 18.
+					</h2>
+					<p><a href="https://central.edu/alumni/events/forever-dutch-celebration/" class="redButton">Learn More</a></p>
+				</div>
       </div>
       <div class="container breathe">
         <blockquote>

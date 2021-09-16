@@ -457,11 +457,11 @@ h1 {
 h2, h3 {
   font-family: Rajdhani, sans-serif;
   font-size: 1.5em;
-  text-transform: uppercase
 }
 
 h2 {
-  padding: 0
+  padding: 0;
+	text-transform: uppercase
 }
 
 h4 {
@@ -1091,9 +1091,17 @@ footer {
   -webkit-transition: .5s;
 }
 
+.promoDiv {
+ border: 3px solid #fff;
+ padding: 1rem .25rem;
+ background-color: rgba(0,0,0,.45)
+}
+
 @media (max-width: 450px) {
 	.heroBannerText .promo h3 {
-		display: none;
+		/* display: none; */
+		font-size:1rem;
+		text-transform:none;
 	}
 }
 @media (max-width: 349px) {
@@ -1101,12 +1109,20 @@ footer {
 		font-size: 2em;
 	}
 	.heroBannerText h1 {
-		font-size: 3.5em;
-		padding:20px 10px;
+		font-size: 1.5rem;
+		padding:10px;
 	}
-	.heroBannerText .promo {
+	.promoDiv {
+	 border: 0;
+	 padding: 0;
+	 background-color: transparent;
+	}
+	.heroBannerText {
+	  background: rgba(0, 0, 0, .6);
+}
+	/* .heroBannerText .promo {
 		display: none;
-	}
+	} */
 }
 @media (min-width: 350px) {
   .heroBannerText {
